@@ -1,5 +1,7 @@
 #######################################################  
 # Function to read in the data
+# X: Matrix of eQTL effect sizes 
+# W: element wise inverse of the standard error
 # Please modify according to the data structure
 ####################################################### 
 

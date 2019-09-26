@@ -8,7 +8,7 @@
 ##
 ## Output: the factor matrix F (FactorM)
 ##
-## Note: in R package "penalized", forced the panalization step to run with no standardization by setting weights = 1.
+## Note: in R package "penalized", forced the penalization step to run with no standardization by setting weights = 1.
 ##	 This is specifically designed for eQTL effect sizes across tissues, since the strength of effect sizes
 ##	 provides information and should not be standardized. 
 ##
