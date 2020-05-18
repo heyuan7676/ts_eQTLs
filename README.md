@@ -13,4 +13,4 @@ install.packages('penalized')
 Rscript run_MF.R -k 10 -a 10 -l 100 -t 100
 ```
 
-## How to do model selection
+## Model selection
