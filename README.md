@@ -2,16 +2,15 @@
 # Learn factors using sn-spMF
 
 ## Getting Started
+### Prerequisites
+You need to install R/3.5.1 to run the scripts. R packages needed are:
+```
+install.packages('penalized')
+```
 
+## Running the tests
+```
+Rscript run_MF.R -k 10 -a 10 -l 100 -t 100
+```
 
-## Overview the the code 
-
-### Perform weighted semi-non-negative sparse matrix factorization (sn_spMF)
-`sn_spMF/`: Functions and scripts to run sn_spMF. Detailed description of the functions and scripts can be found in the scripts.
-    `run_MF.R`:  Main function to run weighted sn-spMF.
-    `fit_F.R`: Update the factor matrix
-    `fit_L.R`: Update the loading matrix
-###  Map eQTLs to factors using weighted linear regression
-
-`mapping/`: Functions to map eQTLs to factors
-    `run_linearReg.R`: Run weighted linear regression
+## How to do model selection
