@@ -17,6 +17,7 @@ Rscript run_MF.R -k 10 -a 10 -l 100 -t 100
 
 ```data/test_data_X.txt```: each row contains the effect size of an eQTL across tissues; the first two columns are gene names and SNP names for the eQTLs, and following columns are the features to learn patterns about, (tissues in the demo, can be time points in time-series data, or cells in single cell data). Missing data are presented as NA. Columns are seperated by '\t'. 
 
+```
 Gene	SNP	Adipose_Subcutaneous	Adipose_Visceral_Omentum	Adrenal_Gland	Artery_Aorta <br>
 Gene1	SNP1	-0.0350153	-0.0796675	0.0458593	-0.0663155 <br>
 Gene2	SNP2	0.25088	0.133673	0.13425	0.211878 <br>
@@ -24,6 +25,8 @@ Gene3	SNP3	0.0262571	-0.065221	0.199401	-0.0711795 <br>
 Gene4	SNP4	-0.272452	0.240933	0.214758	0.281942 <br>
 Gene5	SNP5	NA	NA	NA	NA <br>
 Gene6	SNP6	0.133723	0.0933188	0.103415	-0.15649 <br>
+```
+
 
 ```data/test_data_W.txt```: each row contains the weight (reciprical of standard error of the effect size) of an eQTL across tissues. Columns should be aligned with the columns in ```data/test_data_X.txt```.
 
