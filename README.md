@@ -1,5 +1,5 @@
 
-# Learn latent factors using sn-spMF
+# Learn latent factors using sn-spMF (write-up in progress. Please contact yuanhe716@gmail.com for any questions :) )
 We develop a constrained matrixfactorization model to learn patterns of tissue-sharing and tissue-specificity of eQTLs across 49 human tissuesfrom the Genotype-Tissue Expression (GTEx) project. The learned factors include patterns reflecting tissueswith known biological similarity or shared cell types, in addition to a dense factor representing a ubiquitousgenetic effect across all tissues
 
 ### Prerequisites
