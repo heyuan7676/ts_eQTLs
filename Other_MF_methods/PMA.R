@@ -5,7 +5,7 @@ suppressWarnings(library(readr))
 
 source('sn_spMF/readIn.R')
 source('sn_spMF/plot_factor_matrix.R')
-source('sn_spMF/utils.R')
+source('simulation/utils.R')
 
 xfn = 'data/test_data_X.txt'
 wfn = 'data/test_data_W.txt'
@@ -30,6 +30,8 @@ for(k in seq(1,23)){
 	x = x - pmas$u %*% pmas$d %*% t(pmas$v)
 	pma_f = cbind(pma_f, pmas$v)
 } 
+pma_f = as.data.frame(pma_f)
+rownames(pma_f) = colnames(X)
 
 # save
 outputdir = 'output/'
@@ -55,6 +57,9 @@ ops = result[which.min(result[,3]),]
 sv = ops[1]
 su = ops[2]
 pmas = PMD(as.matrix(Z_score), K=rankK, sumabs = NULL, sumabsu = su, sumabsv = sv)
+pma_f = pmas$v
+pma_f = as.data.frame(pma_f)
+rownames(pma_f) = colnames(X)
 
 # save
 outputdir = 'output/'

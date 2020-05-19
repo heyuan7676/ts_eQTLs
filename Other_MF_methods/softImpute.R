@@ -5,7 +5,7 @@ suppressWarnings(library(readr))
 
 source('sn_spMF/readIn.R')
 source('sn_spMF/plot_factor_matrix.R')
-source('sn_spMF/utils.R')
+source('simulation//utils.R')
 
 xfn = 'data/test_data_X.txt'
 wfn = 'data/test_data_W.txt'
@@ -45,6 +45,8 @@ while(TRUE){
 
 softimputes = softImpute(as.matrix(Z_score),lambda = l1, rank.max = rankK)
 softimpute_f = softimputes$v
+softimpute_f = as.data.frame(softimpute_f)
+rownames(softimpute_f) = colnames(X)
 
 # save
 outputdir = 'output/'
