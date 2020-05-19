@@ -79,3 +79,4 @@ We’d like to include some suggestions from practical experience when setting t
 ```Number of runs to compute cophenetic coefficient```: we find that around 20 runs suffice to provide a reliable estimate of the cophenetic coefficient. 
 
 
+### Output files
