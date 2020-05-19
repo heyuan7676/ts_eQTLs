@@ -46,7 +46,7 @@ Gene1	SNP6	0.114314	0.112615	0.182777	0.147263
 
 Model selection is one of the most challenging parts in deciding matrix factorization models. People have used several methods to approach this problem (REF: xxxxxx). In sn-spMF, we recommend searching for the hyper-parameters (K, alpha1, lambda1) in two steps:
 
-#### Narrow down the range of hyper-parameters 
+#### 1. Narrow down the range of hyper-parameters 
 
 When first running the algorithm, it may be completely unclear how to choose the appropriate range to search for hyper-parameters. We recommend first searching for the appropriate range, by 1). running the scripts in well-separated numerical ranges, like choose from [1, 10, 100, 500, 1000]; and 2).  setting the number of iterations to a moderate number since there is no need to reach accurate results. 
 
@@ -55,15 +55,15 @@ If the number of factors become much smaller than the initial number of factors 
 Based on the initial round of searching, we should have the numerical range to search for. 
 
 
-#### Refine the hyper-parameter selection
+#### 2. Refine the hyper-parameter selection
 
 With the learned range of hyper-parameters, we continue to look in finer grids. For example, run the scripts for alpha1 in [10, 20, 30, … 100]. Because the three parameters can collaboratively affect the decomposition results, we perform model selection in two sub-steps:
 
-##### Choose the number of factors K. 
+##### 2.1 Choose the number of factors K. 
 
 We notice that the cophenetic coefficient can be affected by sparsity in the decomposed matrices given different settings of alpha1 and lambda1 with fixed K. To gain more stable matrix decomposition results, we compare the average cophenetic coefficient with multiple settings for alpha1 and lambda1. The optimal K is chosen to have the highest average cophenetic coefficient. 
 
-##### Choose the penalty parameters alpha1 and lambda 1. 
+##### 2.2 Choose the penalty parameters alpha1 and lambda 1. 
 
 Because factors are expected to be independent of each other, to alleviate multicollinearity, we then search for the alpha1 and lambda1 that result in factors with smallest correlation. 
 
