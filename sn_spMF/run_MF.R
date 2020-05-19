@@ -1,3 +1,12 @@
+##############################################################################################################################
+## Wrapper to run sn-spMF 
+##
+## Example of usage: see run_MF.R
+## Rscript run_MF.R -k 20 -a 10 -l 200 -t 10 -c 1 -r 1
+##
+##############################################################################################################################
+
+
 #install.packages('optparse', repo="http://cran.rstudio.com/")
 #install.packages('penalized', repo="http://cran.rstudio.com/")
 #install.packages('plyr', repo="http://cran.rstudio.com/")

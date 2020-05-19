@@ -1,8 +1,28 @@
-##############################################################################################################
-## Update L
-## Objective: minimize_L ||(X - LF') .* W||_F^2 + alpha1*|L|_1
-## Similar to fit_F.R
-##############################################################################################################
+################################################################################################################################
+## Update the factor matrix L during the alternative optimization
+##
+## Input:
+##              - X: the matrix to be decomposed (N x T, N is the number of data points, T is the number of features)
+##              - F: learned factor matrix  (T x K, T is the number of features, K is the number of factors)
+##              - W: the weight matrix, same size as in X
+##              - option: a list with parameters including lambda1, the l1 penalty parameter for the factor matrix (F)
+##
+## Return:
+##              - A loading matrix with mixed signs that minimize_F ||(X - LF') .* W||_F^2 + lambda1*|L|_1
+##
+## Example of usage:
+##
+## source('../simulation/Generate_input.R');
+## data = generate_input(tau = tau);
+## F = data[[1]];
+## X = data[[3]];
+## W = data[[4]];
+## option = list();
+## option[['lambda1']] = 0.1;
+## L_predict = fit_L(X, W, F, option);
+##
+################################################################################################################################
+
 
 fit_L <- function(X, W, FactorM, option){
 	L = NULL

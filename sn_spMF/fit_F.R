@@ -1,5 +1,5 @@
 ################################################################################################################################
-## Update the factor matrix F
+## Update the factor matrix F during the alternative optimization
 ##
 ## Input:
 ##		- X: the matrix to be decomposed (N x T, N is the number of data points, T is the number of features)

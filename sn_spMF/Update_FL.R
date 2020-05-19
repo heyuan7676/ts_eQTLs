@@ -4,9 +4,9 @@
 ## Output: L (N x K) and F (T x K)
 ######################################
  
-source('sn_spMF/compute_obj.R')
-source('sn_spMF/fit_L.R')
-source('sn_spMF/fit_F.R')
+source('compute_obj.R')
+source('fit_L.R')
+source('fit_F.R')
 
 
 Update_FL <- function(X, W, option){

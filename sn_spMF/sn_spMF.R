@@ -3,15 +3,20 @@
 ##
 ## Objective: minimize_{F,L} ||(X - LF') .* W||_F^2 + alpha1*|L|_1 + lambda1*|F|_1, F is non-negative
 ##
-## Input: K - Rank of F / number of factors, alpha1- l1 penalty for L, lambda1 - l1 penalty for F.
-## These parameters should be selected using run_MF_train_coph.R
+## Input: 
+##	- xfn: filename of the input matrix for decomposition
+##	- wfn: filename of the weight matrix, can be NULL if there is no weight matrix
+## 	- K:   Rank of F (or number of factors) for initialization
+##	- alpha1: l1 penalty for loading matrix (L)
+##	- lambda1: l1 penalty for factor matrix (F)
+##	- ... (other arguments)
 ##
-## Output: the factor matrix F (FactorM)
+## The function does:
+##	- save the learned factor matrix and corresponding arguments
+##	- plot the learned factor matrix (if draw_factor is TRUE)
 ##
-## Note: in R package "penalized", forced the panalization step to run with no standardization by setting weights = 1.
-##	 This is specifically designed for eQTL effect sizes across tissues, since the strength of effect sizes
-##	 provides information and should not be standardized. 
-##
+## Example of usage: see run_MF.R
+## 
 ##############################################################################################################################
 
 source("readIn.R")
@@ -50,7 +55,7 @@ sn_spMF <- function(xfn, wfn, K, alpha1, lambda1, outputdir = './output',
 	option[['convO']] = converged_obj_change;
 	option[['disp']]  = verbose == 1;
 
-	outputFn = paste0('snspMF_K', K, '_a1', alpha1, '_l1', lambda1); 
+	outputFn = paste0('K', K, '_a1', alpha1, '_l1', lambda1); 
 
 	# Run the model multiple times with random initialization - to compute the stability of the decomposed matrices
 	if(compute_cophenet == 1){
@@ -74,6 +79,7 @@ sn_spMF <- function(xfn, wfn, K, alpha1, lambda1, outputdir = './output',
 		quit()
 	}
 
+
 	FactorM = Run_iter[[1]];
 	factor_corr = norm(cor(FactorM), 'F');
 	L_sparsity = Run_iter[[3]];
@@ -87,17 +93,18 @@ sn_spMF <- function(xfn, wfn, K, alpha1, lambda1, outputdir = './output',
 	print(paste0((Run_iter[[5]]), ' factors remain; ; correlation between factors = ', (factor_corr)));
 
 
-	# store results
-	Fn = paste0(outputdir, '/sn_spMF_',outputFn, '.RData');
-	save(alpha1, lambda1, K, FactorM, objective, file = Fn);
+        # store results
+        Fn = paste0(outputdir, '/sn_spMF_',outputFn, '.RData');
+        save(alpha1, lambda1, K, FactorM, objective, file = Fn);
 
-	factorFn = paste0(outputdir, '/sn_spMF_FactorMatrix_',outputFn, '.txt');
-	rownames(FactorM) = colnames(X);
-	write.table(FactorM, factorFn, sep='\t', quote = F);
+        factorFn = paste0(outputdir, '/sn_spMF_FactorMatrix_',outputFn, '.txt');
+        rownames(FactorM) = colnames(X);
+        write.table(FactorM, factorFn, sep='\t', quote = F);
 
-	if(draw_factor){
-		plot_factor_matrix(factorFn)
-	}
+        if(draw_factor){
+                plot_factor_matrix(factorFn)
+		plot_factor(factorFn)
+        }
 }
 
 
