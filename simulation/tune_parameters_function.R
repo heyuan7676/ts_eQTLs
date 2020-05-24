@@ -77,9 +77,8 @@ find_optimal_Fm <- function(result){
 
         K = res[1, "K"]
         a1 = res[1, "alpha1"]
-
         l1 = res[1, "lambda1"]
-		run_idx = res[1, "run_optimal"]
+	run_idx = res[1, "run_optimal"]
 
         fn = paste0('K', K, '_a1', a1, '_l1', l1)
 

@@ -1,10 +1,11 @@
 evaluate_error <- function(trueL, trueF, lp, fp, sig_hits){
-  if(dim(fp)[2] < dim(trueF)[2]){
-    dif = (dim(trueF)[2] - dim(fp)[2])
-    fp = cbind(fp, matrix(rep(0, dim(fp)[1] * dif), ncol = dif))
-    lp = cbind(lp, matrix(rep(0, dim(lp)[1] * dif), ncol = dif))
+  if(ncol(fp) < ncol(trueF)){
+    dif = ncol(trueF) - ncol(fp)
+    fp = cbind(fp, matrix(rep(0, nrow(fp) * dif), ncol = dif))
+    lp = cbind(lp, matrix(rep(0, nrow(lp) * dif), ncol = dif))
+    sig_hits = cbind(sig_hits, matrix(rep(0, nrow(sig_hits) * dif), ncol = dif))
   }
-  rankK = dim(trueF)[2]
+  rankK = ncol(trueF)
   suppressWarnings(library('combinat'))
   ordering = permn(seq(1,rankK))
   f_cor = rep(0, length(ordering))
@@ -23,10 +24,10 @@ evaluate_error <- function(trueL, trueF, lp, fp, sig_hits){
   fp = fp[,ordering[[ord]]]
   sig_hits = sig_hits[, ordering[[ord]]]
   
-  lp = lp / matrix(rep(apply(lp, 2, function(x) max(abs(x))), dim(lp)[1]), nrow = dim(lp)[1], byrow = T)
-  fp = fp / matrix(rep(apply(fp, 2, function(x) max(abs(x))), dim(fp)[1]), nrow = dim(fp)[1], byrow = T)
-  colnames(fp) = seq(1,dim(fp)[2])
-  rownames(fp) = seq(1, dim(fp)[1])
+  lp = lp / matrix(rep(apply(lp, 2, function(x) max(abs(x))), nrow(lp)), nrow = nrow(lp), byrow = T)
+  fp = fp / matrix(rep(apply(fp, 2, function(x) max(abs(x))), nrow(fp)), nrow = nrow(fp), byrow = T)
+  colnames(fp) = seq(1,ncol(fp))
+  rownames(fp) = seq(1, nrow(fp))
   
   fp[is.na(fp)] = 0 
   lp[is.na(lp)] = 0

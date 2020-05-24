@@ -18,6 +18,7 @@ option_list = list(make_option(c("-t", "--tau"), type = "double", default=1000, 
 opt = parse_args(OptionParser(option_list=option_list))
 
 
+
 compare_methods <- function(tau, seed, K = 5, savedir = 'simulation/output', draw_result = F){
   dir.create(savedir, showWarnings = F)
   ## read in simulated input
@@ -89,6 +90,7 @@ compare_methods <- function(tau, seed, K = 5, savedir = 'simulation/output', dra
   factors_cors$method = names(result)
   return(factors_cors)
 }
+
 
 
 
