@@ -113,7 +113,8 @@ We’d like to include some suggestions from practical experience when setting t
 ```Number of runs to compute cophenetic coefficient```: we find that around 20 runs suffice to provide a reliable estimate of the cophenetic coefficient. 
 
 
-Because the three parameters can collaboratively affect the decomposition results, we perform model selection in two sub-steps:
+Because the three parameters can collaboratively affect the decomposition results, we perform model selection in two sub-steps, and we provide an example in xxx. 
+
 
 ##### 2.1 Choose the number of factors K. 
 
@@ -131,8 +132,6 @@ Because random initializations can result in different decomposition solutions, 
 ```
 Rscript run_MF.R -k 17 -a 100 -l 90 -t 100 -c 1
 ```
-
-#### We recommend examming the parameter selection outputs carefully. We provide an example in xxx. 
 
 
 ### Mapping eQTLs to factors.
