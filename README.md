@@ -14,13 +14,6 @@ To get the result for one run, please run:
 Rscript run_MF.R -k 17 -a 100 -l 90 -t 100
 ```
 
-We recommend running the decomposition multiple times (ie. 30 times), and obtain the optimal solution using the decomposition with minimum objective value. To do this, please run the following, and extract the solution with optimal objective (saved in ```output/sn_spMF_K17_a1100_l190/\*RData``` by default, can be changed using the ```-O``` argument).
-
-```
-Rscript run_MF.R -k 17 -a 100 -l 90 -t 100 -c 1
-```
-
-
 ### Input files
 
 ```data/test_data_X.txt```: each row contains the effect size of an eQTL across tissues; the first two columns are gene names and SNP names for the eQTLs, and following columns are the features to learn patterns about, (tissues in the demo, can be time points in time-series data, or cells in single cell data). Missing data are presented as NA. Columns are seperated by '\t'. 
@@ -87,4 +80,21 @@ We’d like to include some suggestions from practical experience when setting t
 ```Number of runs to compute cophenetic coefficient```: we find that around 20 runs suffice to provide a reliable estimate of the cophenetic coefficient. 
 
 
-### Output files
+#### (Optional) Multiple intializations.
+
+Because random initializations can result in different decomposition solutions, we recommend running the decomposition multiple times (ie. 30 times), and obtain the optimal solution using the decomposition with minimum objective value. User can directly extract the solution with optimal objective from the model selection step, or run the following and then extract the solution with optimal objective (saved in ```output/sn_spMF_K17_a1100_l190/\*RData``` by default, can be changed using the ```-O``` argument).
+
+```
+Rscript run_MF.R -k 17 -a 100 -l 90 -t 100 -c 1
+```
+
+##### We recommend examming the parameter selection outputs carefully. We provide an example in xxx. 
+
+
+### Mapping eQTLs to factors.
+After user have chosen the optimal hyper-parameters and obtained the run with optimal objective (```${FM_fn}```), please run the following command to map the eQTLs to the learned factors. The mapped eQTLs are in ```output/mapping/``` by default or can be specified by ```-m ${mappingDir}```. Details can be found in ```mapping/lm.R```.
+
+```
+Rscript mapping/lm.R -f ${FM_fn}
+```
+
