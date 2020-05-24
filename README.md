@@ -59,7 +59,6 @@ Based on the initial round of searching, we should have the numerical range to s
 
 An example to perform this step is as below:
 ```
-### 
 iterations=20
 for K in 10 15 20
 do
@@ -83,7 +82,6 @@ Rscript sn_spMF/tune_parameters_preliminary.R -f choose_para_preliminary.txt
 
 With the learned range of hyper-parameters, we continue to look in finer grids. For example, run the scripts for alpha1 in [10, 20, 30, … 100]. An example to perform this step is as below:
 ```
-### 
 iterations=100
 for K in {10..20}
 do
