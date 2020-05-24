@@ -113,7 +113,7 @@ We’d like to include some suggestions from practical experience when setting t
 ```Number of runs to compute cophenetic coefficient```: we find that around 20 runs suffice to provide a reliable estimate of the cophenetic coefficient. 
 
 
-Because the three parameters can collaboratively affect the decomposition results, we perform model selection in two sub-steps, and we provide an example in xxx. 
+Because the three parameters can collaboratively affect the decomposition results, we perform model selection in two sub-steps, and we provide an example in ```choose_paras_sn_spMF.ipynb```. 
 
 
 ##### 2.1 Choose the number of factors K. 
@@ -123,6 +123,11 @@ We notice that the cophenetic coefficient can be affected by sparsity in the dec
 ##### 2.2 Choose the penalty parameters alpha1 and lambda 1. 
 
 Because factors are expected to be independent of each other, to alleviate multicollinearity, we then search for the alpha1 and lambda1 that result in factors with smallest correlation. 
+
+### Examine the optimal solution.
+
+By examining the tuning results in ```choose_paras_sn_spMF.ipynb```, we find that ```sn_spMF_FactorMatrix_K17_a1100_l190_Run7``` is the optimal solution with the optimal hyper-parameter setting. User can find the learned factor matrix in ``` output/sn_spMF_K17_a1100_l190/sn_spMF_K17_a1100_l190_Run7.*```, including the plotted factors. 
+
 
 
 ### (Optional) Multiple intializations.
