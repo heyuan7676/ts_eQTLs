@@ -1,12 +1,8 @@
-This folder contains scripts to run sn_spMF.<br>
+This folder contains scripts to run sn_spMF. Details can be found inside the scripts. 
 
-```run_MF.R```: Wrapper to run sn_spMF. User can specify the hyper-parameters, input files, output dir, as well as convergence criteria to run sn_spMF. <br>
-Example of usage:
-```
-Rscript run_MF.R -k 20 -a 10 -l 200 -t 10 -c 1 -r 1
-```
+```run_MF.R```: Wrapper to run sn_spMF. User can specify the hyper-parameters, input files, output dir, as well as convergence criteria to run sn_spMF.
 
-```sn_spMF.R```: Main function to run weighted sn-spMF. Details about input can be found in the script. 
+```sn_spMF.R```: Main function to run weighted sn-spMF. 
 
 
 ```readIn.R```: Read in the input files.
