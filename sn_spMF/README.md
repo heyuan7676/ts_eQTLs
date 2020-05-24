@@ -19,3 +19,5 @@ Breif description of the scripts are as below. Please find the details inside th
 ```collect_results.R```: Function to collect the evaluation metrics for parameter tuning. 
 
 ```tune_parameters_preliminary.R``` and ```tune_parameters.R```: Wrapper to tune parameters. Calls ```collect_results.R```
+
+```find_optimal.R```: Given a setting of hyper-parameters, extract the optimal run with minimum objective
