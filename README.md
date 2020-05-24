@@ -139,7 +139,7 @@ Rscript run_MF.R -k 17 -a 100 -l 90 -t 100 -c 1
 ```
 
 
-### Mapping eQTLs to factors.
+### Map eQTLs to factors.
 After user have chosen the optimal hyper-parameters (```${FM_fn}```), please run the following command to map the eQTLs to the learned factors. The script automatically chose the solution with optimal objective if multiple solutions exist. The mapped eQTLs are in ```output/mapping/``` by default or can be specified by ```-m ${mappingDir}```. Details can be found in ```mapping/lm.R```.
 
 ```
