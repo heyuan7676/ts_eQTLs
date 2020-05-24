@@ -1,5 +1,5 @@
 This folder contains scripts to run sn_spMF. 
-Breif description of the scripts are as below. Please find the details inside the scripts. <\br>
+Breif description of the scripts are as below. Please find the details inside the scripts.
 
 Note: all scripts should be run from the root dir. (ie. ts_eQTLs/)
 
