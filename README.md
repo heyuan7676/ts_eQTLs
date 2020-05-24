@@ -2,8 +2,8 @@
 # Learn latent factors using sn-spMF
 We develop a constrained matrix factorization model to learn patterns of tissue-sharing and tissue-specificity of eQTLs across 49 human tissues from the Genotype-Tissue Expression (GTEx) project. The learned factors include patterns reflecting tissues with known biological similarity or shared cell types, in addition to a dense factor representing a ubiquitous genetic effect across all tissues.
 
-### Prerequisites
-All codes are run in ```R/3.5.1```. 
+## Prerequisites
+R code is run in ```R/3.5.1```. 
 
 R packages needed are:
 ```
@@ -21,7 +21,7 @@ install.packages('gridExtra')
 install.packages('lemon')
 ```
 
-### Run the sn_spMF model
+## Run the sn_spMF model
 To get the result for one run, please run the following command. The output is saved in ```output/sn_spMF_K17_a1100_l190/``` by default, or can be specified by ```-O```. Details can be found in ```run_MF.R```.
 ```
 Rscript sn_spMF/run_MF.R -k 17 -a 100 -l 90 -t 100
@@ -57,7 +57,7 @@ Gene1	SNP6	0.114314	0.112615	0.182777	0.147263
 ```
 
 
-### Model selection
+## Model selection
 
 
 Model selection is one of the most challenging parts in deciding matrix factorization models. People have used several methods to approach this problem (REF: xxxxxx). In sn-spMF, we recommend searching for the hyper-parameters (K, alpha1, lambda1) in two steps:
@@ -137,13 +137,13 @@ We notice that the cophenetic coefficient can be affected by sparsity in the dec
 
 Because factors are expected to be independent of each other, to alleviate multicollinearity, we then search for the alpha1 and lambda1 that result in factors with smallest correlation. 
 
-### Examine the optimal solution.
+## Examine the optimal solution.
 
 By examining the tuning results in ```choose_paras_sn_spMF.ipynb```, we find that ```sn_spMF_FactorMatrix_K17_a1100_l190_Run7``` is the optimal solution with the optimal hyper-parameter setting. User can find the learned factor matrix in ``` output/sn_spMF_K17_a1100_l190/sn_spMF_K17_a1100_l190_Run7.*```, including the plotted factors. 
 
 
 
-### (Optional) Multiple intializations.
+## (Optional) Multiple intializations.
 
 Because random initializations can result in different decomposition solutions, we recommend running the decomposition multiple times (ie. 30 times), and obtain the optimal solution using the decomposition with minimum objective value. User can directly extract the solution with optimal objective from the model selection step, or run the following and then extract the solution with optimal objective (saved in ```output/sn_spMF_K17_a1100_l190/\*RData``` by default, can be changed using the ```-O``` argument).
 
@@ -152,7 +152,7 @@ Rscript run_MF.R -k 17 -a 100 -l 90 -t 100 -c 1
 ```
 
 
-### Map eQTLs to factors.
+## Map eQTLs to factors.
 After user have chosen the optimal hyper-parameters (```${FM_fn}```), please run the following command to map the eQTLs to the learned factors. The script automatically chose the solution with optimal objective if multiple solutions exist. The mapped eQTLs are in ```output/mapping/``` by default or can be specified by ```-m ${mappingDir}```. Details can be found in ```mapping/lm.R```.
 
 ```
