@@ -1,4 +1,4 @@
-This folder contains scripts to run sn_spMF. Details can be found inside the scripts. 
+This folder contains scripts to run sn_spMF. Breif description of the scripts are as below. Please find the details inside the scripts.
 
 ```run_MF.R```: Wrapper to run sn_spMF. User can specify the hyper-parameters, input files, output dir, as well as convergence criteria to run sn_spMF.
 
