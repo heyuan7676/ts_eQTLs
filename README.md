@@ -80,7 +80,7 @@ We’d like to include some suggestions from practical experience when setting t
 ```Number of runs to compute cophenetic coefficient```: we find that around 20 runs suffice to provide a reliable estimate of the cophenetic coefficient. 
 
 
-#### (Optional) Multiple intializations.
+### (Optional) Multiple intializations.
 
 Because random initializations can result in different decomposition solutions, we recommend running the decomposition multiple times (ie. 30 times), and obtain the optimal solution using the decomposition with minimum objective value. User can directly extract the solution with optimal objective from the model selection step, or run the following and then extract the solution with optimal objective (saved in ```output/sn_spMF_K17_a1100_l190/\*RData``` by default, can be changed using the ```-O``` argument).
 
@@ -88,7 +88,7 @@ Because random initializations can result in different decomposition solutions, 
 Rscript run_MF.R -k 17 -a 100 -l 90 -t 100 -c 1
 ```
 
-##### We recommend examming the parameter selection outputs carefully. We provide an example in xxx. 
+#### We recommend examming the parameter selection outputs carefully. We provide an example in xxx. 
 
 
 ### Mapping eQTLs to factors.
