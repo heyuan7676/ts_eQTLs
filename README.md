@@ -61,6 +61,20 @@ Gene1	SNP6	0.114314	0.112615	0.182777	0.147263
 User can find the learned factor matrix in output/sn_spMF_K17_a1100_l190/sn_spMF_K17_a1100_l190_Run7.\* including the plotted factors. The output dir can be specificed using ```-O``` when running  ```sn_spMF/run_MF.R```.
 
 
+## (Optional) Multiple intializations.
+
+Because random initializations can result in different decomposition solutions, we recommend running the decomposition multiple times (ie. 30 times), and obtain the optimal solution using the decomposition with minimum objective value. User can directly extract the solution with optimal objective from the model selection step, or run the following and then extract the solution with optimal objective (saved in ```output/sn_spMF_K17_a1100_l190/\*RData``` by default, can be changed using the ```-O``` argument).
+
+```
+## Run intialization multiple times
+Rscript run_MF.R -k 17 -a 100 -l 90 -t 100 -c 1
+
+## Extract the optimal solution
+Rscript sn_spMF/find_optimal.R -k 17 -a 100 -l 90 
+```
+
+
+
 ## Model selection
 
 
@@ -145,15 +159,6 @@ Because factors are expected to be independent of each other, to alleviate multi
 
 By examining the tuning results in ```choose_paras_sn_spMF.ipynb```, we find that ```sn_spMF_FactorMatrix_K17_a1100_l190_Run7``` is the optimal solution with the optimal hyper-parameter setting. User can find the learned factor matrix in ``` output/sn_spMF_K17_a1100_l190/sn_spMF_K17_a1100_l190_Run7.*```, including the plotted factors. 
 
-
-
-## (Optional) Multiple intializations.
-
-Because random initializations can result in different decomposition solutions, we recommend running the decomposition multiple times (ie. 30 times), and obtain the optimal solution using the decomposition with minimum objective value. User can directly extract the solution with optimal objective from the model selection step, or run the following and then extract the solution with optimal objective (saved in ```output/sn_spMF_K17_a1100_l190/\*RData``` by default, can be changed using the ```-O``` argument).
-
-```
-Rscript run_MF.R -k 17 -a 100 -l 90 -t 100 -c 1
-```
 
 
 ## Map eQTLs to factors.
