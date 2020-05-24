@@ -56,6 +56,10 @@ Gene1	SNP5	NA	NA	NA	NA
 Gene1	SNP6	0.114314	0.112615	0.182777	0.147263
 ```
 
+### Output
+
+User can find the learned factor matrix in output/sn_spMF_K17_a1100_l190/sn_spMF_K17_a1100_l190_Run7.\* including the plotted factors. The output dir can be specificed using ```-O``` when running  ```sn_spMF/run_MF.R```.
+
 
 ## Model selection
 
