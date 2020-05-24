@@ -4,7 +4,7 @@ suppressWarnings(library(plyr))
 suppressWarnings(library(optparse))
 
 option_list = list(make_option(c("-O", "--outputdir"), type = "character", default='output/', help="output directory", metavar="character"),
-		   make_option(c("-f", "--savefn"), type = "character", default='choose_para.txt', help="filename to save the output", metavar="character"))
+		   make_option(c("-f", "--savefn"), type = "character", default='choose_para_preliminary.txt', help="filename to save the output", metavar="character"))
 opt = parse_args(OptionParser(option_list=option_list))
 
 
