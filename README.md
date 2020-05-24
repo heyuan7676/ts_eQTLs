@@ -8,6 +8,17 @@ All codes are run in ```R/3.5.1```.
 R packages needed are:
 ```
 install.packages('penalized')
+install.packages('readr')
+install.packages('plyr')
+install.packages('reshape2')
+install.packages('optparse')
+install.packages('dplyr')
+install.packages('colorspace')
+install.packages('colortools')
+install.packages('cowplot')
+install.packages('ggplot2')
+install.packages('gridExtra')
+install.packages('lemon')
 ```
 
 ### Run the sn_spMF model
