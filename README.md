@@ -3,7 +3,9 @@
 We develop a constrained matrixfactorization model to learn patterns of tissue-sharing and tissue-specificity of eQTLs across 49 human tissuesfrom the Genotype-Tissue Expression (GTEx) project. The learned factors include patterns reflecting tissueswith known biological similarity or shared cell types, in addition to a dense factor representing a ubiquitousgenetic effect across all tissues
 
 ### Prerequisites
-You need to install R/3.5.1 to run the scripts. R packages needed are:
+All codes are run in ```R/3.5.1```. 
+
+R packages needed are:
 ```
 install.packages('penalized')
 ```
@@ -55,10 +57,55 @@ If the number of factors become much smaller than the initial number of factors 
 
 Based on the initial round of searching, we should have the numerical range to search for. 
 
+An example to perform this step is as below:
+```
+### 
+iterations=20
+for K in 10 15 20
+do
+        for alpha1 in 1 10 100 500
+        do
+                for lambda1 in 1 10 100 500
+                do
+                        sbatch 1_run_parameter_scope_search.sh ${K} ${alpha1} ${lambda1} ${iterations}
+                done
+        done
+done
+```
+
+To collect the results from multiple runs, user can run the following command. The output will be saved in ```output/choose_para_preliminary.txt```
+```
+Rscript sn_spMF/tune_parameters_preliminary.R -f choose_para_preliminary.txt
+```
+
 
 #### 2. Refine the hyper-parameter selection
 
-With the learned range of hyper-parameters, we continue to look in finer grids. For example, run the scripts for alpha1 in [10, 20, 30, … 100]. Because the three parameters can collaboratively affect the decomposition results, we perform model selection in two sub-steps:
+With the learned range of hyper-parameters, we continue to look in finer grids. For example, run the scripts for alpha1 in [10, 20, 30, … 100]. An example to perform this step is as below:
+```
+### 
+iterations=100
+for K in {10..20}
+do
+        for alpha1 in {1..10}
+        do
+                for lambda1 in {1..10}
+                do
+                        a=$(( 10*alpha1 ))
+                        l=$(( 10*lambda1 ))
+                        sbatch 2_choose_hyperparameters.sh ${K} ${a} ${l} ${iterations}
+                done
+        done
+done
+```
+
+To collect the results from multiple runs, user can run the following command. The output will be saved in ```output/choose_para.txt```.
+```
+Rscript sn_spMF/tune_parameters.R -f choose_para.txt
+```
+
+
+Because the three parameters can collaboratively affect the decomposition results, we perform model selection in two sub-steps:
 
 ##### 2.1 Choose the number of factors K. 
 
