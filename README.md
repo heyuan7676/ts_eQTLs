@@ -8,7 +8,7 @@ You need to install R/3.5.1 to run the scripts. R packages needed are:
 install.packages('penalized')
 ```
 
-### Running the sn_spMF model
+### Run the sn_spMF model
 To get the result for one run, please run the following command. The output is saved in ```output/sn_spMF_K17_a1100_l190/``` by default, or can be specified by ```-O```. Details can be found in ```run_MF.R```.
 ```
 Rscript run_MF.R -k 17 -a 100 -l 90 -t 100
