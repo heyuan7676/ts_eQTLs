@@ -1,7 +1,7 @@
 This folder contains scripts used to map eQTLs to the learned factors.
 Breif description of the scripts are as below. Please find the details inside the scripts.
 
-Note: all scripts should be run from the root dir. (ie. ts_eQTLs/)
+##### Note: all scripts should be run from the root dir. (ie. ts_eQTLs/)
 
 
 ```readin_data.R```: Wrapper to read in the input files, factor matrix and learned loading matrix.
