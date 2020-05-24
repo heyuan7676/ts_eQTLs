@@ -27,7 +27,7 @@ To get the result for one run, please run the following command. Details can be 
 Rscript sn_spMF/run_MF.R -k 17 -a 100 -l 90 -t 100
 ```
 
-### Input files
+### Input
 
 sn_spMF is able to learn the underlying patterns from subset of data, for example, lead eQTLs among all eQTLs in the credible set. To demonstrate this, we provide the demo data as in ```data/test_data_X_all.txt``` and ```data/test_data_SE_all.txt```, and derived a subset of all the eQTLs as in ```data/test_data_X.txt``` and ```data/test_data_SE.txt```. We used the subset of datapoints to learn the factor matrix, and then map all eQTLs to the factors.
 
@@ -61,7 +61,7 @@ Gene1	SNP6	0.114314	0.112615	0.182777	0.147263
 User can find the learned factor matrix in output/sn_spMF_K17_a1100_l190/sn_spMF_K17_a1100_l190.\* including the plotted factors. The output dir can be specificed using ```-O``` when running  ```sn_spMF/run_MF.R```.
 
 
-## (Optional) Multiple intializations.
+## (Optional) Multiple intializations
 
 Because random initializations can result in different decomposition solutions, we recommend running the decomposition multiple times (ie. 30 times), and obtain the optimal solution using the decomposition with minimum objective value. User can run the following to extract the solution with optimal objective (saved in ```output/sn_spMF_K17_a1100_l190/\*RData``` by default, can be changed using the ```-O``` argument), or extract the solution with optimal objective from the model selection step (see below).
 
