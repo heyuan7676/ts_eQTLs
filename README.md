@@ -18,6 +18,8 @@ Rscript run_MF.R -k 17 -a 100 -l 90 -t 100
 
 ### Input files
 
+sn_spMF is able to learn the underlying patterns from subset of data, for example, lead eQTLs among all eQTLs in the credible set. To demonstrate this, we provide the demo data as in ```data/test_data_X_all.txt``` and ```data/test_data_SE_all.txt```, and derived a subset of all the eQTLs as in ```data/test_data_X.txt``` and ```data/test_data_SE.txt```. We used the subset of datapoints to learn the factor matrix, and then map all eQTLs to the factors.
+
 ```data/test_data_X.txt```: each row contains the effect size of an eQTL across tissues; the first two columns are gene names and SNP names for the eQTLs, and following columns are the features to learn patterns about, (tissues in the demo, can be time points in time-series data, or cells in single cell data). Missing data are presented as NA. Columns are seperated by '\t'. 
 
 ```
