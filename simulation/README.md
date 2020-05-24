@@ -1,5 +1,5 @@
 This folder contains scripts used to generate simulations and to fit the simulation with different models. 
-Breif description of the scripts are as below. Please find the details inside the scripts. <\br>
+Breif description of the scripts are as below. Please find the details inside the scripts.
 
 ##### Note: all scripts should be run from the root dir. (ie. ts_eQTLs/)
 
