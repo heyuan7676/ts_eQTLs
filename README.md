@@ -14,7 +14,7 @@ To get the result for one run, please run:
 Rscript run_MF.R -k 17 -a 100 -l 90 -t 100
 ```
 
-We recommend running the decomposition multiple times (ie. 30 times), and obtain the optimal solution using the decomposition with minimum objective value. To do this, please run the following, and extract the solution with optimal objective (saved in output/sn_spMF_K17_a1100_l190/\*RData by default).
+We recommend running the decomposition multiple times (ie. 30 times), and obtain the optimal solution using the decomposition with minimum objective value. To do this, please run the following, and extract the solution with optimal objective (saved in ```output/sn_spMF_K17_a1100_l190/\*RData``` by default, can be changed using the ```-O``` argument).
 
 ```
 Rscript run_MF.R -k 17 -a 100 -l 90 -t 100 -c 1
