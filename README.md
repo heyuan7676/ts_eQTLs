@@ -8,7 +8,7 @@ You need to install R/3.5.1 to run the scripts. R packages needed are:
 install.packages('penalized')
 ```
 
-## Running the tests
+### Running the sn_spMF model
 To get the result for one run, please run:
 ```
 Rscript run_MF.R -k 17 -a 100 -l 90 -t 100
