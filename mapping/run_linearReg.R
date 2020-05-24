@@ -1,15 +1,13 @@
-compute_p <- function(dataPoint, comp, bootstrapping = F){
+compute_p <- function(dataPoint, tissues, compositions){
      #### run linear regression
      factor_exist = seq(1, dim(dataPoint[[2]])[2])
-     tissues = read.table('tissues.txt', sep='\t', header=F, stringsAsFactors = F)
-     tissues = c(tissues$V1)
  
-     # remove factors where no tissue has non-NA values in it, and assign 0 to tissues with NA value
-     if(sum(is.na(dataPoint[[1]])) > 0){
-         valid_idx = which(!is.na(dataPoint[[1]]))
-	 invalid_idx = which(is.na(dataPoint[[1]]))
+     # remove factors where no tissue has non-NA (0) values in it, and assign 0 to tissues with NA value
+     if(sum((dataPoint[[1]] == 0)) > 0){
+         valid_idx = which((dataPoint[[1]] != 0))
+	 invalid_idx = which((dataPoint[[1]] == 0))
          data_exist = tissues[valid_idx]
-         factor_exist = which(sapply(comp, function(x) length(intersect(data_exist, x))>length(x)/2))
+         factor_exist = which(sapply(compositions, function(x) length(intersect(data_exist, x))>length(x)/2))
 
 	 dataPoint[[1]][invalid_idx] = 0
 	 if(dim(dataPoint[[1]])[1] != length(tissues)){
@@ -31,8 +29,8 @@ compute_p <- function(dataPoint, comp, bootstrapping = F){
 	 }
 
          if(length(factor_exist) == 0){
-                 beta = rep(0, length(comp))
-                 pv = rep(-1, length(comp))
+                 beta = rep(0, length(compositions))
+                 pv = rep(-1, length(compositions))
                  return(list(beta, pv))
          }
      }
@@ -59,9 +57,9 @@ compute_p <- function(dataPoint, comp, bootstrapping = F){
 
      beta[is.na(beta)] = 0
      pv[is.na(pv)] = -1
-     if(length(pv) < length(comp)){
-         beta_formatted = rep(0, length(comp))
-         pv_formatted = rep(-1, length(comp))
+     if(length(pv) < length(compositions)){
+         beta_formatted = rep(0, length(compositions))
+         pv_formatted = rep(-1, length(compositions))
          beta_formatted[factor_exist] = beta
          pv_formatted[factor_exist] = pv
          beta = beta_formatted
@@ -71,8 +69,11 @@ compute_p <- function(dataPoint, comp, bootstrapping = F){
 }
 
 
-run_regression <- function(weighted_data, comp){
-    result = lapply(weighted_data, function(x) compute_p(x, comp))
+
+
+run_regression <- function(weighted_data, tissues, compositions){
+    options(warn=-1)
+    result = lapply(weighted_data, function(x) compute_p(x, tissues, compositions))
     pValues = c()
     Betas   = c()
 

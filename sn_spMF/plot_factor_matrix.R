@@ -16,6 +16,8 @@ gtex_col = gtex_col[order(gtex_col$tissue), ]
 plot_factor_matrix <- function(Factor_fn){
   factor_matrix = read.table(Factor_fn, sep='\t', stringsAsFactors = F, header = T, row.names = 1)
   rownames(factor_matrix) = gsub('-', '', rownames(factor_matrix))
+  gtex_col = gtex_col %>% filter(tissue %in% rownames(factor_matrix))
+
   nF = ncol(factor_matrix)
   
   # assign colors
@@ -83,6 +85,8 @@ plot_factor_matrix <- function(Factor_fn){
 plot_factor <- function(Factor_fn, plot_panel_names = F){
   factor_matrix = read.table(Factor_fn, sep='\t', stringsAsFactors = F, header = T, row.names = 1)
   rownames(factor_matrix) = gsub('-', '', rownames(factor_matrix))
+  gtex_col = gtex_col %>% filter(tissue %in% rownames(factor_matrix))
+
   nF = ncol(factor_matrix)
   signs = sign(factor_matrix)
   
@@ -100,9 +104,8 @@ plot_factor <- function(Factor_fn, plot_panel_names = F){
     tissues_in_factors[k] = paste(unlist(tissues_in_factors_0[k]), collapse =';')
   }
   
-  rownames(factor_matrix) = gtex_col$tissue
   colnames(factor_matrix) = paste0("Factor", seq(1, dim(factor_matrix)[2]))
-  
+ 
   factor_matrix$Tissue = factor(rownames(factor_matrix), levels = gtex_col$tissue)
   factor_bar_df = melt(factor_matrix, id.vars = 'Tissue')
   

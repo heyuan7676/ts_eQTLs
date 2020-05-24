@@ -3,29 +3,34 @@
 # Please modify according to the data structure
 ####################################################### 
 
+suppressWarnings(library(readr))
+
 readIn <- function(Xfn, Wfn = NULL, rows_to_read = NULL){
-	X = read_tsv(Xfn);
+	X = read_tsv(Xfn, col_type = cols());
 
 	if(is.null(Wfn)){
-		W = copy(X);
-		W[, seq(3,ncol(W))] = 1;
+		SE =  copy(X);
+		SE[, seq(3,ncol(SE))] = 1;
 	}else{
-		W = read_tsv(Wfn);
+		SE = read_tsv(Wfn, col_type = cols());
 	}
 
-	if(sum(X$Gene != W$Gene) > 0){
-		stop("Error: Different genes in X and W!")
+	if(sum(X$Gene != SE$Gene) > 0){
+		stop("Error: Different genes in X and SE!")
 	}
 
-	if(sum(X$SNP != W$SNP) > 0){
-		stop("Error: Different SNPs in X and W!")
+	if(sum(X$SNP != SE$SNP) > 0){
+		stop("Error: Different SNPs in X and SE!")
 	}
+
+	Genes = X$Gene
+	SNPs = X$SNP
 
 	## remove the first two columns of gene names and SNP names
 	X = X[, seq(3, ncol(X))];
-	W = W[, seq(3, ncol(W))];
+	SE = SE[, seq(3, ncol(SE))];
 
-	W = 1/W;
+	W = 1/SE;
 	X[is.na(W)] = 0;
 	W[is.na(W)] = 0;
 
@@ -35,7 +40,7 @@ readIn <- function(Xfn, Wfn = NULL, rows_to_read = NULL){
 		W = W[idx,]
 	}
 
-	return(list(X = X, W = W))
+	return(list(X = X, W = W, Genes = Genes, SNPs = SNPs))
 }
 
 

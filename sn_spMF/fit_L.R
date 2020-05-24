@@ -24,6 +24,8 @@
 ################################################################################################################################
 
 
+suppressWarnings(library(penalized))
+
 fit_L <- function(X, W, FactorM, option){
 	L = NULL
 	tS = Sys.time()

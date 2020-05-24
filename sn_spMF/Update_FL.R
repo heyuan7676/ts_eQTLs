@@ -4,9 +4,9 @@
 ## Output: L (N x K) and F (T x K)
 ######################################
  
-source('compute_obj.R')
-source('fit_L.R')
-source('fit_F.R')
+source('sn_spMF/compute_obj.R')
+source('sn_spMF/fit_L.R')
+source('sn_spMF/fit_F.R')
 
 
 Update_FL <- function(X, W, option){
@@ -21,6 +21,7 @@ Update_FL <- function(X, W, option){
 
 	# First round of optimization
 	print('Start optimization ...')
+	print(paste0('K = ', (option[['K']]), '; alpha1 = ', (option[['alpha1']]),'; lambda1 = ', (option[['lambda1']])));
 	L = fit_L(X, W, FactorM, option);
 	objective = c(NA, compute_obj(X, W, L, FactorM, option));
 	objective_change = c(1, 1);
@@ -132,6 +133,7 @@ Update_FL <- function(X, W, option){
 	cat('\n')
 	print('Total time used for optimization: ');
 	print(tEnd0 - tStart0);
+	cat('\n')
 
 	# return L, F, sparsity in L and F, number of factors -- could be different from K!
 	return(list(FactorM, L, L_sparsity, F_sparsity, Nfactor, objective))
