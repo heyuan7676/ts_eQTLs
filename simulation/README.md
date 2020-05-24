@@ -3,6 +3,29 @@ Breif description of the scripts are as below. Please find the details inside th
 
 ##### Note: all scripts should be run from the root dir. (ie. ts_eQTLs/)
 
+### Prerequisites
+R code is run in ```R/3.5.1```. 
+
+R packages needed are:
+```
+install.packages('NMF')
+install.packages('PMA')
+install.packages('ashr')
+install.packages('flashr')
+install.packages('softImpute')
+install.packages('ssvd')
+install.packages('combinat')
+install.packages('R.matlab')
+install.packages('RColorBrewer')
+install.packages('cowplot')
+install.packages('dplyr')
+install.packages('ggplot2')
+install.packages('pheatmap')
+install.packages('plyr')
+install.packages('reshape2')
+install.packages('optparse')
+```
+
 
 ```Generate_input.R```: Generate input data in the simulation. 
 
