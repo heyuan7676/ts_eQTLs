@@ -67,7 +67,7 @@ Because random initializations can result in different decomposition solutions, 
 
 ```
 ## Run intialization multiple times
-Rscript run_MF.R -k 17 -a 100 -l 90 -t 100 -c 1
+Rscript sn_spMF/run_MF.R -k 17 -a 100 -l 90 -t 100 -c 1
 
 ## Extract the optimal solution
 Rscript sn_spMF/find_optimal.R -k 17 -a 100 -l 90 
