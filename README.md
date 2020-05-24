@@ -102,6 +102,16 @@ To collect the results from multiple runs, user can run the following command. T
 Rscript sn_spMF/tune_parameters.R -f choose_para.txt
 ```
 
+We’d like to include some suggestions from practical experience when setting the arguments in the model:
+
+```Number of iterations```: recommend using 100 or less. If the model does not converge within 100 iterations, one reason is that the penalty parameters are too small, which leads to slow optimization steps. Larger penalty parameters are suggested in the case where the model does not converge within 100 iterations. 
+
+```Change in the factor matrix to call convergence (converged_F_change)```: this is the Frobenius norm of the difference matrix comparing the factor matrix before and after updating, scaled by the number of factors (||F_new - F_old||^2_F / (number of factors)). The scaling is to avoid bias of higher Frobenius norm coming from more factors. 
+
+```Change in the objective to call convergence (converged_obj_change)```: this is usually a more stringent threshold than converged_F_change. 
+
+```Number of runs to compute cophenetic coefficient```: we find that around 20 runs suffice to provide a reliable estimate of the cophenetic coefficient. 
+
 
 Because the three parameters can collaboratively affect the decomposition results, we perform model selection in two sub-steps:
 
@@ -112,17 +122,6 @@ We notice that the cophenetic coefficient can be affected by sparsity in the dec
 ##### 2.2 Choose the penalty parameters alpha1 and lambda 1. 
 
 Because factors are expected to be independent of each other, to alleviate multicollinearity, we then search for the alpha1 and lambda1 that result in factors with smallest correlation. 
-
-
-We’d like to include some suggestions from practical experience when setting the arguments in the model:
-
-```Number of iterations```: recommend using 100 or less. If the model does not converge within 100 iterations, one reason is that the penalty parameters are too small, which leads to slow optimization steps. Larger penalty parameters are suggested in the case where the model does not converge within 100 iterations. 
-
-```Change in the factor matrix to call convergence (converged_F_change)```: this is the Frobenius norm of the difference matrix comparing the factor matrix before and after updating, scaled by the number of factors (||F_new - F_old||^2_F / (number of factors)). The scaling is to avoid bias of higher Frobenius norm coming from more factors. 
-
-```Change in the objective to call convergence (converged_obj_change)```: this is usually a more stringent threshold than converged_F_change. 
-
-```Number of runs to compute cophenetic coefficient```: we find that around 20 runs suffice to provide a reliable estimate of the cophenetic coefficient. 
 
 
 ### (Optional) Multiple intializations.
