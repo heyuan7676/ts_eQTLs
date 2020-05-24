@@ -1,4 +1,7 @@
-This folder contains scripts to run sn_spMF. Breif description of the scripts are as below. Please find the details inside the scripts.
+This folder contains scripts to run sn_spMF. 
+Breif description of the scripts are as below. Please find the details inside the scripts. <\br>
+
+Note: all scripts should be run from the root dir. (ie. ts_eQTLs/)
 
 ```run_MF.R```: Wrapper to run sn_spMF. User can specify the hyper-parameters, input files, output dir, as well as convergence criteria to run sn_spMF.
 
