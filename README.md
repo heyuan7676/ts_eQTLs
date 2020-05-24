@@ -63,7 +63,7 @@ User can find the learned factor matrix in output/sn_spMF_K17_a1100_l190/sn_spMF
 
 ## (Optional) Multiple intializations.
 
-Because random initializations can result in different decomposition solutions, we recommend running the decomposition multiple times (ie. 30 times), and obtain the optimal solution using the decomposition with minimum objective value. User can directly extract the solution with optimal objective from the model selection step, or run the following and then extract the solution with optimal objective (saved in ```output/sn_spMF_K17_a1100_l190/\*RData``` by default, can be changed using the ```-O``` argument).
+Because random initializations can result in different decomposition solutions, we recommend running the decomposition multiple times (ie. 30 times), and obtain the optimal solution using the decomposition with minimum objective value. User can run the following to extract the solution with optimal objective (saved in ```output/sn_spMF_K17_a1100_l190/\*RData``` by default, can be changed using the ```-O``` argument), or extract the solution with optimal objective from the model selection step (see below).
 
 ```
 ## Run intialization multiple times
