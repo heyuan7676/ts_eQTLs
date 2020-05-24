@@ -157,7 +157,7 @@ Because factors are expected to be independent of each other, to alleviate multi
 
 ## Examine the optimal solution.
 
-By examining the tuning results in ```choose_paras_sn_spMF.ipynb```, we find that ```sn_spMF_FactorMatrix_K17_a1100_l190_Run7``` is the optimal solution with the optimal hyper-parameter setting. User can find the learned factor matrix in ``` output/sn_spMF_K17_a1100_l190/sn_spMF_K17_a1100_l190_Run7.*```, including the plotted factors. 
+By examining the tuning results in ```choose_paras_sn_spMF.ipynb```, we find that ```sn_spMF_FactorMatrix_K17_a1100_l190``` is the optimal setting of hyper-parameters. Among the 30 runs using this implementation, ```run7``` gives the optimal solution with the minimum objective. User can find the learned factor matrix in ``` output/sn_spMF_K17_a1100_l190/sn_spMF_K17_a1100_l190_Run7.*```, including the plotted factors. 
 
 
 
