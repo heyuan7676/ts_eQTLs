@@ -26,24 +26,6 @@ install.packages('reshape2')
 install.packages('optparse')
 ```
 
-
-```Generate_input.R```: Generate input data in the simulation. 
-
-```choose_hyperparameters_simulate.sh```: Run sn_spMF to fit the simulated data, perform model selection.
-
-```tune_parameters.R```: Wrapper to tune parameters. Calls ```sn_spMF/collect_results.R```
-
-```tune_parameters_function.R```: Wrapper to choose the optimal hyper-parameters and optimal solution. 
-
-```perform_MF_methods.R```: Run various models. For sn_spMF, ```tune_parameters_function.R``` is called. 
-
-```fit_significant_hits.R```: Map eQTLs to the learned factors.
-
-```compare_methods.R```: Wrapper to compare results from various models. 
-
-```compare_methods_simulate.sh```: Call ```compare_methods.R```.
-
-
 ### Run simulation and evaluate 
 
 #### 1. Generate the input files
@@ -83,3 +65,25 @@ Rscript simulation/plot_metrics.R
 
 ### Output
 The evaluation metrics are saved in ```simulation/output/metrics/metrics.txt``` and ```simulation/output/metrics/metrics.png```. 
+
+
+### Breif description of the scripts
+
+
+```Generate_input.R```: Generate input data in the simulation. 
+
+```choose_hyperparameters_simulate.sh```: Run sn_spMF to fit the simulated data, perform model selection.
+
+```tune_parameters.R```: Wrapper to tune parameters. Calls ```sn_spMF/collect_results.R```
+
+```tune_parameters_function.R```: Wrapper to choose the optimal hyper-parameters and optimal solution. 
+
+```perform_MF_methods.R```: Run various models. For sn_spMF, ```tune_parameters_function.R``` is called. 
+
+```fit_significant_hits.R```: Map eQTLs to the learned factors.
+
+```compare_methods.R```: Wrapper to compare results from various models. 
+
+```compare_methods_simulate.sh```: Call ```compare_methods.R```.
+
+```plot_metrics.R```: Viasulize. 
