@@ -63,8 +63,15 @@ Rscript simulation/tune_parameters.R -O simulation/output/tau${tau}_seed${seed}/
 
 #### 3. Run all models, and collect the metrics
 ```
-## collect results from all methods
+## collect results from all methods 
 bash simulation/compare_methods_simulate.sh ${tau} ${seed}
+```
+
+After results for all ```${tau}``` and ```${seed}``` are finished, collect the evaluation metrics into one file ```metrics.txt```.
+```
+cd simulation/output/metrics/
+head -n1 Learned_factor_matrices_tau10_seed9.txt  > metrics.txt
+for x in Learned_factor_matrices_tau*; do sed "1d" ${x} >> metrics.txt ; done
 ```
 
 #### 4. Visualize the metrics
@@ -73,3 +80,6 @@ bash simulation/compare_methods_simulate.sh ${tau} ${seed}
 Rscript simulation/plot_metrics.R 
 
 ```
+
+### Output
+The evaluation metrics are saved in ```simulation/output/metrics/metrics.txt``` and ```simulation/output/metrics/metrics.png```. 
