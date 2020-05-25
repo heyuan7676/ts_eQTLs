@@ -6,7 +6,7 @@ suppressWarnings(library('reshape2'))
 suppressWarnings(library('R.matlab'))
 suppressWarnings(library('ggplot2'))
 source("sn_spMF/readIn.R")
-source('simulation/perform_MF_methods.R')
+source('simulation/perform_MF_methods_Marcc.R')
 source('simulation/utils.R')
 
 
@@ -95,6 +95,8 @@ compare_methods <- function(tau, seed, K = 5, savedir = 'simulation/output/metri
   write.table(factors_cors, paste0(savedir, "Learned_factor_matrices_", bnm,'.txt'), quote = F, row.names = F)
   return(factors_cors)
 }
+
+
 
 
 compare_methods(opt$tau, opt$seed)

@@ -20,7 +20,7 @@ compute_p <- function(dataPoint, tissues, compositions){
 	 dataPoint[[2]][invalid_idx,] = 0
 
 	 # remove the shared factor if there are other factors become co-linear with it (because of NA values)
-	 if(1 %in% factor_exist){
+	 if((1 %in% factor_exist) & (length(factor_exist) > 1)){
 	 	temp_d2 = as.matrix(dataPoint[[2]][, 2:length(factor_exist)])
 	 	if(sum(dataPoint[[2]][, 1] != 0) == max(apply(temp_d2, 2, function(x) sum(x!=0)))){
 		 	dataPoint[[2]] = dataPoint[[2]][, seq(2, length(factor_exist))]
@@ -37,7 +37,7 @@ compute_p <- function(dataPoint, tissues, compositions){
 
 
      # remove the shared factor if the sign across available tissues disagree
-     if(1 %in% factor_exist){
+     if((1 %in% factor_exist) & ((length(factor_exist) > 1))){
      	 if((sum(dataPoint[[1]] > 0, na.rm = T) > length(dataPoint[[1]])/3) & (sum(dataPoint[[1]] > 0, na.rm = T) < length(dataPoint[[1]]) / 3  * 2)){
 		dataPoint[[2]] = dataPoint[[2]][, seq(2, length(factor_exist))]
          	factor_exist = factor_exist[factor_exist!=1]
