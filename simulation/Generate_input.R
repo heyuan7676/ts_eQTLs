@@ -171,7 +171,8 @@ generate_input <- function(N=100, P = 10, K=5, saveplot = F, tau, savedir, seed)
 
   tempfn=paste0(savedir, '/X_tau', tau, '_seed', seed, '.mat')
   print(tempfn)
-  writeMat(paste0(savedir, '/X_tau', tau, '_seed', seed, '.mat'), X = X)
+  tp = X[, seq(3, ncol(X))]
+  writeMat(paste0(savedir, '/X_tau', tau, '_seed', seed, '.mat'), X = tp)
   save(X, f, l, W, file = paste0(savedir, '/Input_tau', tau, '_seed', seed, '.RData'))
   write.table(X, paste0(savedir, '/Input_tau', tau, '_seed', seed, '_X.txt'), sep='\t', quote = F, row.names = F)
   write.table(W, paste0(savedir, '/Input_tau', tau, '_seed', seed, '_W.txt'), sep='\t', quote = F, row.names = F)
