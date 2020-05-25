@@ -44,18 +44,32 @@ install.packages('optparse')
 ```compare_methods_simulate.sh```: Call ```compare_methods.R```.
 
 
-To run simulation for a specific ```tau``` and ```seed```, please run:
+### Run simulation and evaluate 
+
+#### 1. Generate the input files
 ```
 ## generate the input
 Rscript simulation/Generate_input.R -t ${tau} -s ${seed}
+```
 
+#### 2. Tune parameters for sn_spMF
+```
 ## tune parameters for sn_spMF
 sbatch simulation/choose_hyperparameters_simulate.sh ${tau} ${seed}
 
 ## After all choose_hyperparameters_simulate.sh finish running -
 Rscript simulation/tune_parameters.R -O simulation/output/tau${tau}_seed${seed}/
+```
 
+#### 3. Run all models, and collect the metrics
+```
 ## collect results from all methods
 bash simulation/compare_methods_simulate.sh ${tau} ${seed}
+```
+
+#### 4. Visualize the metrics
+```
+## plot the resulting metrics
+Rscript simulation/plot_metrics.R 
 
 ```
