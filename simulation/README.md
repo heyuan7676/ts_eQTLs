@@ -49,7 +49,7 @@ Please note that NBSFA method is cloned from Github repo: https://github.com/dav
 Since it is in Matlab, it is run seperately by:
 ```
 cd simulation/nsfa-master/code/
-bash run_run_nsfa_mydata.sh
+bash run_run_nsfa_mydata.sh ${tau} ${seed}
 ```
 
 Then run all other models and evaluate. 
