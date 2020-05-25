@@ -2,10 +2,9 @@ library(plot.matrix)
 library(ggplot2)
 library(gplots)
 library(RColorBrewer)
-library(cowplot)
 
 
-metrics = read.table('simulation/output/metrics/metrics.txt', sep=' ', header=T, stringsAsFactors = F)
+metrics = read.table('simulation/output/metrics.txt', sep=' ', header=T, stringsAsFactors = F)
 metrics$method = factor(metrics$method, 
                            levels = c("sn_spMF", "flashr_nn", "flashr_backfit","flashr_default",
                                       "softImpute", "PCA", "SSVD", 
@@ -62,7 +61,7 @@ g = ggdraw() +
   draw_plot(recall_plot + theme(legend.position = 'none'), x = 0, y = 0, width = 0.4, height = 0.5) +
   draw_plot(precision_plot + theme(legend.position = 'none'), x = 0.45, y = 0, width = 0.4, height = 0.5)
 
-save_plot("simulation/output/metrics/metrics.png", g, base_width = 12, base_height = 6)
+save_plot("simulation/output/metrics.png", g, base_width = 12, base_height = 6)
 
 
 
