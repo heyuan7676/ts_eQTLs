@@ -44,6 +44,16 @@ Rscript simulation/tune_parameters.R -O simulation/output/tau${tau}_seed${seed}/
 ```
 
 #### 3. Run all models, and collect the metrics
+
+Please note that NBSFA method is cloned from Github repo: https://github.com/davidaknowles/nsfa. 
+Since it is in Matlab, it is run seperately by:
+```
+cd simulation/nsfa-master/code/
+bash run_run_nsfa_mydata.sh
+```
+
+Then run all other models and evaluate. 
+
 ```
 ## collect results from all methods 
 bash simulation/compare_methods_simulate.sh ${tau} ${seed}
