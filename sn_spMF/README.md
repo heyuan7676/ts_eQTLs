@@ -5,6 +5,15 @@ Breif description of the scripts are as below. Please find the details inside th
 
 ```run_MF.R```: Wrapper to run sn_spMF. User can specify the hyper-parameters, input files, output dir, as well as convergence criteria to run sn_spMF.
 
+```Number of iterations```: we recommend using 100 or less. If the model does not converge within 100 iterations, one reason is that the penalty parameters are too small, which leads to slow optimization steps. Larger penalty parameters are suggested in the case where the model does not converge within 100 iterations. 
+
+```Change in the factor matrix to call convergence (converged_F_change)```: this is the Frobenius norm of the difference matrix comparing the factor matrix before and after updating, scaled by the number of factors (||F_new - F_old||^2_F / (number of factors)). The scaling is to avoid bias of higher Frobenius norm coming from implementations with more factors. 
+
+```Change in the objective to call convergence (converged_obj_change)```: this is usually a more stringent threshold than converged_F_change. 
+
+```Number of runs to compute cophenetic coefficient```: we find that around 20-30 runs suffice to provide a reliable estimate of the cophenetic coefficient. 
+
+
 ```sn_spMF.R```: Main function to run weighted sn-spMF. 
 
 
