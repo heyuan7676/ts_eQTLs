@@ -140,8 +140,8 @@ plot_factor <- function(Factor_fn, plot_panel_names = F){
          max(abs(factor_bar_df$value)) * 1.2)
   
   save_fn = gsub('.txt', '_factors.png', Factor_fn)
-  png(save_fn, height = 150 * ceiling((ncol(factor_matrix)-1) / 4),
-      width = 500, res = 150)
+  png(save_fn, height = 250 * ceiling((ncol(factor_matrix)-1) / 4),
+      width = 800, res = 200)
   print(fig_factors)
   dev.off()
 }
