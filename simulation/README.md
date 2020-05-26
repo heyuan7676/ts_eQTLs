@@ -75,6 +75,8 @@ Rscript simulation/plot_metrics.R
 
 ### Output
 The evaluation metrics are saved in ```simulation/output/metrics/metrics.txt``` and ```simulation/output/metrics/metrics.png```. 
+![Alt text](https://github.com/heyuan7676/ts_eQTLs/blob/master/simulation/output/metrics/metrics.png)
+
 
 
 ### Breif description of the scripts
