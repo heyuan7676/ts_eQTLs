@@ -73,6 +73,10 @@ Rscript sn_spMF/run_MF.R -k 17 -a 100 -l 50 -t 100 -c 1
 Rscript sn_spMF/find_optimal.R -k 17 -a 100 -l 50 
 ```
 
+The resulting factor solution looks like:
+
+![alt text](https://github.com/heyuan7676/ts_eQTLs/blob/master/output/sn_spMF_K17_a1100_l150/sn_spMF_FactorMatrix_K17_a1100_l150_Run25_factors.pdf)
+
 
 
 ## Model selection
