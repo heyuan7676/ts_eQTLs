@@ -73,7 +73,7 @@ Rscript sn_spMF/run_MF.R -k 17 -a 100 -l 50 -t 100 -c 1
 Rscript sn_spMF/find_optimal.R -k 17 -a 100 -l 50 
 ```
 
-The resulting factor solution looks like:
+The resulting optimal solution for factor matrix looks like:
 
 ![alt text](https://github.com/heyuan7676/ts_eQTLs/blob/master/output/sn_spMF_K17_a1100_l150/sn_spMF_FactorMatrix_K17_a1100_l150_Run25_factors.png)
 
@@ -142,7 +142,12 @@ Because the three parameters can collaboratively affect the decomposition result
 
 ##### 2.1 Choose the range of number of factors. 
 
-We notice that the cophenetic coefficient can be affected by sparsity in the decomposed matrices given different settings of alpha1 and lambda1 with fixed K. To gain more stable matrix decomposition results, we compare the average cophenetic coefficient with multiple settings for alpha1 and lambda1. In the demo data, different implementations of K doesn't result in obvious difference in the cophenetic coefficient, and thus we do not to filter on K. We observe that some implementations push factors to be zero and thus the real number of factors reached is different from the assigned number of factors. We choose number of learned factors to be those with median cophenetic coefficient > 0.9. 
+We notice that the cophenetic coefficient can be affected by sparsity in the decomposed matrices given different settings of alpha1 and lambda1 with fixed K. To gain more stable matrix decomposition results, we compare the average cophenetic coefficient with multiple settings for alpha1 and lambda1. 
+
+In the demo data, different implementations of K doesn't result in obvious difference in the cophenetic coefficient, and thus we do not to filter on K. However, We observe that some implementations push factors to be zero and thus the real number of factors reached is different from the assigned number of factors. We choose number of learned factors to be those with median cophenetic coefficient > 0.9. 
+
+
+
 
 ##### 2.2 Filter out implementations with low cophenetic coefficient
 
@@ -157,6 +162,11 @@ Because factors are expected to be independent of each other, to alleviate multi
 ## Examine the optimal solution.
 
 By examining the tuning results in ```choose_paras_sn_spMF.ipynb```, we find that ```sn_spMF_FactorMatrix_K17_a1100_l150``` is the optimal setting of hyper-parameters. Among the 30 runs using this implementation, ```run25``` gives the optimal solution with the minimum objective. User can find the learned factor matrix in ``` output/sn_spMF_K17_a1100_l150/sn_spMF_K17_a1100_l150_Run25.*```, including the plotted factors. 
+
+The resulting optimal solution for factor matrix looks like:
+
+![alt text](https://github.com/heyuan7676/ts_eQTLs/blob/master/output/sn_spMF_K17_a1100_l150/sn_spMF_FactorMatrix_K17_a1100_l150_Run25_factors.png)
+
 
 
 
