@@ -56,7 +56,7 @@ Then run all other models and evaluate.
 
 ```
 ## collect results from all methods 
-bash simulation/compare_methods_simulate.sh ${tau} ${seed}
+bash simulation/compare_methods_simulate.sh
 ```
 
 After results for all ```${tau}``` and ```${seed}``` are finished, collect the evaluation metrics into one file ```metrics.txt```.
