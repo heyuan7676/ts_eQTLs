@@ -1,5 +1,4 @@
-suppressWarnings(library('plyr'))
-suppressWarnings(library('dplyr'))
+
 suppressWarnings(library('RColorBrewer'))
 suppressWarnings(library('pheatmap'))
 suppressWarnings(library('cowplot'))
@@ -7,18 +6,20 @@ suppressWarnings(library('reshape2'))
 suppressWarnings(library('R.matlab'))
 suppressWarnings(library('ggplot2'))
 source("sn_spMF/readIn.R")
-source('simulation/perform_MF_methods.R')
+source('simulation/perform_MF_methods_Marcc.R')
 source('simulation/utils.R')
 
 
 suppressWarnings(library(optparse))
 
 option_list = list(make_option(c("-t", "--tau"), type = "double", default=1000, help="precision of the error"),
-		   make_option(c("-s", "--seed"), type = "integer", default=1, help="seed of the random generator"))
+		   make_option(c("-s", "--seed"), type = "integer", default=1, help="seed of the random generator"),
+		   make_option(c("-O", "--outdir"), type = "character", default='simulation/output/metrics/', help="outputdir to save the evaluation metrics"))
 opt = parse_args(OptionParser(option_list=option_list))
 
 
-compare_methods <- function(tau, seed, K = 5, savedir = 'simulation/output', draw_result = F){
+
+compare_methods <- function(tau, seed, K = 5, savedir = 'simulation/output/metrics/', draw_result = F){
   dir.create(savedir, showWarnings = F)
   ## read in simulated input
   inputdir = 'simulation/input'
@@ -38,9 +39,9 @@ compare_methods <- function(tau, seed, K = 5, savedir = 'simulation/output', dra
   result[["SSVD"]] = perform_MF_methods(X, l, f, method = 'SSVD', rankK = K, bnm = bnm)
   result[["PMA_cv1"]] = perform_MF_methods(X, l, f, method = 'PMA_cv1', rankK = K, bnm = bnm)
   result[["PMA_cv2"]] = perform_MF_methods(X, l, f, method = 'PMA_cv2', rankK = K, bnm = bnm)
-  #result[["flashr_default"]] = perform_MF_methods(X, l, f, method = 'flashr_default', rankK = K, bnm = bnm)
-  #result[["flashr_backfit"]] = perform_MF_methods(X, l, f, method = 'flashr_backfit', rankK = K, bnm = bnm)
-  #result[["flashr_nn"]] = perform_MF_methods(X, l, f, method = 'flashr_nn', rankK = K, bnm = bnm)
+  result[["flashr_default"]] = perform_MF_methods(X, l, f, method = 'flashr_default', rankK = K, bnm = bnm)
+  result[["flashr_backfit"]] = perform_MF_methods(X, l, f, method = 'flashr_backfit', rankK = K, bnm = bnm)
+  result[["flashr_nn"]] = perform_MF_methods(X, l, f, method = 'flashr_nn', rankK = K, bnm = bnm)
   result[["sn_spMF"]] = perform_MF_methods(X, l, f, method = 'sn_spMF', rankK = K, bnm = bnm, readOnly = T)
 
   ## plot the learned factor matrices
@@ -74,7 +75,7 @@ compare_methods <- function(tau, seed, K = 5, savedir = 'simulation/output', dra
   #panel_width = unit(0.8,"npc") - sum(ggplotGrob(heatmap_g)[["widths"]][-3]) - unit(1,"line")
   #heatmap_g = heatmap_g + guides(fill= guide_colorbar(barwidth = panel_width))
   
-  save_plot(paste0(savedir, "Learned_factor_matrices_tau", tau, '_seed',seed,'.png'), 
+  save_plot(paste0(savedir, "Learned_factor_matrices_", bnm,'.png'), 
             heatmap_g, base_width = 6, base_height = 5)  
  
   }
@@ -88,8 +89,14 @@ compare_methods <- function(tau, seed, K = 5, savedir = 'simulation/output', dra
   factors_cors = as.data.frame(factors_cors)
   colnames(factors_cors) = c("l_corr", "f_corr", "u_precision", "u_recall", "ts_precision", "ts_recall")
   factors_cors$method = names(result)
+  factors_cors$tau = tau
+  factors_cors$seed = seed
+
+  print(paste0('Evaluation metrics saved to ', savedir, "Learned_factor_matrices_", bnm,'.txt'))
+  write.table(factors_cors, paste0(savedir, "Learned_factor_matrices_", bnm,'.txt'), quote = F, row.names = F)
   return(factors_cors)
 }
+
 
 
 

@@ -7,9 +7,13 @@
 
 ### Collect results from all methods
 
-tau="$1"
-seed="$2"
-
-
 ml R/3.5.1
-Rscript simulation/compare_methods.R  -t ${tau} -s ${seed}
+
+for tau in 1000 500 100 50 20 10
+do
+	for seed in {1..10}
+	do
+		echo "Collecting results for tau${tau}_seed${seed}"
+		Rscript simulation/compare_methods.R  -t ${tau} -s ${seed}
+	done
+done
