@@ -70,9 +70,9 @@ plot_factor_matrix <- function(Factor_fn){
     geom_hline(yintercept = seq(1,nF), color = "black", size=0.1) 
   
   
-  save_fn = gsub('.txt', '.pdf', Factor_fn)
-  pdf(save_fn, width = 0.1 * ncol(factor_matrix) + 1, 
-      height = 0.1 * nrow(factor_matrix))
+  save_fn = gsub('.txt', '.png', Factor_fn)
+  png(save_fn, width = 30 * ncol(factor_matrix) + 30, 
+      height = 30 * nrow(factor_matrix), res = 300)
   print(fig_factor_matrix)
   dev.off()
 }
@@ -132,15 +132,16 @@ plot_factor <- function(Factor_fn, plot_panel_names = F){
     theme(axis.ticks.x =element_blank()) + 
     theme(axis.text.x = element_blank()) +
     theme(axis.text.y =element_text(size = 10)) +
-    theme(axis.title.x = element_text(size = 15)) + 
-    theme(axis.title.y = element_text(size = 15)) + 
+    theme(axis.title.x = element_text(size = 10)) + 
+    theme(axis.title.y = element_text(size = 10)) + 
     theme(legend.position = "none")  + 
     background_grid(major = 'xy', minor = 'none')  + 
     ylim(min(0, min(factor_bar_df$value) - abs(min(factor_bar_df$value)) * 0.2),
          max(abs(factor_bar_df$value)) * 1.2)
   
-  save_fn = gsub('.txt', '_factors.pdf', Factor_fn)
-  pdf(save_fn, height = 1.8 * ceiling((ncol(factor_matrix)-1) / 4))
+  save_fn = gsub('.txt', '_factors.png', Factor_fn)
+  png(save_fn, height = 150 * ceiling((ncol(factor_matrix)-1) / 4),
+      width = 500, res = 150)
   print(fig_factors)
   dev.off()
 }
