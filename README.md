@@ -146,8 +146,8 @@ We notice that the cophenetic coefficient can be affected by sparsity in the dec
 
 In the demo data, different implementations of K doesn't result in obvious difference in the cophenetic coefficient, and thus we do not to filter on K. However, We observe that some implementations push factors to be zero and thus the real number of factors reached is different from the assigned number of factors. We choose number of learned factors to be those with median cophenetic coefficient > 0.9. 
 
-
-
+![alt text](https://github.com/heyuan7676/ts_eQTLs/blob/master/output/choose_para_K.png)
+![alt text](https://github.com/heyuan7676/ts_eQTLs/blob/master/output/choose_para_nFactors.png)
 
 ##### 2.2 Filter out implementations with low cophenetic coefficient
 
