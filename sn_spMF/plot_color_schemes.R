@@ -20,7 +20,8 @@ color_fig = ggplot() +
   theme(axis.line=element_blank(),axis.text.y = element_blank()) +
   xlab("")  + ylab("") + 
   scale_x_discrete(expand = c(0, 5)) + 
-  theme(panel.background = element_rect(fill = "transparent"))
+  theme(panel.background = element_rect(fill = "transparent")) + 
+  
 
 
 png("output/color.png", width = 800, height = 400, res = 200, bg="transparent")
