@@ -137,13 +137,15 @@ Rscript sn_spMF/tune_parameters.R -f choose_para.txt
 Because the three parameters can collaboratively affect the decomposition results, we perform model selection in two sub-steps, for which we provide an example in ```choose_paras_sn_spMF.ipynb```. 
 
 
-##### 2.1 Choose the range of cophenetic coefficient and range of K. 
+##### 2.0 Choose the range of K (optional)
 
-We notice that the cophenetic coefficient can be affected by sparsity in the decomposed matrices given different settings of alpha1 and lambda1 with fixed K. To gain more stable matrix decomposition results, we compare the average cophenetic coefficient with multiple settings for alpha1 and lambda1. We observe from the distribution of cophentic coefficients by K that, K>=14 result in generally higher cophenetic coefficient than K<14. Thus we move on to implementations with K >= 14. 
+We notice that the cophenetic coefficient can be affected by sparsity in the decomposed matrices given different settings of alpha1 and lambda1 with fixed K. To gain more stable matrix decomposition results, we compare the average cophenetic coefficient with multiple settings for alpha1 and lambda1. In the demo data, however, different implementations of K doesn't result in obvious difference in the cophenetic coefficient, and thus we decide in this situation not to filter on K. 
 
-We also filter out implementations with cophenetic coefficient < 0.95, and keep implementations with consistent decomposition solutions given random initializations indicating the stability of the solution. 
+##### 2.1 Filter out implementations with low cophenetic coefficient
 
-##### 2.2 Choose the penalty parameters alpha1 and lambda 1. 
+We then filter out implementations with cophenetic coefficient < 0.95, and keep implementations with consistent decomposition solutions given random initializations indicating the stability of the solution. In this situation, we try different values of the thresholds including 0.85 and 0.9, and observe that very similar optimal solution is learned. 
+
+##### 2.2 Choose the implementation with the most independent factors
 
 Because factors are expected to be independent of each other, to alleviate multicollinearity, we then search for the alpha1 and lambda1 that result in factors with smallest correlation. 
 
