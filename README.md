@@ -78,6 +78,8 @@ The resulting optimal solution for factor matrix in this implementation looks li
 ![alt text](https://github.com/heyuan7676/ts_eQTLs/blob/master/output/sn_spMF_K17_a1100_l150/sn_spMF_FactorMatrix_K17_a1100_l150_Run25_factors.png)
 
 
+![alt text](https://github.com/heyuan7676/ts_eQTLs/blob/master/output/color.png)
+
 ## Model selection
 
 
