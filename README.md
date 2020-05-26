@@ -149,7 +149,7 @@ We then filter out implementations with cophenetic coefficient < 0.9, and keep i
 
 Because factors are expected to be independent of each other, to alleviate multicollinearity, we then search for the alpha1 and lambda1 that result in factors with smallest correlation. 
 
-##### Note that a seperate example of learning the hyper-parameters is provided in ```choose_paras_sn_spMF_simulation.ipynb``` on simulated data. Details can be found in ```simulation/```. 
+##### Note: a seperate example of learning the hyper-parameters is provided in ```simulation/choose_paras_sn_spMF_simulation.ipynb``` on simulated data. Details can be found in ```simulation/```. 
 
 ## Examine the optimal solution.
 
