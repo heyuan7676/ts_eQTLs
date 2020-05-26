@@ -58,12 +58,12 @@ Gene1	SNP6	0.114314	0.112615	0.182777	0.147263
 
 ### Output
 
-User can find the learned factor matrix in output/sn_spMF_K17_a1100_l190/sn_spMF_K17_a1100_l190.\* including the plotted factors. The output dir can be specificed using ```-O``` when running  ```sn_spMF/run_MF.R```.
+User can find the learned factor matrix in output/sn_spMF_K17_a1100_l150/sn_spMF_K17_a1100_l150.\* including the plotted factors. The output dir can be specificed using ```-O``` when running  ```sn_spMF/run_MF.R```.
 
 
 ## (Optional) Multiple intializations
 
-Because random initializations can result in different decomposition solutions, we recommend running the decomposition multiple times (ie. 30 times), and obtain the optimal solution using the decomposition with minimum objective value. User can run the following to extract the solution with optimal objective (saved in ```output/sn_spMF_K17_a1100_l190/\*RData``` by default, can be changed using the ```-O``` argument), or extract the solution with optimal objective from the model selection step (see below).
+Because random initializations can result in different decomposition solutions, we recommend running the decomposition multiple times (ie. 30 times), and obtain the optimal solution using the decomposition with minimum objective value. User can run the following to extract the solution with optimal objective (saved in ```output/sn_spMF_K17_a1100_l150/*RData``` by default, can be changed using the ```-O``` argument), or extract the solution with optimal objective from the model selection step (see below).
 
 ```
 ## Run intialization multiple times
@@ -153,7 +153,7 @@ Because factors are expected to be independent of each other, to alleviate multi
 
 ## Examine the optimal solution.
 
-By examining the tuning results in ```choose_paras_sn_spMF.ipynb```, we find that ```sn_spMF_FactorMatrix_K17_a1100_l190``` is the optimal setting of hyper-parameters. Among the 30 runs using this implementation, ```run7``` gives the optimal solution with the minimum objective. User can find the learned factor matrix in ``` output/sn_spMF_K17_a1100_l190/sn_spMF_K17_a1100_l190_Run7.*```, including the plotted factors. 
+By examining the tuning results in ```choose_paras_sn_spMF.ipynb```, we find that ```sn_spMF_FactorMatrix_K17_a1100_l150``` is the optimal setting of hyper-parameters. Among the 30 runs using this implementation, ```run7``` gives the optimal solution with the minimum objective. User can find the learned factor matrix in ``` output/sn_spMF_K17_a1100_l150/sn_spMF_K17_a1100_l150_Run7.*```, including the plotted factors. 
 
 
 
