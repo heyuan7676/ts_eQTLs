@@ -145,3 +145,4 @@ plot_factor <- function(Factor_fn, plot_panel_names = F){
   print(fig_factors)
   dev.off()
 }
+
