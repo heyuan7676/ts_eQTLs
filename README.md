@@ -63,7 +63,7 @@ User can find the learned factor matrix in output/sn_spMF_K17_a1100_l150/sn_spMF
 
 ## (Optional) Multiple intializations
 
-Because random initializations can result in different decomposition solutions, we recommend running the decomposition multiple times (ie. 30 times), and obtain the optimal solution using the decomposition with minimum objective value. User can run the following to extract the solution with optimal objective (saved in ```output/sn_spMF_K17_a1100_l150/*RData``` by default, can be changed using the ```-O``` argument), or extract the solution with optimal objective from the model selection step (see below).
+Because random initializations can result in different decomposition solutions, we recommend running the decomposition multiple times (ie. 30 times), and obtain the optimal solution using the decomposition with minimum objective value. User can run the following to extract the solution with optimal objective (saved in ```output/sn_spMF_K17_a1100_l150/*RData``` by default, can be changed using the ```-O``` argument), or extract the solution with optimal objective from the model selection step (see below, section "Model Selection").
 
 ```
 ## Run intialization multiple times
@@ -73,7 +73,7 @@ Rscript sn_spMF/run_MF.R -k 17 -a 100 -l 50 -t 100 -c 1
 Rscript sn_spMF/find_optimal.R -k 17 -a 100 -l 50 
 ```
 
-The resulting optimal solution for factor matrix looks like:
+The resulting optimal solution for factor matrix in this implementation looks like:
 
 ![alt text](https://github.com/heyuan7676/ts_eQTLs/blob/master/output/sn_spMF_K17_a1100_l150/sn_spMF_FactorMatrix_K17_a1100_l150_Run25_factors.png)
 
