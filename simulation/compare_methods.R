@@ -86,7 +86,7 @@ compare_methods <- function(tau, seed, K = 5, savedir = 'simulation/output', dra
   }
   
   factors_cors = as.data.frame(factors_cors)
-  colnames(factors_cors) = c("l_corr", "f_corr", "accuracy", "precision", "recall")
+  colnames(factors_cors) = c("l_corr", "f_corr", "u_precision", "u_recall", "ts_precision", "ts_recall")
   factors_cors$method = names(result)
   return(factors_cors)
 }
