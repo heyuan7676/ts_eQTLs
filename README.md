@@ -139,7 +139,7 @@ Because the three parameters can collaboratively affect the decomposition result
 
 ##### 2.0 Choose the range of K (optional)
 
-We notice that the cophenetic coefficient can be affected by sparsity in the decomposed matrices given different settings of alpha1 and lambda1 with fixed K. To gain more stable matrix decomposition results, we compare the average cophenetic coefficient with multiple settings for alpha1 and lambda1. In the demo data, however, different implementations of K doesn't result in obvious difference in the cophenetic coefficient, and thus we decide in this situation not to filter on K. 
+We notice that the cophenetic coefficient can be affected by sparsity in the decomposed matrices given different settings of alpha1 and lambda1 with fixed K. To gain more stable matrix decomposition results, we compare the average cophenetic coefficient with multiple settings for alpha1 and lambda1. In the demo data, different implementations of K doesn't result in obvious difference in the cophenetic coefficient, and thus we decide in this situation not to filter on K. 
 
 ##### 2.1 Filter out implementations with low cophenetic coefficient
 
