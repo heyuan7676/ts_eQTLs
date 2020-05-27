@@ -17,6 +17,12 @@ metrics[is.na(metrics$u_recall), "u_recall"] = 0
 metrics[is.na(metrics$ts_precision), "ts_precision"] = 0
 metrics[is.na(metrics$ts_recall), "ts_recall"] = 0
 
+metrics$l_corr = abs(metrics$l_corr)
+metrics$f_corr = abs(metrics$f_corr)
+
+metrics$u_F1 = 1/(1/metrics$u_precision + 1/metrics$u_recall)
+metrics$ts_F1 = 1/(1/metrics$ts_precision + 1/metrics$ts_recall)
+
 
 evaluation_theme =  theme(axis.title.x = element_blank(),
                           axis.title.y = element_blank(),
@@ -76,6 +82,23 @@ ts_recall_plot = ggplot(data = metrics, aes(tau, ts_recall, fill = method)) +
   scale_fill_manual(values = mycolors) + 
   evaluation_theme
 
+
+u_F1_plot = ggplot(data = metrics, aes(tau, u_F1, fill = method)) + 
+  geom_boxplot(lwd=0.2, outlier.size = 0.2) + 
+  ggtitle("F1 score of u-eQTLs") + 
+  xlab("Precision of the error values") + 
+  ylab("") + 
+  scale_fill_manual(values = mycolors) + 
+  evaluation_theme
+
+
+ts_F1_plot = ggplot(data = metrics, aes(tau, ts_F1, fill = method)) + 
+  geom_boxplot(lwd=0.2, outlier.size = 0.2) + 
+  ggtitle("F1 score of ts-eQTLs") + 
+  xlab("Precision of the error values") + 
+  ylab("") + 
+  scale_fill_manual(values = mycolors) + 
+  evaluation_theme
 
 
 
