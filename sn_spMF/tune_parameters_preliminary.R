@@ -11,12 +11,9 @@ collect_results_preliminary <- function(outputdir, K, alpha1, lambda1){
         Fn = paste0('K', K, '_a1', alpha1, '_l1', lambda1);
         outputdir = file.path(outputdir, paste0('sn_spMF_', Fn));
 	outputFn = paste0(outputdir, '/sn_spMF_', Fn, '.RData');
-
 	load(outputFn);
-	factor_corr = cor(FactorM)
-	factor_corr = norm(factor_corr, 'F');
 
-	return(c(K, alpha1, lambda1, factor_corr, ncol(FactorM), L_sparsity, F_sparsity))
+	return(c(K, alpha1, lambda1, ncol(FactorM), L_sparsity, F_sparsity))
                                                                        
 }
 
@@ -35,7 +32,7 @@ for(K in c(10, 15, 20)){
 }
 
 result = as.data.frame(result)
-colnames(result) = c("K", "alpha1", "lambda1", "correlation", "nfactor", "L_sparsity", "F_sparsity")
+colnames(result) = c("K", "alpha1", "lambda1", "nfactor", "L_sparsity", "F_sparsity")
 write.table(result, paste0(opt$outputdir, opt$savefn), sep='\t', quote = F, row.names = F)
 
 
