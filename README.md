@@ -110,7 +110,7 @@ do
         do
                 for lambda1 in 1 10 100 500
                 do
-                        sbatch 1_run_parameter_scope_search.sh ${K} ${alpha1} ${lambda1} ${iterations}
+                        sbatch sn_spMF/1_run_parameter_scope_search.sh ${K} ${alpha1} ${lambda1} ${iterations}
                 done
         done
 done
@@ -136,7 +136,7 @@ do
                 do
                         a=$(( 10*alpha1 ))
                         l=$(( 10*lambda1 ))
-                        sbatch 2_choose_hyperparameters.sh ${K} ${a} ${l} ${iterations}
+                        sbatch sn_spMF/2_choose_hyperparameters.sh ${K} ${a} ${l} ${iterations}
                 done
         done
 done
