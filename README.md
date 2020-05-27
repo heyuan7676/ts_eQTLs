@@ -31,7 +31,7 @@ Rscript sn_spMF/run_MF.R -k 17 -a 100 -l 50 -t 100
 There are two important features of input files for sn_spMF:
 
 ##### 1). sn_spMF is able to learn the underlying patterns from subset of data
-For example, lead eQTLs among all eQTLs in the credible set. To demonstrate this, we provide the demo data as in ```data/test_data_X_all.txt``` and ```data/test_data_SE_all.txt```, and derived a subset of all the eQTLs as in ```data/test_data_X.txt``` and ```data/test_data_SE.txt```. We used the subset of datapoints to learn the factor matrix, and then map all eQTLs to the factors.
+For example, lead eQTLs among all eQTLs in the credible set. To demonstrate this, we provide the demo data as in ```data/test_data_X_all.txt``` and ```data/test_data_SE_all.txt```, and derived a subset of all the eQTLs as in ```data/test_data_X.txt``` and ```data/test_data_SE.txt```. We used the subset of data points to learn the factor matrix, and then map all eQTLs to the factors.
 
 ##### 2). Allow missing data in the input. 
 For each data point (or eQTL), it can have missing data in various tissues. Removing data points with any missing data will not only loss information, but also cause bias by focusing more on the shared eQTLs. sn_spMF takes care of missing data by assigning weights of zero when computing the objective, and thus avoid removing missing data. 
@@ -39,7 +39,7 @@ For each data point (or eQTL), it can have missing data in various tissues. Remo
 
 ##### Demo of the input files.
 
-```data/test_data_X.txt```: each row contains the effect size of an eQTL across tissues; the first two columns are gene names and SNP names for the eQTLs, and following columns are the features to learn patterns about, (tissues in the demo, can be time points in time-series data, or cells in single cell data). Missing data are presented as NA. Columns are seperated by '\t'. 
+```data/test_data_X.txt```: each row contains the effect size of an eQTL across tissues; the first two columns are gene names and SNP names for the eQTLs, and following columns are the features to learn patterns about, (tissues in the demo, can be time points in time-series data, or cells in single cell data). Missing data are presented as NA. Columns are separated by '\t'. 
 
 ```
 Gene	SNP	Adipose_Subcutaneous	Adipose_Visceral_Omentum	Adrenal_Gland	Artery_Aorta
@@ -52,7 +52,7 @@ Gene6	SNP6	0.133723	0.0933188	0.103415	-0.15649
 ```
 
 
-```data/test_data_W.txt```: each row contains the weight (reciprical of standard error of the effect size) of an eQTL across tissues. Columns should be aligned with the columns in ```data/test_data_X.txt```.
+```data/test_data_W.txt```: each row contains the weight (reciprocal of standard error of the effect size) of an eQTL across tissues. Columns should be aligned with the columns in ```data/test_data_X.txt```.
 
 ```
 Gene	SNP	Adipose_Subcutaneous	Adipose_Visceral_Omentum	Adrenal_Gland	Artery_Aorta
@@ -66,12 +66,12 @@ Gene1	SNP6	0.114314	0.112615	0.182777	0.147263
 
 ### Output
 
-User can find the learned factor matrix in output/sn_spMF_K17_a1100_l150/sn_spMF_K17_a1100_l150.\* including the plotted factors. The output dir can be specificed using ```-O``` when running  ```sn_spMF/run_MF.R```.
+Users can find the learned factor matrix in output/sn_spMF_K17_a1100_l150/sn_spMF_K17_a1100_l150.\* including the plotted factors. The output dir can be specified using ```-O``` when running  ```sn_spMF/run_MF.R```.
 
 
-## (Optional) Multiple intializations
+## (Optional) Multiple initializations
 
-Because random initializations can result in different decomposition solutions, we recommend running the decomposition multiple times (ie. 30 times), and obtain the optimal solution using the decomposition with minimum objective value. User can run the following to extract the solution with optimal objective (saved in ```output/sn_spMF_K17_a1100_l150/*RData``` by default, can be changed using the ```-O``` argument), or extract the solution with optimal objective from the model selection step (see below, section "Model Selection").
+Because random initializations can result in different decomposition solutions, we recommend running the decomposition multiple times (ie. 30 times), and obtain the optimal solution using the decomposition with minimum objective value. Users can run the following to extract the solution with optimal objective (saved in ```output/sn_spMF_K17_a1100_l150/*RData``` by default, can be changed using the ```-O``` argument), or extract the solution with optimal objective from the model selection step (see below, section "Model Selection").
 
 ```
 ## Run intialization multiple times
@@ -119,13 +119,13 @@ To collect the results from multiple runs, user can run the following command. T
 Rscript sn_spMF/tune_parameters_preliminary.R -f choose_para_preliminary.txt
 ```
 
-When examine the output file ```output/choose_para_preliminary.txt```, we observe that ```alpha1``` and ```lambda1``` of either ```1``` or ```10``` result in factor matrix denser than we expect (in this situation, the sparsity of the factor matrix is around 10% - 50%). On the other hand, ```alpha1``` and ```lambda1``` of ```500``` cause much less non-zero factors than assigned (for example, ```K=10, alpha1=500, lambda1=1``` result in ```6``` non-zero factors).  ```alpha1``` and ```lambda1``` of ```10``` or ```100``` appear to read a balance between sparsity in the factor matrix and number of non-zero factors. ```K=10``` result in most soluations with ```10``` factors, while ```K=20``` result in most solutions with less than ```20``` factors. This shows that searching between ```10``` and ```20``` for ```K``` is reasonable in this situation. Thus we proceed to perform grid search for ```alpha1``` and ```lambda1``` in the range of ```10``` to ```100```, and ```K``` in the range of ```10``` to ```20``` .
+When examine the output file ```output/choose_para_preliminary.txt```, we observe that ```alpha1``` and ```lambda1``` of either ```1``` or ```10``` result in factor matrix denser than we expect (in this situation, the sparsity of the factor matrix is around 10% - 50%). On the other hand, ```alpha1``` and ```lambda1``` of ```500``` cause much less non-zero factors than assigned (for example, ```K=10, alpha1=500, lambda1=1``` result in ```6``` non-zero factors).  ```alpha1``` and ```lambda1``` of ```10``` or ```100``` appear to read a balance between sparsity in the factor matrix and number of non-zero factors. ```K=10``` results in most solutions with ```10``` factors, while ```K=20``` results in most solutions with less than ```20``` factors. This shows that searching between ```10``` and ```20``` for ```K``` is reasonable in this situation. Thus we proceed to perform grid search for ```alpha1``` and ```lambda1``` in the range of ```10``` to ```100```, and ```K``` in the range of ```10``` to ```20``` .
 
 
 
 #### 2. Refine the hyper-parameter selection
 
-With the learned range of hyper-parameters, we continue to look in finer grids. For example, run the scripts for alpha1 and lambda1 in [10, 20, 30, … 100]. An example to perform this step is as below. Detailed description of arguments in the model are described in sn_spMF/.
+With the learned range of hyper-parameters, we continue to look in finer grids. For example, run the scripts for alpha1 and lambda1 in [10, 20, 30, … 100]. An example to perform this step is as below. Detailed descriptions of arguments in the model are described in sn_spMF/.
 ```
 iterations=100
 for K in {10..20}
@@ -142,7 +142,7 @@ do
 done
 ```
 
-To collect the results from multiple runs, user can run the following command. The output will be saved in ```output/choose_para.txt```.
+To collect the results from multiple runs, users can run the following command. The output will be saved in ```output/choose_para.txt```.
 ```
 Rscript sn_spMF/tune_parameters.R -f choose_para.txt
 ```
@@ -154,7 +154,7 @@ Because the three parameters can collaboratively affect the decomposition result
 
 We notice that the cophenetic coefficient can be affected by sparsity in the decomposed matrices given different settings of alpha1 and lambda1 with fixed K. To gain more stable matrix decomposition results, we compare the average cophenetic coefficient with multiple settings for alpha1 and lambda1. 
 
-In the demo data, different implementations of K doesn't result in obvious difference in the cophenetic coefficient, and thus we do not to filter on K. However, We observe that some implementations push factors to be zero and thus the real number of factors reached is different from the assigned number of factors. We choose number of learned factors to be those with median cophenetic coefficient > 0.9. 
+In the demo data, different implementations of K doesn't result in an obvious difference in the cophenetic coefficient, and thus we do not filter on K. However, We observe that some implementations push factors to be zero and thus the real number of factors reached is different from the assigned number of factors. We choose the number of learned factors to be those with median cophenetic coefficient > 0.9. 
 
 ![alt text](https://github.com/heyuan7676/ts_eQTLs/blob/master/output/choose_para_K.png)
 ![alt text](https://github.com/heyuan7676/ts_eQTLs/blob/master/output/choose_para_nFactors.png)
@@ -171,7 +171,7 @@ Because factors are expected to be independent of each other, to alleviate multi
 
 ## Examine the optimal solution.
 
-By examining the tuning results in ```choose_paras_sn_spMF.ipynb```, we find that ```sn_spMF_FactorMatrix_K17_a1100_l150``` is the optimal setting of hyper-parameters. Among the 30 runs using this implementation, ```run25``` gives the optimal solution with the minimum objective. User can find the learned factor matrix in ``` output/sn_spMF_K17_a1100_l150/sn_spMF_K17_a1100_l150_Run25.*```, including the plotted factors. 
+By examining the tuning results in ```choose_paras_sn_spMF.ipynb```, we find that ```sn_spMF_FactorMatrix_K17_a1100_l150``` is the optimal setting of hyper-parameters. Among the 30 runs using this implementation, ```run25``` gives the optimal solution with the minimum objective. Users can find the learned factor matrix in ``` output/sn_spMF_K17_a1100_l150/sn_spMF_K17_a1100_l150_Run25.*```, including the plotted factors. 
 
 The resulting optimal solution for factor matrix looks like:
 
@@ -181,7 +181,7 @@ The resulting optimal solution for factor matrix looks like:
 
 
 ## Map eQTLs to factors.
-After user have chosen the optimal hyper-parameters (```${FM_fn}```), please run the following command to map the eQTLs to the learned factors. The script automatically chose the solution with optimal objective if multiple solutions exist. The mapped eQTLs are in ```output/mapping/``` by default or can be specified by ```-m ${mappingDir}```. Details can be found in ```mapping/lm.R```.
+After user have chosen the optimal hyper-parameters (```${FM_fn}```), please run the following command to map the eQTLs to the learned factors. The script automatically chooses the solution with the optimal objective if multiple solutions exist. The mapped eQTLs are in ```output/mapping/``` by default or can be specified by ```-m ${mappingDir}```. Details can be found in ```mapping/lm.R```.
 
 ```
 K=17
