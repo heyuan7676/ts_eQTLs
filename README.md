@@ -28,7 +28,7 @@ Rscript sn_spMF/run_MF.R -k 17 -a 100 -l 50 -t 100
 ```
 
 ### Input
-There are two important features of sn_spMF:
+There are two important features of input files for sn_spMF:
 
 ##### 1). sn_spMF is able to learn the underlying patterns from subset of data
 For example, lead eQTLs among all eQTLs in the credible set. To demonstrate this, we provide the demo data as in ```data/test_data_X_all.txt``` and ```data/test_data_SE_all.txt```, and derived a subset of all the eQTLs as in ```data/test_data_X.txt``` and ```data/test_data_SE.txt```. We used the subset of datapoints to learn the factor matrix, and then map all eQTLs to the factors.
