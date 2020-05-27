@@ -122,7 +122,7 @@ run_one_iter <- function(X, W, option, outputdir, outputFn, draw_factor){
         # store results
 	rownames(FactorM) = colnames(X);
         Fn = paste0(outputdir, '/sn_spMF_',outputFn, '.RData');
-        save(alpha1, lambda1, K, FactorM, objective, file = Fn);
+        save(alpha1, lambda1, K, FactorM, objective, F_sparsity, L_sparsity, file = Fn);
 
         factorFn = paste0(outputdir, '/sn_spMF_FactorMatrix_',outputFn, '.txt');
         write.table(FactorM, factorFn, sep='\t', quote = F);
