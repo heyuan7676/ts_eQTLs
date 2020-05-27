@@ -95,7 +95,7 @@ Model selection is one of challenging steps in constructing matrix factorization
 
 #### 1. Narrow down the range of hyper-parameters 
 
-When first running the algorithm, it may be completely unclear how to choose the appropriate range to search for hyper-parameters. We recommend first searching for the appropriate range, by 1). running the scripts in well-separated numerical ranges, like choose from [1, 10, 100, 500, 1000]; and 2).  setting the number of iterations to a moderate number since there is no need to reach accurate results. 
+When first running the algorithm, it may be completely unclear how to choose the appropriate range to search for hyper-parameters. We recommend first searching for the appropriate range, by 1). running the scripts in well-separated numerical ranges, like choose from [1, 10, 100, 500]; and 2).  setting the number of iterations to a moderate number since there is no need to reach accurate results. 
 
 If the number of factors become much smaller than the initial number of factors to start with (ie. a lot of factors become empty), it means that the penalty parameters are too stringent. Usually we have an estimated level of sparsity, for example, around 80%, for the loading matrix and factor matrix. If the reported sparsity is far below the expected sparsity (ie. 20%), it means that the penalty parameters are too small. Based on the initial round of searching, we should have the range to search for. 
 
