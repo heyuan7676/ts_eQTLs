@@ -19,7 +19,7 @@ evaluate_error <- function(trueL, trueF, lp, fp, sig_hits){
   }
   
   ord_sum = f_cor + l_cor
-  ord = which.max(abs(ord_sum))
+  ord = which.max(ord_sum)
   lp = lp[,ordering[[ord]]]
   fp = fp[,ordering[[ord]]]
   sig_hits = sig_hits[, ordering[[ord]]]

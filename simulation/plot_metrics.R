@@ -6,11 +6,10 @@ suppressWarnings(library(cowplot))
 
 
 metrics = read.table('simulation/output/metrics/metrics.txt', sep=' ', header=T, stringsAsFactors = F)
-metrics = metrics[metrics$tau != 1, ]
+metrics = metrics[metrics$tau %in% c(10, 20, 100, 1000), ]
 metrics$method = factor(metrics$method, 
                            levels = c("sn_spMF", "flashr_nn", "flashr_backfit","flashr_default",
-                                      "softImpute", "PCA", "SSVD", 
-                                      "PMA_cv1", "PMA_cv2","NMF", "NBSFA"))
+                                      "softImpute", "PMA_cv1", "PMA_cv2", "PCA", "SSVD", "NMF", "NBSFA"))
 metrics$tau = factor(metrics$tau)
 metrics[is.na(metrics$u_precision), "u_precision"] = 0
 metrics[is.na(metrics$u_recall), "u_recall"] = 0
@@ -94,12 +93,11 @@ u_F1_plot = ggplot(data = metrics, aes(tau, u_F1, fill = method)) +
 
 ts_F1_plot = ggplot(data = metrics, aes(tau, ts_F1, fill = method)) + 
   geom_boxplot(lwd=0.2, outlier.size = 0.2) + 
-  ggtitle("F1 score of ts-eQTLs") + 
+  ggtitle("F1-score of ts-eQTLs") + 
   xlab("Precision of the error values") + 
   ylab("") + 
   scale_fill_manual(values = mycolors) + 
   evaluation_theme
-
 
 
 g = ggdraw() + 

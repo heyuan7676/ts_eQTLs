@@ -28,9 +28,6 @@ fit_significant_hits <- function(F_C, FM_fn_save, xfilename = 'simulation/input/
 
 	## Perform BH-correction
 	adj_pvalue(Betas, pValues, FM_fn_save, mappingDir)
-
-
-	## remove compensave effects
 	Data = readin_XWBF(FM_fn_save, xfn=xfilename, wfn=wfilename, 
 		   mapping_output_dir = mappingDir, factor_output_dir = factorDir, F_C = F_C)
 	X = Data[[1]]
@@ -38,15 +35,6 @@ fit_significant_hits <- function(F_C, FM_fn_save, xfilename = 'simulation/input/
 	B = Data[[3]]
 	FactorM = Data[[4]]
 
-	B_correct = correct_B(X, W, B, FactorM)
-
-	## save results
-	outFN = paste0(mappingDir, '/mapping_', FM_fn_save, '_Loadings_beta_alpha0.05_corrected.txt')
-	print(outFN)
-	write.table(B_correct, outFN, sep='\t', quote = F)
-
-	print('Proportion of eQTLs that load on each factor')
-	print(apply(B_correct, 2, function(x) sum(x!=0)) / nrow(B_correct))
 
 	return(as.matrix(B))
 }

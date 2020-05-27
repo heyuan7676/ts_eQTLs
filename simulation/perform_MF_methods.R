@@ -139,7 +139,11 @@ perform_MF_methods <- function(X, true_l, true_f, method, rankK = NULL, bnm = NU
   ## get the significant data points
   xfn = paste0("simulation/input/Input_",bnm,"_X.txt")
   wfn = paste0("simulation/input/Input_",bnm,"_W.txt")
-  sig_dp  = fit_significant_hits(as.matrix(f_hat),paste0(bnm, '_', method), xfn, wfn)
+  if(method == 'NMF'){
+	  sig_dp = l_hat
+  }else{
+	  sig_dp = fit_significant_hits(as.matrix(f_hat),paste0(bnm, '_', method), xfn, wfn)
+  }
 
   metrics = evaluate_error(true_l, true_f, l_hat, f_hat, sig_dp)
   cat('\n')
