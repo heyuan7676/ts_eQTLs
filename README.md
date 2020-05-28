@@ -22,7 +22,7 @@ install.packages('lemon')
 ```
 
 ## Run the sn_spMF model
-To get the result for one run, please run the following command. Details can be found in ```run_MF.R```.
+To get the result for one run, please run the following command. Details can be found in ```sn_spMF/run_MF.R```.
 ```
 Rscript sn_spMF/run_MF.R -k 17 -a 100 -l 50 -t 100
 ```
