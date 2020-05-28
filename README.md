@@ -83,7 +83,7 @@ Rscript sn_spMF/find_optimal.R -k 17 -a 100 -l 50
 
 The resulting optimal solution for factor matrix in this implementation looks like:
 
-![alt text](https://github.com/heyuan7676/ts_eQTLs/blob/master/output/sn_spMF_FactorMatrix_K17_a1100_l150_Run25_with_legends.png)
+![alt text](https://github.com/heyuan7676/ts_eQTLs/blob/master/output/sn_spMF_K17_a1100_l150/sn_spMF_FactorMatrix_K17_a1100_l150_Run25_with_legends.png)
 ## Model selection
 
 
