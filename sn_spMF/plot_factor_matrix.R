@@ -131,17 +131,17 @@ plot_factor <- function(Factor_fn, plot_panel_names = F){
     theme(strip.text.x = element_text(size = 6)) + 
     theme(axis.ticks.x =element_blank()) + 
     theme(axis.text.x = element_blank()) +
-    theme(axis.text.y =element_text(size = 10)) +
-    theme(axis.title.x = element_text(size = 10)) + 
-    theme(axis.title.y = element_text(size = 10)) + 
+    theme(axis.text.y =element_text(size = 6)) +
+    theme(axis.title.x = element_text(size = 8)) + 
+    theme(axis.title.y = element_text(size = 8)) + 
     theme(legend.position = "none")  + 
     background_grid(major = 'xy', minor = 'none')  + 
     ylim(min(0, min(factor_bar_df$value) - abs(min(factor_bar_df$value)) * 0.2),
          max(abs(factor_bar_df$value)) * 1.2)
   
   save_fn = gsub('.txt', '_factors.png', Factor_fn)
-  png(save_fn, height = 250 * ceiling((ncol(factor_matrix)-1) / 4),
-      width = 800, res = 200)
+  png(save_fn, height = 180 * ceiling((ncol(factor_matrix)-1) / 4),
+      width = 600, res = 200)
   print(fig_factors)
   dev.off()
 }
