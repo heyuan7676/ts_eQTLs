@@ -1,0 +1,9 @@
+https://www.encodeproject.org/files/ENCFF190OOC/@@download/ENCFF190OOC.bed.gz
+https://www.encodeproject.org/files/ENCFF054LJI/@@download/ENCFF054LJI.bed.gz
+https://www.encodeproject.org/files/ENCFF920KUR/@@download/ENCFF920KUR.bed.gz
+https://www.encodeproject.org/files/ENCFF542PBZ/@@download/ENCFF542PBZ.bed.gz
+https://www.encodeproject.org/files/ENCFF566VFL/@@download/ENCFF566VFL.bed.gz
+https://www.encodeproject.org/files/ENCFF505CKO/@@download/ENCFF505CKO.bed.gz
+https://www.encodeproject.org/files/ENCFF271IHR/@@download/ENCFF271IHR.bed.gz
+https://www.encodeproject.org/files/ENCFF265QJE/@@download/ENCFF265QJE.bed.gz
+https://www.encodeproject.org/files/ENCFF608EGM/@@download/ENCFF608EGM.bed.gz

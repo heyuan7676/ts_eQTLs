@@ -1,0 +1,3098 @@
+ENCFF002HBC.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Pancreas_hg19_H3K4me1-human_ENCFF002HBC.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF003TGE.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Lung_hg19_H3K27ac-human_ENCFF003TGE.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF006NWN.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Adrenal_Gland_hg19_H3K4me1-human_ENCFF006NWN.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF006QNM.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Muscle_Skeletal_hg19_H3K27me3-human_ENCFF006QNM.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF008FVK.bed
+ENCFF008QBO.bed
+ENCFF011QCH.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Small_Intestine_Terminal_Ileum_hg19_H3K4me3-human_ENCFF011QCH.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF012TFR.bed
+ENCFF016BPM.bed
+ENCFF019FWQ.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Brain_hg19_H3K27me3-human_ENCFF019FWQ.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF022OTW.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Pancreas_hg19_H3K27ac-human_ENCFF022OTW.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF022QUU.bed
+ENCFF024DNX.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Adrenal_Gland_hg19_H3K9me3-human_ENCFF024DNX.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF024MIJ.bed
+ENCFF024WLD.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Adrenal_Gland_hg19_H3K4me3-human_ENCFF024WLD.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF025CBV.bed
+ENCFF025RHX.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Artery_Aorta_hg19_H3K9me3-human_ENCFF025RHX.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF027HBT.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Muscle_Skeletal_hg19_H3K4me3-human_ENCFF027HBT.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF028YXN.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Artery_Aorta_hg19_H3K4me1-human_ENCFF028YXN.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF030MBV.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Brain_Caudate_basal_ganglia_hg19_H3K9ac-human_ENCFF030MBV.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF031AYV.bed
+ENCFF031QWK.bed
+ENCFF033CCP.bed
+ENCFF033JBF.bed
+ENCFF034ODI.bed
+ENCFF036RRX.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Spleen_hg19_H3K27me3-human_ENCFF036RRX.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF037JVA.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Kidney_Cortex_hg19_H3K4me1-human_ENCFF037JVA.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF038UET.bed
+ENCFF040EBA.bed
+ENCFF040XZW.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Esophagus_Mucosa_hg19_H3K36me3-human_ENCFF040XZW.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF041DZF.bed
+ENCFF041JIT.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Kidney_Cortex_hg19_H3K4me3-human_ENCFF041JIT.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF043CJJ.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Brain_Substantia_nigra_hg19_H3K36me3-human_ENCFF043CJJ.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF043ZXO.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Lung_hg19_H3K4me3-human_ENCFF043ZXO.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF046HVJ.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Muscle_Skeletal_hg19_H3K36me3-human_ENCFF046HVJ.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF049ROL.bed
+ENCFF055FKA.bed
+ENCFF057AAX.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Brain_Anterior_cingulate_cortex_BA24_hg19_H3K9me3-human_ENCFF057AAX.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF057LJS.bed
+ENCFF058OIV.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Heart_Left_Ventricle_hg19_H3K4me1-human_ENCFF058OIV.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF059AYI.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Brain_Caudate_basal_ganglia_hg19_H3K9me3-human_ENCFF059AYI.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF061IAV.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Heart_Left_Ventricle_hg19_H3K4me1-human_ENCFF061IAV.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF061WTD.bed
+ENCFF062VBT.bed
+ENCFF064BQP.bed
+ENCFF064KHS.bed
+ENCFF064RIS.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Pancreas_hg19_H3K4me3-human_ENCFF064RIS.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF065FJK.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Breast_Mammary_Tissue_hg19_H3K9me3-human_ENCFF065FJK.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF065NRN.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Liver_hg19_H3K4me3-human_ENCFF065NRN.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF067XCB.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Brain_Substantia_nigra_hg19_H3K27me3-human_ENCFF067XCB.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF068VQW.bed
+ENCFF069JMZ.bed
+ENCFF073RWP.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Small_Intestine_Terminal_Ileum_hg19_H3K9me3-human_ENCFF073RWP.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF076SMI.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Spleen_hg19_H3K4me3-human_ENCFF076SMI.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF077WRT.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Brain_Caudate_basal_ganglia_hg19_H3K27ac-human_ENCFF077WRT.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF079KZE.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Esophagus_Mucosa_hg19_H3K4me1-human_ENCFF079KZE.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF081NOL.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Stomach_hg19_H3K27ac-human_ENCFF081NOL.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF081SHE.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Kidney_Cortex_hg19_H3K9me3-human_ENCFF081SHE.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF081WWW.bed
+ENCFF082KXY.bed
+ENCFF082NHA.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Lung_hg19_H3K27me3-human_ENCFF082NHA.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF082RGY.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Brain_Caudate_basal_ganglia_hg19_H3K27me3-human_ENCFF082RGY.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF082SZC.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Artery_Aorta_hg19_H3K27me3-human_ENCFF082SZC.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF083WSW.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Artery_Aorta_hg19_H3K4me1-human_ENCFF083WSW.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF086QMV.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Heart_Left_Ventricle_hg19_H3K4me3-human_ENCFF086QMV.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF086VAY.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Thyroid_hg19_H3K27ac-human_ENCFF086VAY.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF086YUN.bed
+ENCFF089WHI.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Spleen_hg19_H3K9me3-human_ENCFF089WHI.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF090IRS.bed
+ENCFF090ISC.bed
+ENCFF091XVG.bed
+ENCFF092UZN.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Adrenal_Gland_hg19_H3K9me3-human_ENCFF092UZN.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF093DSS.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Thyroid_hg19_H3K27ac-human_ENCFF093DSS.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF094LHG.bed
+ENCFF094TOI.bed
+ENCFF098WLV.bed
+ENCFF100QRG.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Adrenal_Gland_hg19_H3K4me1-human_ENCFF100QRG.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF101NFQ.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Pancreas_hg19_H3K27ac-human_ENCFF101NFQ.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF101VMB.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Heart_Atrial_Appendage_hg19_H3K27ac-human_ENCFF101VMB.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF102LRI.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Artery_Aorta_hg19_H3K9me3-human_ENCFF102LRI.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF104UTM.bed
+ENCFF106GCW.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Stomach_hg19_H3K36me3-human_ENCFF106GCW.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF109HTK.bed
+ENCFF110BLF.bed
+ENCFF110DNE.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Brain_Anterior_cingulate_cortex_BA24_hg19_H3K36me3-human_ENCFF110DNE.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF112HLL.bed
+ENCFF112KOT.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Heart_Left_Ventricle_hg19_H3K36me3-human_ENCFF112KOT.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF113HTN.bed
+ENCFF115DDQ.bed
+ENCFF115EFP.bed
+ENCFF115FNK.bed
+ENCFF115GLO.bed
+ENCFF116CRQ.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Heart_Left_Ventricle_hg19_H3K4me3-human_ENCFF116CRQ.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF119GOD.bed
+ENCFF119JPA.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Uterus_hg19_H3K27me3-human_ENCFF119JPA.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF120LRR.bed
+ENCFF120MEZ.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Muscle_Skeletal_hg19_H3K4me1-human_ENCFF120MEZ.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF120ZLS.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Adrenal_Gland_hg19_H3K36me3-human_ENCFF120ZLS.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF122SGW.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Nerve_Tibial_hg19_H3K4me1-human_ENCFF122SGW.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF124AQU.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Heart_Left_Ventricle_hg19_H3K27ac-human_ENCFF124AQU.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF124CRU.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Brain_Caudate_basal_ganglia_hg19_H3K27me3-human_ENCFF124CRU.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF124NAM.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Pancreas_hg19_H3K9me3-human_ENCFF124NAM.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF125MMY.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Stomach_hg19_H3K9ac-human_ENCFF125MMY.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF126NVW.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Nerve_Tibial_hg19_H3K9me3-human_ENCFF126NVW.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF127CCY.bed
+ENCFF127EBG.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Stomach_hg19_H3K4me3-human_ENCFF127EBG.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF127EFK.bed
+ENCFF127FEO.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Muscle_Skeletal_hg19_H3K27me3-human_ENCFF127FEO.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF127KUW.bed
+ENCFF127OKE.bed
+ENCFF128PPS.bed
+ENCFF128PTM.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Liver_hg19_H3K9ac-human_ENCFF128PTM.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF129HDT.bed
+ENCFF130AWQ.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Artery_Coronary_hg19_H3K27ac-human_ENCFF130AWQ.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF134SOM.bed
+ENCFF134ZIJ.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Heart_Left_Ventricle_hg19_H3K27ac-human_ENCFF134ZIJ.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF135MHG.bed
+ENCFF137LHG.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Heart_Left_Ventricle_hg19_H3K9me3-human_ENCFF137LHG.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF137PKI.bed
+ENCFF137PNE.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Muscle_Skeletal_hg19_H3K27me3-human_ENCFF137PNE.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF138IFV.bed
+ENCFF138NLK.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Brain_hg19_H3K4me1-human_ENCFF138NLK.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF138ZPL.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Spleen_hg19_H3K4me1-human_ENCFF138ZPL.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF141PYQ.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Esophagus_Mucosa_hg19_H3K27me3-human_ENCFF141PYQ.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF142DVG.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Kidney_Cortex_hg19_H3K9me3-human_ENCFF142DVG.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF142ZXD.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Lung_hg19_H3K4me3-human_ENCFF142ZXD.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF143HAZ.bed
+ENCFF144AWO.bed
+ENCFF147VOD.bed
+ENCFF148VCZ.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Artery_Aorta_hg19_H3K4me1-human_ENCFF148VCZ.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF150HCJ.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Artery_Tibial_hg19_H3K36me3-human_ENCFF150HCJ.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF152JGG.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Stomach_hg19_H3K27ac-human_ENCFF152JGG.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF153MCW.bed
+ENCFF154XFN.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Breast_Mammary_Tissue_hg19_H3K27ac-human_ENCFF154XFN.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF154ZVX.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Spleen_hg19_H3K36me3-human_ENCFF154ZVX.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF155RRF.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Esophagus_Gastroesophageal_Junction_hg19_H3K4me3-human_ENCFF155RRF.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF158FZE.bed
+ENCFF164CBW.bed
+ENCFF166XXQ.bed
+ENCFF167QYC.bed
+ENCFF168FBQ.bed
+ENCFF170EQJ.bed
+ENCFF172DTZ.bed
+ENCFF172SAU.bed
+ENCFF172XKG.bed
+ENCFF174BKG.bed
+ENCFF174YFY.bed
+ENCFF175CMC.bed
+ENCFF175SDM.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Heart_Left_Ventricle_hg19_H3K27ac-human_ENCFF175SDM.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF175WXE.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Muscle_Skeletal_hg19_H3K4me3-human_ENCFF175WXE.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF177IQG.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Adrenal_Gland_hg19_H3K36me3-human_ENCFF177IQG.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF177QOB.bed
+ENCFF177WNT.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Esophagus_Gastroesophageal_Junction_hg19_H3K27ac-human_ENCFF177WNT.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF177ZAI.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Heart_Left_Ventricle_hg19_H3K4me1-human_ENCFF177ZAI.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF179UDS.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Esophagus_Mucosa_hg19_H3K27me3-human_ENCFF179UDS.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF181IUT.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Liver_hg19_H3K9me3-human_ENCFF181IUT.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF181LKF.bed
+ENCFF181QUT.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Esophagus_Mucosa_hg19_H3K9me3-human_ENCFF181QUT.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF183KCA.bed
+ENCFF184RGA.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Thyroid_hg19_H3K9me3-human_ENCFF184RGA.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF185XYP.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Adrenal_Gland_hg19_H3K36me3-human_ENCFF185XYP.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF185YLC.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Thyroid_hg19_H3K4me3-human_ENCFF185YLC.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF187FTQ.bed
+ENCFF187KWD.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Esophagus_Mucosa_hg19_H3K27ac-human_ENCFF187KWD.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF190APW.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Stomach_hg19_H3K4me1-human_ENCFF190APW.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF190LIL.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Adrenal_Gland_hg19_H3K4me1-human_ENCFF190LIL.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF190SES.bed
+ENCFF191KLY.bed
+ENCFF191PRP.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Muscle_Skeletal_hg19_H3K27me3-human_ENCFF191PRP.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF191TPX.bed
+ENCFF191ZYA.bed
+ENCFF192CWN.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Nerve_Tibial_hg19_H3K4me3-human_ENCFF192CWN.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF193BKF.bed
+ENCFF194BNH.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Stomach_hg19_H3K4me1-human_ENCFF194BNH.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF194BYC.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Uterus_hg19_H3K9me3-human_ENCFF194BYC.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF194RXY.bed
+ENCFF195GUO.bed
+ENCFF195GVY.bed
+ENCFF195VBI.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Artery_Aorta_hg19_H3K27ac-human_ENCFF195VBI.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF196WLN.bed
+ENCFF198OBU.bed
+ENCFF199BLM.bed
+ENCFF200FSX.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Nerve_Tibial_hg19_H3K36me3-human_ENCFF200FSX.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF205XAG.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Nerve_Tibial_hg19_H3K36me3-human_ENCFF205XAG.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF207APK.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Spleen_hg19_H3K9me3-human_ENCFF207APK.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF209YRO.bed
+ENCFF211TMI.bed
+ENCFF211WEH.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Nerve_Tibial_hg19_H3K27ac-human_ENCFF211WEH.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF213LSU.bed
+ENCFF214WMR.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Brain_Substantia_nigra_hg19_H3K4me1-human_ENCFF214WMR.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF216OKG.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Kidney_Cortex_hg19_H3K36me3-human_ENCFF216OKG.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF216VYV.bed
+ENCFF218HXK.bed
+ENCFF220HID.bed
+ENCFF221JVE.bed
+ENCFF221LDE.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Nerve_Tibial_hg19_H3K27ac-human_ENCFF221LDE.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF222STA.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Brain_hg19_H3K36me3-human_ENCFF222STA.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF223TQT.bed
+ENCFF223WWD.bed
+ENCFF224MXB.bed
+ENCFF225GLV.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Brain_Substantia_nigra_hg19_H3K4me3-human_ENCFF225GLV.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF227EUU.bed
+ENCFF227ZLQ.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Pancreas_hg19_H3K27ac-human_ENCFF227ZLQ.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF228FJJ.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Thyroid_hg19_H3K4me3-human_ENCFF228FJJ.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF228NTW.bed
+ENCFF229DOE.bed
+ENCFF229WDT.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Brain_hg19_H3K9me3-human_ENCFF229WDT.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF229WOV.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Lung_hg19_H3K36me3-human_ENCFF229WOV.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF231LMG.bed
+ENCFF232JVH.bed
+ENCFF233IPB.bed
+ENCFF233OUN.bed
+ENCFF234QOT.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Liver_hg19_H3K27ac-human_ENCFF234QOT.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF235QPP.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Lung_hg19_H3K4me3-human_ENCFF235QPP.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF235UQM.bed
+ENCFF235VTD.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Esophagus_Mucosa_hg19_H3K9me3-human_ENCFF235VTD.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF235YBD.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Esophagus_Mucosa_hg19_H3K9me3-human_ENCFF235YBD.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF236GGM.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Thyroid_hg19_H3K4me1-human_ENCFF236GGM.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF237EFK.bed
+ENCFF237ULP.bed
+ENCFF238DFW.bed
+ENCFF238TKE.bed
+ENCFF238WJP.bed
+ENCFF239IDL.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Brain_Anterior_cingulate_cortex_BA24_hg19_H3K27ac-human_ENCFF239IDL.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF239UQE.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Liver_hg19_H3K9me3-human_ENCFF239UQE.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF240JAW.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Pancreas_hg19_H3K36me3-human_ENCFF240JAW.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF241BJV.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Brain_Substantia_nigra_hg19_H3K9me3-human_ENCFF241BJV.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF243OUA.bed
+ENCFF243YCB.bed
+ENCFF245RGH.bed
+ENCFF246KJY.bed
+ENCFF251MOP.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Artery_Aorta_hg19_H3K27me3-human_ENCFF251MOP.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF253OXB.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Heart_Atrial_Appendage_hg19_H3K9me3-human_ENCFF253OXB.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF253UKG.bed
+ENCFF255EYP.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Liver_hg19_H3K36me3-human_ENCFF255EYP.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF256RCY.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Thyroid_hg19_H3K4me3-human_ENCFF256RCY.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF257ACE.bed
+ENCFF257HFC.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Lung_hg19_H3K27me3-human_ENCFF257HFC.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF257TOG.bed
+ENCFF257XEM.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Adrenal_Gland_hg19_H3K27ac-human_ENCFF257XEM.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF258ZRC.bed
+ENCFF259QHQ.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Stomach_hg19_H3K4me1-human_ENCFF259QHQ.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF260ODB.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Esophagus_Mucosa_hg19_H3K9me3-human_ENCFF260ODB.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF261CHY.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Stomach_hg19_H3K4me3-human_ENCFF261CHY.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF261SKG.bed
+ENCFF264JSP.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Heart_Left_Ventricle_hg19_H3K4me1-human_ENCFF264JSP.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF264TVA.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Small_Intestine_Terminal_Ileum_hg19_H3K27ac-human_ENCFF264TVA.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF264YCO.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Adrenal_Gland_hg19_H3K27ac-human_ENCFF264YCO.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF265BRU.bed
+ENCFF265IZO.bed
+ENCFF265NUN.bed
+ENCFF266FCG.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Heart_Left_Ventricle_hg19_H3K4me1-human_ENCFF266FCG.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF267LPH.bed
+ENCFF267XRX.bed
+ENCFF268EZG.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Small_Intestine_Terminal_Ileum_hg19_H3K4me3-human_ENCFF268EZG.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF268OSV.bed
+ENCFF268VOS.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Esophagus_Mucosa_hg19_H3K36me3-human_ENCFF268VOS.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF270TPE.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Vagina_hg19_H3K36me3-human_ENCFF270TPE.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF270YSJ.bed
+ENCFF273ZIG.bed
+ENCFF274KHB.bed
+ENCFF274URI.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Stomach_hg19_H3K36me3-human_ENCFF274URI.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF275JDJ.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Heart_Left_Ventricle_hg19_H3K9me3-human_ENCFF275JDJ.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF275ZWJ.bed
+ENCFF276BDF.bed
+ENCFF276ELX.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Small_Intestine_Terminal_Ileum_hg19_H3K36me3-human_ENCFF276ELX.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF276NNN.bed
+ENCFF276ZLV.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Brain_hg19_H3K9me3-human_ENCFF276ZLV.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF277ETB.bed
+ENCFF278MAL.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Stomach_hg19_H3K36me3-human_ENCFF278MAL.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF278OGS.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Esophagus_Mucosa_hg19_H3K4me1-human_ENCFF278OGS.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF279AZX.bed
+ENCFF279TUX.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Liver_hg19_H3K9me3-human_ENCFF279TUX.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF280AQK.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Muscle_Skeletal_hg19_H3K4me1-human_ENCFF280AQK.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF280GAS.bed
+ENCFF280WGB.bed
+ENCFF281VTL.bed
+ENCFF283GOO.bed
+ENCFF284FIW.bed
+ENCFF284KSO.bed
+ENCFF285KGM.bed
+ENCFF286QHK.bed
+ENCFF287YZV.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Muscle_Skeletal_hg19_H3K4me3-human_ENCFF287YZV.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF288HQP.bed
+ENCFF288HUT.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Heart_Left_Ventricle_hg19_H3K36me3-human_ENCFF288HUT.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF288TLV.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Artery_Aorta_hg19_H3K4me1-human_ENCFF288TLV.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF289PEY.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Liver_hg19_H3K27me3-human_ENCFF289PEY.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF291FKK.bed
+ENCFF291HWC.bed
+ENCFF291LEP.bed
+ENCFF291WFP.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Breast_Mammary_Tissue_hg19_H3K27me3-human_ENCFF291WFP.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF293GFV.bed
+ENCFF294BZZ.bed
+ENCFF294HWV.bed
+ENCFF295HHI.bed
+ENCFF295KYS.bed
+ENCFF295YLK.bed
+ENCFF296FTC.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Stomach_hg19_H3K9me3-human_ENCFF296FTC.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF298ETJ.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Pancreas_hg19_H3K27me3-human_ENCFF298ETJ.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF298HSK.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Pancreas_hg19_H3K27me3-human_ENCFF298HSK.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF300MWH.bed
+ENCFF301CXW.bed
+ENCFF303KLX.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Muscle_Skeletal_hg19_H3K27me3-human_ENCFF303KLX.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF303WRT.bed
+ENCFF305IKL.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Esophagus_Mucosa_hg19_H3K36me3-human_ENCFF305IKL.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF305XNT.bed
+ENCFF306AQK.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Artery_Tibial_hg19_H3K36me3-human_ENCFF306AQK.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF306CMG.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Stomach_hg19_H3K4me1-human_ENCFF306CMG.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF307QJK.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Lung_hg19_H3K27ac-human_ENCFF307QJK.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF310HBQ.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Brain_Anterior_cingulate_cortex_BA24_hg19_H3K4me3-human_ENCFF310HBQ.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF311DMK.bed
+ENCFF312WPZ.bed
+ENCFF314FJD.bed
+ENCFF314GJP.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Artery_Aorta_hg19_H3K36me3-human_ENCFF314GJP.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF314QTA.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Kidney_Cortex_hg19_H3K9ac-human_ENCFF314QTA.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF317AKQ.bed
+ENCFF319IQG.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Artery_Tibial_hg19_H3K4me1-human_ENCFF319IQG.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF321EQE.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Thyroid_hg19_H3K9me3-human_ENCFF321EQE.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF321PQU.bed
+ENCFF321UTK.bed
+ENCFF322AYV.bed
+ENCFF323TFF.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Liver_hg19_H3K4me1-human_ENCFF323TFF.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF323VPE.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Liver_hg19_H3K9me3-human_ENCFF323VPE.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF324DUD.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Small_Intestine_Terminal_Ileum_hg19_H3K27ac-human_ENCFF324DUD.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF326JBM.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Heart_Left_Ventricle_hg19_H3K27me3-human_ENCFF326JBM.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF327BBS.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Liver_hg19_H3K4me1-human_ENCFF327BBS.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF328DKX.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Brain_Substantia_nigra_hg19_H3K36me3-human_ENCFF328DKX.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF328GLL.bed
+ENCFF328PQF.bed
+ENCFF331FMS.bed
+ENCFF332PXX.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Liver_hg19_H3K9ac-human_ENCFF332PXX.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF334DZG.bed
+ENCFF334UID.bed
+ENCFF335EFT.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Brain_Caudate_basal_ganglia_hg19_H3K36me3-human_ENCFF335EFT.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF335SSR.bed
+ENCFF336DDM.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Breast_Mammary_Tissue_hg19_H3K4me1-human_ENCFF336DDM.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF339DCH.bed
+ENCFF340IAY.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Brain_Substantia_nigra_hg19_H3K9ac-human_ENCFF340IAY.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF340RKQ.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Lung_hg19_H3K27me3-human_ENCFF340RKQ.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF340YEE.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Pancreas_hg19_H3K4me3-human_ENCFF340YEE.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF341IOD.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Lung_hg19_H3K9ac-human_ENCFF341IOD.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF341ISE.bed
+ENCFF342EDT.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Heart_Left_Ventricle_hg19_H3K36me3-human_ENCFF342EDT.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF342UHX.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Brain_Caudate_basal_ganglia_hg19_H3K4me3-human_ENCFF342UHX.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF343NXE.bed
+ENCFF343VBU.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Uterus_hg19_H3K4me3-human_ENCFF343VBU.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF343WKQ.bed
+ENCFF344NKJ.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Lung_hg19_H3K36me3-human_ENCFF344NKJ.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF345XSP.bed
+ENCFF349GGW.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Muscle_Skeletal_hg19_H3K36me3-human_ENCFF349GGW.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF349OIL.bed
+ENCFF350WAT.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Esophagus_Mucosa_hg19_H3K4me3-human_ENCFF350WAT.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF351AMM.bed
+ENCFF351WSO.bed
+ENCFF352GQN.bed
+ENCFF352HRC.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Lung_hg19_H3K27ac-human_ENCFF352HRC.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF352NKF.bed
+ENCFF353QWL.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Adrenal_Gland_hg19_H3K4me3-human_ENCFF353QWL.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF354ZJX.bed
+ENCFF355UPU.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Brain_Substantia_nigra_hg19_H3K9me3-human_ENCFF355UPU.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF356GAT.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Small_Intestine_Terminal_Ileum_hg19_H3K4me1-human_ENCFF356GAT.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF356QKI.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Lung_hg19_H3K9me3-human_ENCFF356QKI.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF359GMM.bed
+ENCFF365AKI.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Stomach_hg19_H3K36me3-human_ENCFF365AKI.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF365EHX.bed
+ENCFF365UMA.bed
+ENCFF368EHI.bed
+ENCFF368SXM.bed
+ENCFF368WBE.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Brain_Substantia_nigra_hg19_H3K27me3-human_ENCFF368WBE.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF369ECO.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Pancreas_hg19_H3K27ac-human_ENCFF369ECO.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF375KGQ.bed
+ENCFF377DUB.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Stomach_hg19_H3K27me3-human_ENCFF377DUB.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF379RXE.bed
+ENCFF380AWN.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Artery_Aorta_hg19_H3K36me3-human_ENCFF380AWN.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF382YLL.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Pancreas_hg19_H3K4me1-human_ENCFF382YLL.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF383DCB.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Artery_Tibial_hg19_H3K9me3-human_ENCFF383DCB.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF383DKV.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Lung_hg19_H3K9me3-human_ENCFF383DKV.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF384JUV.bed
+ENCFF388XNV.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Pancreas_hg19_H3K27me3-human_ENCFF388XNV.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF388YQF.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Kidney_Cortex_hg19_H3K4me1-human_ENCFF388YQF.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF389MJN.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Nerve_Tibial_hg19_H3K36me3-human_ENCFF389MJN.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF391GCQ.bed
+ENCFF392DRO.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Kidney_Cortex_hg19_H3K9me3-human_ENCFF392DRO.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF393IJY.bed
+ENCFF395FWI.bed
+ENCFF395QWC.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Lung_hg19_H3K27me3-human_ENCFF395QWC.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF397CMM.bed
+ENCFF398GCM.bed
+ENCFF402CHB.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Muscle_Skeletal_hg19_H3K9me3-human_ENCFF402CHB.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF402HAD.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Spleen_hg19_H3K4me1-human_ENCFF402HAD.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF402QAL.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Stomach_hg19_H3K9me3-human_ENCFF402QAL.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF403ADN.bed
+ENCFF403NXQ.bed
+ENCFF403WAJ.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Heart_Atrial_Appendage_hg19_H3K4me3-human_ENCFF403WAJ.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF404IIZ.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Adrenal_Gland_hg19_H3K4me1-human_ENCFF404IIZ.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF405UJX.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Liver_hg19_H3K27ac-human_ENCFF405UJX.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF406RFQ.bed
+ENCFF407SMC.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Lung_hg19_H3K9me3-human_ENCFF407SMC.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF407SRS.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Heart_Left_Ventricle_hg19_H3K27me3-human_ENCFF407SRS.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF407UCE.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Adrenal_Gland_hg19_H3K4me3-human_ENCFF407UCE.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF408ZXG.bed
+ENCFF409AMD.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Muscle_Skeletal_hg19_H3K4me3-human_ENCFF409AMD.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF409DIM.bed
+ENCFF409WDV.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Muscle_Skeletal_hg19_H3K27ac-human_ENCFF409WDV.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF409YJL.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Heart_Left_Ventricle_hg19_H3K27me3-human_ENCFF409YJL.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF411TBK.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Artery_Tibial_hg19_H3K36me3-human_ENCFF411TBK.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF412JOY.bed
+ENCFF414DBN.bed
+ENCFF414ESK.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Prostate_hg19_H3K9me3-human_ENCFF414ESK.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF415WPZ.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Brain_hg19_H3K4me3-human_ENCFF415WPZ.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF416DTW.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Esophagus_Mucosa_hg19_H3K4me3-human_ENCFF416DTW.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF416JDL.bed
+ENCFF416TYK.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Muscle_Skeletal_hg19_H3K36me3-human_ENCFF416TYK.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF419YLM.bed
+ENCFF420BCE.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Artery_Aorta_hg19_H3K27ac-human_ENCFF420BCE.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF420BQO.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Artery_Tibial_hg19_H3K9me3-human_ENCFF420BQO.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF420MBR.bed
+ENCFF422YOG.bed
+ENCFF424XYY.bed
+ENCFF427FTK.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Kidney_Cortex_hg19_H3K27ac-human_ENCFF427FTK.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF428CFS.bed
+ENCFF432FEB.bed
+ENCFF432HHV.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Esophagus_Gastroesophageal_Junction_hg19_H3K9me3-human_ENCFF432HHV.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF433HZN.bed
+ENCFF433MRW.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Adrenal_Gland_hg19_H3K27ac-human_ENCFF433MRW.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF433RBT.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Lung_hg19_H3K4me1-human_ENCFF433RBT.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF433VGH.bed
+ENCFF434AUI.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Spleen_hg19_H3K27ac-human_ENCFF434AUI.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF434KGU.bed
+ENCFF434YJW.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Lung_hg19_H3K4me3-human_ENCFF434YJW.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF435RTF.bed
+ENCFF435YRS.bed
+ENCFF436WYC.bed
+ENCFF438SKP.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Muscle_Skeletal_hg19_H3K36me3-human_ENCFF438SKP.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF441BBR.bed
+ENCFF442CZA.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Muscle_Skeletal_hg19_H3K9me3-human_ENCFF442CZA.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF444AOJ.bed
+ENCFF445TVA.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Liver_hg19_H3K4me3-human_ENCFF445TVA.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF446JIT.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Lung_hg19_H3K4me1-human_ENCFF446JIT.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF452ODQ.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Small_Intestine_Terminal_Ileum_hg19_H3K27ac-human_ENCFF452ODQ.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF453IVB.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Adrenal_Gland_hg19_H3K27ac-human_ENCFF453IVB.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF453WPU.bed
+ENCFF454OYY.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Muscle_Skeletal_hg19_H3K27ac-human_ENCFF454OYY.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF454WAL.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Artery_Tibial_hg19_H3K27me3-human_ENCFF454WAL.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF455DCE.bed
+ENCFF455IAX.bed
+ENCFF455KIC.bed
+ENCFF455LEH.bed
+ENCFF455MDI.bed
+ENCFF458TBT.bed
+ENCFF459QWJ.bed
+ENCFF461XLU.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Esophagus_Mucosa_hg19_H3K4me1-human_ENCFF461XLU.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF464IGY.bed
+ENCFF465ZDN.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Muscle_Skeletal_hg19_H3K36me3-human_ENCFF465ZDN.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF469EEB.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Heart_Left_Ventricle_hg19_H3K4me3-human_ENCFF469EEB.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF471JES.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Uterus_hg19_H3K27ac-human_ENCFF471JES.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF472RYD.bed
+ENCFF474YFO.bed
+ENCFF475OYF.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Brain_Anterior_cingulate_cortex_BA24_hg19_H3K9ac-human_ENCFF475OYF.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF479MCT.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Muscle_Skeletal_hg19_H3K27ac-human_ENCFF479MCT.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF480IQC.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Stomach_hg19_H3K9me3-human_ENCFF480IQC.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF481BZV.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Pancreas_hg19_H3K9me3-human_ENCFF481BZV.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF481TTY.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Lung_hg19_H3K4me3-human_ENCFF481TTY.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF482VIL.bed
+ENCFF484AHL.bed
+ENCFF484GTZ.bed
+ENCFF485GIB.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Stomach_hg19_H3K36me3-human_ENCFF485GIB.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF485ZEA.bed
+ENCFF487VTD.bed
+ENCFF488UEZ.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Muscle_Skeletal_hg19_H3K4me1-human_ENCFF488UEZ.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF489VHM.bed
+ENCFF490ZIX.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Kidney_Cortex_hg19_H3K9ac-human_ENCFF490ZIX.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF491QJK.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Pancreas_hg19_H3K27me3-human_ENCFF491QJK.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF491UYW.bed
+ENCFF491YHG.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Heart_Left_Ventricle_hg19_H3K4me3-human_ENCFF491YHG.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF492QXP.bed
+ENCFF492VMK.bed
+ENCFF492XVY.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Spleen_hg19_H3K36me3-human_ENCFF492XVY.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF494MWW.bed
+ENCFF494QMN.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Esophagus_Mucosa_hg19_H3K4me3-human_ENCFF494QMN.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF495AUL.bed
+ENCFF495JIW.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Artery_Aorta_hg19_H3K27ac-human_ENCFF495JIW.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF495QNH.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Heart_Left_Ventricle_hg19_H3K9me3-human_ENCFF495QNH.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF496FKE.bed
+ENCFF496LZT.bed
+ENCFF496OCP.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Pancreas_hg19_H3K27ac-human_ENCFF496OCP.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF497FAX.bed
+ENCFF498YBT.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Artery_Aorta_hg19_H3K36me3-human_ENCFF498YBT.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF499CGW.bed
+ENCFF499OQN.bed
+ENCFF499QZD.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Esophagus_Mucosa_hg19_H3K27me3-human_ENCFF499QZD.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF501BBY.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Liver_hg19_H3K4me1-human_ENCFF501BBY.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF501UUF.bed
+ENCFF503VPM.bed
+ENCFF504JDX.bed
+ENCFF504TYM.bed
+ENCFF506DNI.bed
+ENCFF507ISF.bed
+ENCFF509AFJ.bed
+ENCFF509VEL.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Nerve_Tibial_hg19_H3K27me3-human_ENCFF509VEL.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF510YGL.bed
+ENCFF511YRX.bed
+ENCFF512JNT.bed
+ENCFF513PCF.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Esophagus_Gastroesophageal_Junction_hg19_H3K27ac-human_ENCFF513PCF.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF513YOQ.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Stomach_hg19_H3K27me3-human_ENCFF513YOQ.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF515SXC.bed
+ENCFF516KXY.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Muscle_Skeletal_hg19_H3K4me1-human_ENCFF516KXY.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF517TZD.bed
+ENCFF517UDG.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Stomach_hg19_H3K36me3-human_ENCFF517UDG.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF518XCB.bed
+ENCFF519YXT.bed
+ENCFF520QQG.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Stomach_hg19_H3K9me3-human_ENCFF520QQG.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF520UVZ.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Pancreas_hg19_H3K4me3-human_ENCFF520UVZ.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF522IAL.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Esophagus_Mucosa_hg19_H3K4me1-human_ENCFF522IAL.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF524ELE.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Heart_Left_Ventricle_hg19_H3K9me3-human_ENCFF524ELE.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF526KGG.bed
+ENCFF528LTO.bed
+ENCFF529DJT.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Spleen_hg19_H3K27ac-human_ENCFF529DJT.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF529LNN.bed
+ENCFF529PGD.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Stomach_hg19_H3K27me3-human_ENCFF529PGD.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF531MQT.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Pancreas_hg19_H3K9me3-human_ENCFF531MQT.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF532HTM.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Pancreas_hg19_H3K9me3-human_ENCFF532HTM.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF533EXT.bed
+ENCFF533QEX.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Lung_hg19_H3K9me3-human_ENCFF533QEX.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF534BSS.bed
+ENCFF535EKX.bed
+ENCFF535PRN.bed
+ENCFF536JNZ.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Artery_Aorta_hg19_H3K27ac-human_ENCFF536JNZ.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF536UOF.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Small_Intestine_Terminal_Ileum_hg19_H3K9me3-human_ENCFF536UOF.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF537NSQ.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Brain_Caudate_basal_ganglia_hg19_H3K36me3-human_ENCFF537NSQ.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF539BVE.bed
+ENCFF543XLN.bed
+ENCFF544VYY.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Pancreas_hg19_H3K36me3-human_ENCFF544VYY.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF546TJN.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Heart_Left_Ventricle_hg19_H3K27ac-human_ENCFF546TJN.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF547WIC.bed
+ENCFF548RMH.bed
+ENCFF548RZD.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Small_Intestine_Terminal_Ileum_hg19_H3K36me3-human_ENCFF548RZD.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF549DXX.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Small_Intestine_Terminal_Ileum_hg19_H3K36me3-human_ENCFF549DXX.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF550PRG.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Adrenal_Gland_hg19_H3K27me3-human_ENCFF550PRG.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF550VSQ.bed
+ENCFF551SAY.bed
+ENCFF555AYT.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Kidney_Cortex_hg19_H3K4me3-human_ENCFF555AYT.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF557IVX.bed
+ENCFF559XGD.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Brain_Substantia_nigra_hg19_H3K4me3-human_ENCFF559XGD.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF561FFX.bed
+ENCFF561LMQ.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Liver_hg19_H3K27me3-human_ENCFF561LMQ.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF561QDH.bed
+ENCFF562MSH.bed
+ENCFF562OPP.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Adrenal_Gland_hg19_H3K27ac-human_ENCFF562OPP.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF563AYL.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Stomach_hg19_H3K9me3-human_ENCFF563AYL.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF563IRG.bed
+ENCFF563PBB.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Muscle_Skeletal_hg19_H3K27ac-human_ENCFF563PBB.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF564ZNT.bed
+ENCFF571AXM.bed
+ENCFF571OWH.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Heart_Left_Ventricle_hg19_H3K27me3-human_ENCFF571OWH.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF571ZWG.bed
+ENCFF573CFJ.bed
+ENCFF574OLT.bed
+ENCFF577AZA.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Muscle_Skeletal_hg19_H3K27me3-human_ENCFF577AZA.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF579TGZ.bed
+ENCFF580GKU.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Stomach_hg19_H3K27ac-human_ENCFF580GKU.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF580NGD.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Brain_Anterior_cingulate_cortex_BA24_hg19_H3K27ac-human_ENCFF580NGD.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF581EXO.bed
+ENCFF581IRI.bed
+ENCFF581OUZ.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Spleen_hg19_H3K27me3-human_ENCFF581OUZ.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF581PLO.bed
+ENCFF582QJO.bed
+ENCFF583QFI.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Pancreas_hg19_H3K27ac-human_ENCFF583QFI.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF584JKX.bed
+ENCFF584UPX.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Spleen_hg19_H3K4me3-human_ENCFF584UPX.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF586WIY.bed
+ENCFF587GPF.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Heart_Left_Ventricle_hg19_H3K27ac-human_ENCFF587GPF.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF587VNZ.bed
+ENCFF589EWY.bed
+ENCFF589VJH.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Muscle_Skeletal_hg19_H3K4me3-human_ENCFF589VJH.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF590BSY.bed
+ENCFF591PRU.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Kidney_Cortex_hg19_H3K36me3-human_ENCFF591PRU.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF591RMN.bed
+ENCFF591XKU.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Nerve_Tibial_hg19_H3K9me3-human_ENCFF591XKU.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF592UJY.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Adrenal_Gland_hg19_H3K9me3-human_ENCFF592UJY.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF592WDZ.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Muscle_Skeletal_hg19_H3K9me3-human_ENCFF592WDZ.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF592XWX.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Lung_hg19_H3K36me3-human_ENCFF592XWX.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF593QAK.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Prostate_hg19_H3K36me3-human_ENCFF593QAK.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF593RXH.bed
+ENCFF595RIF.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Lung_hg19_H3K36me3-human_ENCFF595RIF.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF596MVL.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Stomach_hg19_H3K4me3-human_ENCFF596MVL.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF597ACD.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Liver_hg19_H3K36me3-human_ENCFF597ACD.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF597YZE.bed
+ENCFF598JDA.bed
+ENCFF599NYJ.bed
+ENCFF600UYY.bed
+ENCFF601HAA.bed
+ENCFF601RPE.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Artery_Tibial_hg19_H3K4me1-human_ENCFF601RPE.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF606ACB.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Muscle_Skeletal_hg19_H3K9ac-human_ENCFF606ACB.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF606YLH.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Esophagus_Mucosa_hg19_H3K36me3-human_ENCFF606YLH.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF607MLZ.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Brain_Anterior_cingulate_cortex_BA24_hg19_H3K4me1-human_ENCFF607MLZ.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF608ZIZ.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Muscle_Skeletal_hg19_H3K27me3-human_ENCFF608ZIZ.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF613CQF.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Brain_hg19_H3K27me3-human_ENCFF613CQF.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF614LBC.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Heart_Left_Ventricle_hg19_H3K27me3-human_ENCFF614LBC.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF616WLR.bed
+ENCFF617DPF.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Pancreas_hg19_H3K4me1-human_ENCFF617DPF.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF617ELX.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Muscle_Skeletal_hg19_H3K4me1-human_ENCFF617ELX.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF618TXP.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Lung_hg19_H3K36me3-human_ENCFF618TXP.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF618VAN.bed
+ENCFF619ILT.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Brain_Substantia_nigra_hg19_H3K4me1-human_ENCFF619ILT.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF622LDP.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Small_Intestine_Terminal_Ileum_hg19_H3K4me3-human_ENCFF622LDP.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF623BCV.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Spleen_hg19_H3K4me1-human_ENCFF623BCV.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF623HBW.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Esophagus_Mucosa_hg19_H3K4me1-human_ENCFF623HBW.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF624BXQ.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Spleen_hg19_H3K9me3-human_ENCFF624BXQ.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF625JTW.bed
+ENCFF625SCR.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Esophagus_Mucosa_hg19_H3K27ac-human_ENCFF625SCR.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF628VZT.bed
+ENCFF630ZXG.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Heart_Atrial_Appendage_hg19_H3K27me3-human_ENCFF630ZXG.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF631ETT.bed
+ENCFF633HXH.bed
+ENCFF634IHR.bed
+ENCFF636TIN.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Esophagus_Mucosa_hg19_H3K36me3-human_ENCFF636TIN.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF637MZI.bed
+ENCFF637ZKN.bed
+ENCFF639EHI.bed
+ENCFF639JST.bed
+ENCFF640EAT.bed
+ENCFF640YHC.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Lung_hg19_H3K4me1-human_ENCFF640YHC.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF646BHZ.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Spleen_hg19_H3K27ac-human_ENCFF646BHZ.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF646OKL.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Esophagus_Mucosa_hg19_H3K27ac-human_ENCFF646OKL.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF647KGZ.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Stomach_hg19_H3K27me3-human_ENCFF647KGZ.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF648IVB.bed
+ENCFF648OLF.bed
+ENCFF651QNM.bed
+ENCFF651VPB.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Stomach_hg19_H3K4me3-human_ENCFF651VPB.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF653SWP.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Stomach_hg19_H3K27me3-human_ENCFF653SWP.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF655ALS.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Pancreas_hg19_H3K4me1-human_ENCFF655ALS.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF655IVW.bed
+ENCFF655UHN.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Stomach_hg19_H3K4me3-human_ENCFF655UHN.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF656HBM.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Pancreas_hg19_H3K36me3-human_ENCFF656HBM.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF656WWM.bed
+ENCFF656ZFZ.bed
+ENCFF660HZN.bed
+ENCFF661WLX.bed
+ENCFF663DTI.bed
+ENCFF663VFR.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Artery_Aorta_hg19_H3K4me3-human_ENCFF663VFR.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF664CXY.bed
+ENCFF667IAI.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Lung_hg19_H3K27ac-human_ENCFF667IAI.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF667VHW.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Stomach_hg19_H3K27me3-human_ENCFF667VHW.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF667XNG.bed
+ENCFF668HLF.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Pancreas_hg19_H3K4me1-human_ENCFF668HLF.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF668SYA.bed
+ENCFF669SXT.bed
+ENCFF670CHX.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Muscle_Skeletal_hg19_H3K4me3-human_ENCFF670CHX.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF670VXI.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Muscle_Skeletal_hg19_H3K4me1-human_ENCFF670VXI.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF672JUL.bed
+ENCFF672SHJ.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Pancreas_hg19_H3K36me3-human_ENCFF672SHJ.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF672WQV.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Heart_Atrial_Appendage_hg19_H3K4me1-human_ENCFF672WQV.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF674HXD.bed
+ENCFF674XMP.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Brain_Caudate_basal_ganglia_hg19_H3K4me1-human_ENCFF674XMP.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF675FXA.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Pancreas_hg19_H3K4me3-human_ENCFF675FXA.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF678MSJ.bed
+ENCFF678XMX.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Muscle_Skeletal_hg19_H3K36me3-human_ENCFF678XMX.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF679PBI.bed
+ENCFF680URH.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Heart_Left_Ventricle_hg19_H3K4me1-human_ENCFF680URH.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF680UUV.bed
+ENCFF681RSB.bed
+ENCFF683NWP.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Brain_Caudate_basal_ganglia_hg19_H3K27ac-human_ENCFF683NWP.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF686JPB.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Heart_Left_Ventricle_hg19_H3K4me1-human_ENCFF686JPB.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF686UBD.bed
+ENCFF689FWV.bed
+ENCFF690TRZ.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Stomach_hg19_H3K4me3-human_ENCFF690TRZ.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF691KGG.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Lung_hg19_H3K4me1-human_ENCFF691KGG.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF691STK.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Stomach_hg19_H3K9ac-human_ENCFF691STK.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF693QCC.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Muscle_Skeletal_hg19_H3K9me3-human_ENCFF693QCC.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF693ZIC.bed
+ENCFF694FFX.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Esophagus_Gastroesophageal_Junction_hg19_H3K4me1-human_ENCFF694FFX.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF694HIG.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Stomach_hg19_H3K4me3-human_ENCFF694HIG.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF694UZE.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Heart_Left_Ventricle_hg19_H3K27me3-human_ENCFF694UZE.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF695OJS.bed
+ENCFF695ZUX.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Liver_hg19_H3K36me3-human_ENCFF695ZUX.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF696QZI.bed
+ENCFF698GUN.bed
+ENCFF700TCY.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Muscle_Skeletal_hg19_H3K9ac-human_ENCFF700TCY.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF702CQQ.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Liver_hg19_H3K4me1-human_ENCFF702CQQ.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF703IWC.bed
+ENCFF703WOL.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Spleen_hg19_H3K27ac-human_ENCFF703WOL.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF703ZBU.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Stomach_hg19_H3K9me3-human_ENCFF703ZBU.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF705TBD.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Muscle_Skeletal_hg19_H3K9me3-human_ENCFF705TBD.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF709MCM.bed
+ENCFF709VZW.bed
+ENCFF711AVI.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Muscle_Skeletal_hg19_H3K27ac-human_ENCFF711AVI.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF712COG.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Lung_hg19_H3K4me1-human_ENCFF712COG.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF713BKS.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Liver_hg19_H3K4me1-human_ENCFF713BKS.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF713CGJ.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Stomach_hg19_H3K27ac-human_ENCFF713CGJ.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF717ERY.bed
+ENCFF718WPG.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Spleen_hg19_H3K27me3-human_ENCFF718WPG.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF719NRS.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Thyroid_hg19_H3K36me3-human_ENCFF719NRS.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF720RQS.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Stomach_hg19_H3K27ac-human_ENCFF720RQS.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF722BTD.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Liver_hg19_H3K4me3-human_ENCFF722BTD.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF723CUO.bed
+ENCFF724BMD.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Prostate_hg19_H3K27ac-human_ENCFF724BMD.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF724DKP.bed
+ENCFF724HIU.bed
+ENCFF725IPE.bed
+ENCFF725PWV.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Thyroid_hg19_H3K9me3-human_ENCFF725PWV.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF725ZHU.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Nerve_Tibial_hg19_H3K27me3-human_ENCFF725ZHU.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF726AYF.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Liver_hg19_H3K36me3-human_ENCFF726AYF.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF726WMX.bed
+ENCFF729BGV.bed
+ENCFF729RJH.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Small_Intestine_Terminal_Ileum_hg19_H3K27me3-human_ENCFF729RJH.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF731TPA.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Small_Intestine_Terminal_Ileum_hg19_H3K27me3-human_ENCFF731TPA.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF732DSH.bed
+ENCFF732WXK.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Thyroid_hg19_H3K27me3-human_ENCFF732WXK.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF732ZVS.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Adrenal_Gland_hg19_H3K36me3-human_ENCFF732ZVS.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF733NYO.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Lung_hg19_H3K9me3-human_ENCFF733NYO.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF734XET.bed
+ENCFF737FVU.bed
+ENCFF737HHR.bed
+ENCFF738ARH.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Stomach_hg19_H3K9me3-human_ENCFF738ARH.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF738KDZ.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Brain_Anterior_cingulate_cortex_BA24_hg19_H3K27me3-human_ENCFF738KDZ.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF740YVA.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Adrenal_Gland_hg19_H3K27ac-human_ENCFF740YVA.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF740ZXV.bed
+ENCFF741SIX.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Stomach_hg19_H3K4me1-human_ENCFF741SIX.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF743MLA.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Pancreas_hg19_H3K9me3-human_ENCFF743MLA.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF744HEP.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Liver_hg19_H3K36me3-human_ENCFF744HEP.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF745GHW.bed
+ENCFF745ZYF.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Heart_Left_Ventricle_hg19_H3K36me3-human_ENCFF745ZYF.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF746HHI.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Muscle_Skeletal_hg19_H3K4me1-human_ENCFF746HHI.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF747CPR.bed
+ENCFF748DEV.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Heart_Left_Ventricle_hg19_H3K4me1-human_ENCFF748DEV.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF749EII.bed
+ENCFF749QSL.bed
+ENCFF750DIP.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Lung_hg19_H3K4me1-human_ENCFF750DIP.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF751ZDX.bed
+ENCFF752OPF.bed
+ENCFF752QSK.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Liver_hg19_H3K27ac-human_ENCFF752QSK.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF752RGW.bed
+ENCFF752TJY.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Muscle_Skeletal_hg19_H3K4me3-human_ENCFF752TJY.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF753DTA.bed
+ENCFF753VUU.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Stomach_hg19_H3K27me3-human_ENCFF753VUU.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF754HZY.bed
+ENCFF754PGB.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Kidney_Cortex_hg19_H3K27me3-human_ENCFF754PGB.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF755CRA.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Small_Intestine_Terminal_Ileum_hg19_H3K27ac-human_ENCFF755CRA.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF755CWN.bed
+ENCFF756CJQ.bed
+ENCFF756DZN.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Prostate_hg19_H3K4me3-human_ENCFF756DZN.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF757EYL.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Lung_hg19_H3K36me3-human_ENCFF757EYL.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF758QYH.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Brain_Caudate_basal_ganglia_hg19_H3K4me1-human_ENCFF758QYH.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF758RFO.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Uterus_hg19_H3K9me3-human_ENCFF758RFO.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF758RFX.bed
+ENCFF759IMP.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Pancreas_hg19_H3K4me1-human_ENCFF759IMP.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF760SLD.bed
+ENCFF760WMR.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Pancreas_hg19_H3K9me3-human_ENCFF760WMR.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF761BZK.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Muscle_Skeletal_hg19_H3K27ac-human_ENCFF761BZK.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF761EPK.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Liver_hg19_H3K27me3-human_ENCFF761EPK.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF762FTL.bed
+ENCFF765AVB.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Heart_Left_Ventricle_hg19_H3K4me3-human_ENCFF765AVB.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF765YZY.bed
+ENCFF767FGW.bed
+ENCFF767HEP.bed
+ENCFF768OEM.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Lung_hg19_H3K27ac-human_ENCFF768OEM.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF768QEG.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Small_Intestine_Terminal_Ileum_hg19_H3K4me1-human_ENCFF768QEG.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF769TKN.bed
+ENCFF769XNX.bed
+ENCFF772AFU.bed
+ENCFF774ILR.bed
+ENCFF774ZCU.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Artery_Aorta_hg19_H3K27me3-human_ENCFF774ZCU.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF775WAI.bed
+ENCFF776HHA.bed
+ENCFF777PMK.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Kidney_Cortex_hg19_H3K9ac-human_ENCFF777PMK.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF779CYV.bed
+ENCFF781CXC.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Stomach_hg19_H3K36me3-human_ENCFF781CXC.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF783HFC.bed
+ENCFF786ACC.bed
+ENCFF787QYF.bed
+ENCFF787ZEQ.bed
+ENCFF788GXY.bed
+ENCFF788TVU.bed
+ENCFF791FTT.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Adrenal_Gland_hg19_H3K4me3-human_ENCFF791FTT.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF792MLG.bed
+ENCFF793DHD.bed
+ENCFF793SKE.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Adrenal_Gland_hg19_H3K4me3-human_ENCFF793SKE.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF797BNU.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Lung_hg19_H3K9ac-human_ENCFF797BNU.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF798JKX.bed
+ENCFF800CBZ.bed
+ENCFF800WID.bed
+ENCFF801SOS.bed
+ENCFF802EAD.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Brain_Anterior_cingulate_cortex_BA24_hg19_H3K9me3-human_ENCFF802EAD.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF805TIP.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Adrenal_Gland_hg19_H3K4me1-human_ENCFF805TIP.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF805ZSK.bed
+ENCFF810FEE.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Adrenal_Gland_hg19_H3K27me3-human_ENCFF810FEE.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF810VIR.bed
+ENCFF812UXQ.bed
+ENCFF813EXR.bed
+ENCFF814QSX.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Heart_Left_Ventricle_hg19_H3K4me3-human_ENCFF814QSX.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF819MHP.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Brain_Caudate_basal_ganglia_hg19_H3K9me3-human_ENCFF819MHP.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF821IQZ.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Pancreas_hg19_H3K27ac-human_ENCFF821IQZ.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF822CXT.bed
+ENCFF825DIG.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Adrenal_Gland_hg19_H3K4me3-human_ENCFF825DIG.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF826XYT.bed
+ENCFF827YVW.bed
+ENCFF830KGQ.bed
+ENCFF831FDG.bed
+ENCFF834IVO.bed
+ENCFF834SLX.bed
+ENCFF836LXX.bed
+ENCFF837JMI.bed
+ENCFF837ZZH.bed
+ENCFF838BLK.bed
+ENCFF838TEA.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Small_Intestine_Terminal_Ileum_hg19_H3K27me3-human_ENCFF838TEA.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF838XQY.bed
+ENCFF840LZA.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Artery_Aorta_hg19_H3K4me3-human_ENCFF840LZA.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF840UFR.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Heart_Left_Ventricle_hg19_H3K36me3-human_ENCFF840UFR.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF841HRI.bed
+ENCFF842DWY.bed
+ENCFF845PNV.bed
+ENCFF845SNW.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Liver_hg19_H3K9me3-human_ENCFF845SNW.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF847ALY.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Lung_hg19_H3K4me3-human_ENCFF847ALY.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF847FBV.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Stomach_hg19_H3K9me3-human_ENCFF847FBV.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF848IRP.bed
+ENCFF849LAB.bed
+ENCFF852GEC.bed
+ENCFF852WWB.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Small_Intestine_Terminal_Ileum_hg19_H3K4me1-human_ENCFF852WWB.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF857VWJ.bed
+ENCFF860DJQ.bed
+ENCFF860STP.bed
+ENCFF861ATY.bed
+ENCFF861IJM.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Lung_hg19_H3K27me3-human_ENCFF861IJM.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF863RIB.bed
+ENCFF865ATS.bed
+ENCFF866LXE.bed
+ENCFF868AQH.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Stomach_hg19_H3K27ac-human_ENCFF868AQH.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF868KAY.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Artery_Aorta_hg19_H3K36me3-human_ENCFF868KAY.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF870GFM.bed
+ENCFF870QVN.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Artery_Aorta_hg19_H3K4me3-human_ENCFF870QVN.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF873NWT.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Spleen_hg19_H3K36me3-human_ENCFF873NWT.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF874ZJI.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Liver_hg19_H3K4me3-human_ENCFF874ZJI.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF875FHK.bed
+ENCFF875LIT.bed
+ENCFF875MVS.bed
+ENCFF876JVZ.bed
+ENCFF876MVW.bed
+ENCFF878MYA.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Lung_hg19_H3K4me1-human_ENCFF878MYA.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF878SVN.bed
+ENCFF878XQI.bed
+ENCFF881KYQ.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Stomach_hg19_H3K4me3-human_ENCFF881KYQ.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF881XLG.bed
+ENCFF882JNM.bed
+ENCFF882JWG.bed
+ENCFF882UPU.bed
+ENCFF886AAQ.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Esophagus_Mucosa_hg19_H3K27me3-human_ENCFF886AAQ.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF886ETH.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Stomach_hg19_H3K9ac-human_ENCFF886ETH.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF886HCQ.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Artery_Aorta_hg19_H3K4me3-human_ENCFF886HCQ.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF886JSY.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Nerve_Tibial_hg19_H3K4me3-human_ENCFF886JSY.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF886LFQ.bed
+ENCFF887KTV.bed
+ENCFF887VHI.bed
+ENCFF890CZH.bed
+ENCFF892SLQ.bed
+ENCFF898EJC.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Lung_hg19_H3K4me3-human_ENCFF898EJC.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF903OJB.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Esophagus_Mucosa_hg19_H3K27ac-human_ENCFF903OJB.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF904HMR.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Nerve_Tibial_hg19_H3K27ac-human_ENCFF904HMR.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF904PWM.bed
+ENCFF906MJM.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Breast_Mammary_Tissue_hg19_H3K36me3-human_ENCFF906MJM.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF907TQR.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Stomach_hg19_H3K4me1-human_ENCFF907TQR.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF908ALW.bed
+ENCFF910HGC.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Esophagus_Mucosa_hg19_H3K27ac-human_ENCFF910HGC.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF910LAD.bed
+ENCFF912HHE.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Nerve_Tibial_hg19_H3K4me1-human_ENCFF912HHE.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF912HKS.bed
+ENCFF913FVX.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Kidney_Cortex_hg19_H3K4me3-human_ENCFF913FVX.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF913WHK.bed
+ENCFF915CJT.bed
+ENCFF916TQA.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Heart_Left_Ventricle_hg19_H3K4me3-human_ENCFF916TQA.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF917SIV.bed
+ENCFF918CGC.bed
+ENCFF922KGX.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Muscle_Skeletal_hg19_H3K9ac-human_ENCFF922KGX.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF923KHB.bed
+ENCFF925HIR.bed
+ENCFF925OPH.bed
+ENCFF926OSC.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Brain_Anterior_cingulate_cortex_BA24_hg19_H3K36me3-human_ENCFF926OSC.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF926XLT.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Nerve_Tibial_hg19_H3K9me3-human_ENCFF926XLT.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF928CRD.bed
+ENCFF928OBQ.bed
+ENCFF929YES.bed
+ENCFF931CQV.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Stomach_hg19_H3K4me1-human_ENCFF931CQV.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF931PQN.bed
+ENCFF932LXW.bed
+ENCFF933NEK.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Liver_hg19_H3K27me3-human_ENCFF933NEK.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF933YMH.bed
+ENCFF935JDZ.bed
+ENCFF938RRM.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Brain_Cerebellum_hg19_H3K4me3-human_ENCFF938RRM.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF938VNZ.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Pancreas_hg19_H3K27me3-human_ENCFF938VNZ.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF940ITK.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Adrenal_Gland_hg19_H3K36me3-human_ENCFF940ITK.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF940NVE.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Heart_Left_Ventricle_hg19_H3K36me3-human_ENCFF940NVE.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF942UNJ.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Stomach_hg19_H3K27ac-human_ENCFF942UNJ.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF943MQD.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Kidney_Cortex_hg19_H3K36me3-human_ENCFF943MQD.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF946HAJ.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Artery_Aorta_hg19_H3K27me3-human_ENCFF946HAJ.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF946OTT.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Pancreas_hg19_H3K27me3-human_ENCFF946OTT.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF946WOY.bed
+ENCFF948EIO.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Stomach_hg19_H3K36me3-human_ENCFF948EIO.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF948PIU.bed
+ENCFF950MKY.bed
+ENCFF951KRL.bed
+ENCFF951QMV.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Heart_Left_Ventricle_hg19_H3K9me3-human_ENCFF951QMV.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF953SWO.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Kidney_Cortex_hg19_H3K27ac-human_ENCFF953SWO.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF954AUE.bed
+ENCFF955TUJ.bed
+ENCFF955VMY.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Brain_Caudate_basal_ganglia_hg19_H3K4me3-human_ENCFF955VMY.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF956QQX.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Stomach_hg19_H3K27ac-human_ENCFF956QQX.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF956VHP.bed
+ENCFF957GKF.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Kidney_Cortex_hg19_H3K4me1-human_ENCFF957GKF.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF957RKQ.bed
+ENCFF957UDD.bed
+ENCFF957WDF.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Small_Intestine_Terminal_Ileum_hg19_H3K9me3-human_ENCFF957WDF.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF957ZGX.bed
+ENCFF958KCT.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Adrenal_Gland_hg19_H3K4me3-human_ENCFF958KCT.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF959OKI.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Lung_hg19_H3K9me3-human_ENCFF959OKI.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF960XAJ.bed
+ENCFF963YDV.bed
+ENCFF964NVL.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Heart_Left_Ventricle_hg19_H3K9me3-human_ENCFF964NVL.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF966OFJ.bed
+ENCFF969UYD.bed
+ENCFF973GJC.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Pancreas_hg19_H3K27me3-human_ENCFF973GJC.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF976DLO.bed
+ENCFF976KNB.bed
+ENCFF977VRL.bed
+ENCFF978QLH.bed
+ENCFF978SEO.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Heart_Left_Ventricle_hg19_H3K9ac-human_ENCFF978SEO.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF979BXA.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Brain_Anterior_cingulate_cortex_BA24_hg19_H3K4me1-human_ENCFF979BXA.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF979POM.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Esophagus_Mucosa_hg19_H3K4me3-human_ENCFF979POM.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF979SFL.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Pancreas_hg19_H3K9ac-human_ENCFF979SFL.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF980EGR.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Thyroid_hg19_H3K36me3-human_ENCFF980EGR.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF980IOD.bed
+ENCFF983MAR.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Adrenal_Gland_hg19_H3K9me3-human_ENCFF983MAR.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF985HEE.bed
+ENCFF986MCF.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Artery_Aorta_hg19_H3K9me3-human_ENCFF986MCF.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF987DRQ.bed
+ENCFF988MQM.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Stomach_hg19_H3K9me3-human_ENCFF988MQM.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF991IDW.bed
+ENCFF991VZY.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Lung_hg19_H3K36me3-human_ENCFF991VZY.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF993GBM.bed
+ENCFF994CKA.bed
+ENCFF994QLB.bed
+ENCFF995GJW.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Heart_Left_Ventricle_hg19_H3K27ac-human_ENCFF995GJW.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF995PEL.bed
+ENCFF995XPF.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Uterus_hg19_H3K4me1-human_ENCFF995XPF.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF996AAN.bed
+ENCFF997QAS.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Spleen_hg19_H3K4me3-human_ENCFF997QAS.bed
+Reading liftover chains
+Mapping coordinates
+ENCFF999UWI.bed
+/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/annotations/ENCODE/formatting/Brain_Anterior_cingulate_cortex_BA24_hg19_H3K4me3-human_ENCFF999UWI.bed
+Reading liftover chains
+Mapping coordinates
+Adrenal_Gland_H3K27ac-human
+cat: Adrenal_Gland_H3K27ac-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Adrenal_Gland_H3K27me3-human
+cat: Adrenal_Gland_H3K27me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Adrenal_Gland_H3K36me3-human
+cat: Adrenal_Gland_H3K36me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Adrenal_Gland_H3K4me1-human
+cat: Adrenal_Gland_H3K4me1-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Adrenal_Gland_H3K4me3-human
+cat: Adrenal_Gland_H3K4me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Adrenal_Gland_H3K9me3-human
+cat: Adrenal_Gland_H3K9me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Artery_Aorta_H3K27ac-human
+cat: Artery_Aorta_H3K27ac-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Artery_Aorta_H3K27me3-human
+cat: Artery_Aorta_H3K27me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Artery_Aorta_H3K36me3-human
+cat: Artery_Aorta_H3K36me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Artery_Aorta_H3K4me1-human
+cat: Artery_Aorta_H3K4me1-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Artery_Aorta_H3K4me3-human
+cat: Artery_Aorta_H3K4me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Artery_Aorta_H3K9me3-human
+cat: Artery_Aorta_H3K9me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Artery_Coronary_H3K27ac-human
+cat: Artery_Coronary_H3K27ac-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Artery_Tibial_H3K27me3-human
+cat: Artery_Tibial_H3K27me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Artery_Tibial_H3K36me3-human
+cat: Artery_Tibial_H3K36me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Artery_Tibial_H3K4me1-human
+cat: Artery_Tibial_H3K4me1-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Artery_Tibial_H3K9me3-human
+cat: Artery_Tibial_H3K9me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Brain_Anterior_cingulate_cortex_BA24_H3K27ac-human
+cat: Brain_Anterior_cingulate_cortex_BA24_H3K27ac-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Brain_Anterior_cingulate_cortex_BA24_H3K27me3-human
+cat: Brain_Anterior_cingulate_cortex_BA24_H3K27me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Brain_Anterior_cingulate_cortex_BA24_H3K36me3-human
+cat: Brain_Anterior_cingulate_cortex_BA24_H3K36me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Brain_Anterior_cingulate_cortex_BA24_H3K4me1-human
+cat: Brain_Anterior_cingulate_cortex_BA24_H3K4me1-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Brain_Anterior_cingulate_cortex_BA24_H3K4me3-human
+cat: Brain_Anterior_cingulate_cortex_BA24_H3K4me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Brain_Anterior_cingulate_cortex_BA24_H3K9ac-human
+cat: Brain_Anterior_cingulate_cortex_BA24_H3K9ac-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Brain_Anterior_cingulate_cortex_BA24_H3K9me3-human
+cat: Brain_Anterior_cingulate_cortex_BA24_H3K9me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Brain_Caudate_basal_ganglia_H3K27ac-human
+cat: Brain_Caudate_basal_ganglia_H3K27ac-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Brain_Caudate_basal_ganglia_H3K27me3-human
+cat: Brain_Caudate_basal_ganglia_H3K27me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Brain_Caudate_basal_ganglia_H3K36me3-human
+cat: Brain_Caudate_basal_ganglia_H3K36me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Brain_Caudate_basal_ganglia_H3K4me1-human
+cat: Brain_Caudate_basal_ganglia_H3K4me1-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Brain_Caudate_basal_ganglia_H3K4me3-human
+cat: Brain_Caudate_basal_ganglia_H3K4me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Brain_Caudate_basal_ganglia_H3K9ac-human
+cat: Brain_Caudate_basal_ganglia_H3K9ac-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Brain_Caudate_basal_ganglia_H3K9me3-human
+cat: Brain_Caudate_basal_ganglia_H3K9me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Brain_Cerebellum_H3K4me3-human
+cat: Brain_Cerebellum_H3K4me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Brain_H3K27me3-human
+cat: Brain_H3K27me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Brain_H3K36me3-human
+cat: Brain_H3K36me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Brain_H3K4me1-human
+cat: Brain_H3K4me1-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Brain_H3K4me3-human
+cat: Brain_H3K4me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Brain_H3K9me3-human
+cat: Brain_H3K9me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Brain_Substantia_nigra_H3K27me3-human
+cat: Brain_Substantia_nigra_H3K27me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Brain_Substantia_nigra_H3K36me3-human
+cat: Brain_Substantia_nigra_H3K36me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Brain_Substantia_nigra_H3K4me1-human
+cat: Brain_Substantia_nigra_H3K4me1-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Brain_Substantia_nigra_H3K4me3-human
+cat: Brain_Substantia_nigra_H3K4me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Brain_Substantia_nigra_H3K9ac-human
+cat: Brain_Substantia_nigra_H3K9ac-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Brain_Substantia_nigra_H3K9me3-human
+cat: Brain_Substantia_nigra_H3K9me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Breast_Mammary_Tissue_H3K27ac-human
+cat: Breast_Mammary_Tissue_H3K27ac-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Breast_Mammary_Tissue_H3K27me3-human
+cat: Breast_Mammary_Tissue_H3K27me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Breast_Mammary_Tissue_H3K36me3-human
+cat: Breast_Mammary_Tissue_H3K36me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Breast_Mammary_Tissue_H3K4me1-human
+cat: Breast_Mammary_Tissue_H3K4me1-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Breast_Mammary_Tissue_H3K9me3-human
+cat: Breast_Mammary_Tissue_H3K9me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Esophagus_Gastroesophageal_Junction_H3K27ac-human
+cat: Esophagus_Gastroesophageal_Junction_H3K27ac-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Esophagus_Gastroesophageal_Junction_H3K4me1-human
+cat: Esophagus_Gastroesophageal_Junction_H3K4me1-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Esophagus_Gastroesophageal_Junction_H3K4me3-human
+cat: Esophagus_Gastroesophageal_Junction_H3K4me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Esophagus_Gastroesophageal_Junction_H3K9me3-human
+cat: Esophagus_Gastroesophageal_Junction_H3K9me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Esophagus_Mucosa_H3K27ac-human
+cat: Esophagus_Mucosa_H3K27ac-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Esophagus_Mucosa_H3K27me3-human
+cat: Esophagus_Mucosa_H3K27me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Esophagus_Mucosa_H3K36me3-human
+cat: Esophagus_Mucosa_H3K36me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Esophagus_Mucosa_H3K4me1-human
+cat: Esophagus_Mucosa_H3K4me1-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Esophagus_Mucosa_H3K4me3-human
+cat: Esophagus_Mucosa_H3K4me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Esophagus_Mucosa_H3K9me3-human
+cat: Esophagus_Mucosa_H3K9me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Heart_Atrial_Appendage_H3K27ac-human
+cat: Heart_Atrial_Appendage_H3K27ac-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Heart_Atrial_Appendage_H3K27me3-human
+cat: Heart_Atrial_Appendage_H3K27me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Heart_Atrial_Appendage_H3K4me1-human
+cat: Heart_Atrial_Appendage_H3K4me1-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Heart_Atrial_Appendage_H3K4me3-human
+cat: Heart_Atrial_Appendage_H3K4me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Heart_Atrial_Appendage_H3K9me3-human
+cat: Heart_Atrial_Appendage_H3K9me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Heart_Left_Ventricle_H3K27ac-human
+cat: Heart_Left_Ventricle_H3K27ac-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Heart_Left_Ventricle_H3K27me3-human
+cat: Heart_Left_Ventricle_H3K27me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Heart_Left_Ventricle_H3K36me3-human
+cat: Heart_Left_Ventricle_H3K36me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Heart_Left_Ventricle_H3K4me1-human
+cat: Heart_Left_Ventricle_H3K4me1-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Heart_Left_Ventricle_H3K4me3-human
+cat: Heart_Left_Ventricle_H3K4me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Heart_Left_Ventricle_H3K9ac-human
+cat: Heart_Left_Ventricle_H3K9ac-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Heart_Left_Ventricle_H3K9me3-human
+cat: Heart_Left_Ventricle_H3K9me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Kidney_Cortex_H3K27ac-human
+cat: Kidney_Cortex_H3K27ac-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Kidney_Cortex_H3K27me3-human
+cat: Kidney_Cortex_H3K27me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Kidney_Cortex_H3K36me3-human
+cat: Kidney_Cortex_H3K36me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Kidney_Cortex_H3K4me1-human
+cat: Kidney_Cortex_H3K4me1-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Kidney_Cortex_H3K4me3-human
+cat: Kidney_Cortex_H3K4me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Kidney_Cortex_H3K9ac-human
+cat: Kidney_Cortex_H3K9ac-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Kidney_Cortex_H3K9me3-human
+cat: Kidney_Cortex_H3K9me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Liver_H3K27ac-human
+cat: Liver_H3K27ac-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Liver_H3K27me3-human
+cat: Liver_H3K27me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Liver_H3K36me3-human
+cat: Liver_H3K36me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Liver_H3K4me1-human
+cat: Liver_H3K4me1-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Liver_H3K4me3-human
+cat: Liver_H3K4me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Liver_H3K9ac-human
+cat: Liver_H3K9ac-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Liver_H3K9me3-human
+cat: Liver_H3K9me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Lung_H3K27ac-human
+cat: Lung_H3K27ac-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Lung_H3K27me3-human
+cat: Lung_H3K27me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Lung_H3K36me3-human
+cat: Lung_H3K36me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Lung_H3K4me1-human
+cat: Lung_H3K4me1-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Lung_H3K4me3-human
+cat: Lung_H3K4me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Lung_H3K9ac-human
+cat: Lung_H3K9ac-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Lung_H3K9me3-human
+cat: Lung_H3K9me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Muscle_Skeletal_H3K27ac-human
+cat: Muscle_Skeletal_H3K27ac-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Muscle_Skeletal_H3K27me3-human
+cat: Muscle_Skeletal_H3K27me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Muscle_Skeletal_H3K36me3-human
+cat: Muscle_Skeletal_H3K36me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Muscle_Skeletal_H3K4me1-human
+cat: Muscle_Skeletal_H3K4me1-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Muscle_Skeletal_H3K4me3-human
+cat: Muscle_Skeletal_H3K4me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Muscle_Skeletal_H3K9ac-human
+cat: Muscle_Skeletal_H3K9ac-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Muscle_Skeletal_H3K9me3-human
+cat: Muscle_Skeletal_H3K9me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Nerve_Tibial_H3K27ac-human
+cat: Nerve_Tibial_H3K27ac-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Nerve_Tibial_H3K27me3-human
+cat: Nerve_Tibial_H3K27me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Nerve_Tibial_H3K36me3-human
+cat: Nerve_Tibial_H3K36me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Nerve_Tibial_H3K4me1-human
+cat: Nerve_Tibial_H3K4me1-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Nerve_Tibial_H3K4me3-human
+cat: Nerve_Tibial_H3K4me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Nerve_Tibial_H3K9me3-human
+cat: Nerve_Tibial_H3K9me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Pancreas_H3K27ac-human
+cat: Pancreas_H3K27ac-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Pancreas_H3K27me3-human
+cat: Pancreas_H3K27me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Pancreas_H3K36me3-human
+cat: Pancreas_H3K36me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Pancreas_H3K4me1-human
+cat: Pancreas_H3K4me1-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Pancreas_H3K4me3-human
+cat: Pancreas_H3K4me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Pancreas_H3K9ac-human
+cat: Pancreas_H3K9ac-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Pancreas_H3K9me3-human
+cat: Pancreas_H3K9me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Prostate_H3K27ac-human
+cat: Prostate_H3K27ac-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Prostate_H3K36me3-human
+cat: Prostate_H3K36me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Prostate_H3K4me3-human
+cat: Prostate_H3K4me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Prostate_H3K9me3-human
+cat: Prostate_H3K9me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Small_Intestine_Terminal_Ileum_H3K27ac-human
+cat: Small_Intestine_Terminal_Ileum_H3K27ac-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Small_Intestine_Terminal_Ileum_H3K27me3-human
+cat: Small_Intestine_Terminal_Ileum_H3K27me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Small_Intestine_Terminal_Ileum_H3K36me3-human
+cat: Small_Intestine_Terminal_Ileum_H3K36me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Small_Intestine_Terminal_Ileum_H3K4me1-human
+cat: Small_Intestine_Terminal_Ileum_H3K4me1-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Small_Intestine_Terminal_Ileum_H3K4me3-human
+cat: Small_Intestine_Terminal_Ileum_H3K4me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Small_Intestine_Terminal_Ileum_H3K9me3-human
+cat: Small_Intestine_Terminal_Ileum_H3K9me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Spleen_H3K27ac-human
+cat: Spleen_H3K27ac-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Spleen_H3K27me3-human
+cat: Spleen_H3K27me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Spleen_H3K36me3-human
+cat: Spleen_H3K36me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Spleen_H3K4me1-human
+cat: Spleen_H3K4me1-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Spleen_H3K4me3-human
+cat: Spleen_H3K4me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Spleen_H3K9me3-human
+cat: Spleen_H3K9me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Stomach_H3K27ac-human
+cat: Stomach_H3K27ac-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Stomach_H3K27me3-human
+cat: Stomach_H3K27me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Stomach_H3K36me3-human
+cat: Stomach_H3K36me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Stomach_H3K4me1-human
+cat: Stomach_H3K4me1-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Stomach_H3K4me3-human
+cat: Stomach_H3K4me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Stomach_H3K9ac-human
+cat: Stomach_H3K9ac-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Stomach_H3K9me3-human
+cat: Stomach_H3K9me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Thyroid_H3K27ac-human
+cat: Thyroid_H3K27ac-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Thyroid_H3K27me3-human
+cat: Thyroid_H3K27me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Thyroid_H3K36me3-human
+cat: Thyroid_H3K36me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Thyroid_H3K4me1-human
+cat: Thyroid_H3K4me1-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Thyroid_H3K4me3-human
+cat: Thyroid_H3K4me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Thyroid_H3K9me3-human
+cat: Thyroid_H3K9me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Uterus_H3K27ac-human
+cat: Uterus_H3K27ac-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Uterus_H3K27me3-human
+cat: Uterus_H3K27me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Uterus_H3K4me1-human
+cat: Uterus_H3K4me1-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Uterus_H3K4me3-human
+cat: Uterus_H3K4me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Uterus_H3K9me3-human
+cat: Uterus_H3K9me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.
+Vagina_H3K36me3-human
+cat: Vagina_H3K36me3-human_GRCh38_*bed: No such file or directory
+
+*****
+***** ERROR: Requested column 5, but database file - only has fields 1 - 0.

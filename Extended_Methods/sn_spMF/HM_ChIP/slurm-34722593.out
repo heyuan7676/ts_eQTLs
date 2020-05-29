@@ -1,0 +1,7 @@
+Jun 06 17:52:02 ..... started STAR run
+Jun 06 17:52:03 ..... loading genome
+Jun 06 17:54:57 ..... loading variations VCF
+Jun 06 17:56:40 ..... started mapping
+Jun 06 18:16:28 ..... finished mapping
+Jun 06 18:16:40 ..... started sorting BAM
+Jun 06 18:17:36 ..... finished successfully

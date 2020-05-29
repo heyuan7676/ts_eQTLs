@@ -1,0 +1,6 @@
+Rscript /work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/codes/Revision_Zscore/scripts/0_loadings/lm.R 0 flashr_bf
+Rscript /work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/codes/Revision_Zscore/scripts/0_loadings/lm.R 1 flashr_bf
+Rscript /work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/codes/Revision_Zscore/scripts/0_loadings/lm.R 2 flashr_bf
+Rscript /work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/codes/Revision_Zscore/scripts/0_loadings/lm.R 3 flashr_bf
+Rscript /work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/codes/Revision_Zscore/scripts/0_loadings/lm.R 4 flashr_bf
+Rscript /work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/codes/Revision_Zscore/scripts/0_loadings/lm.R 5 flashr_bf
