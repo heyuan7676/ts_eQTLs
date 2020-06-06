@@ -91,9 +91,10 @@ Model selection is one of challenging steps in constructing matrix factorization
 
 #### 1. Narrow down the range of hyper-parameters 
 
-When first running the algorithm, it may be completely unclear how to choose the appropriate range to search for hyper-parameters. We recommend first searching for the appropriate range, by 1). running the scripts in well-separated numerical ranges, like choose from [1, 10, 100, 500]; and 2).  setting the number of iterations to a moderate number since there is no need to reach accurate results. 
+When first running the algorithm, it may be completely unclear how to choose the appropriate range to search for hyper-parameters. We recommend first searching for the appropriate range, by 1). running the scripts in well-separated numerical ranges, like choose from [1, 10, 100, 500]; and 2).  setting the number of iterations to a moderate number since there is no need to reach accurate results, for example iterations = ```20```.
 
 If the number of factors become much smaller than the initial number of factors to start with (ie. a lot of factors become empty), it means that the penalty parameters are too stringent. Usually we have an estimated level of sparsity, for example, around 80%, for the loading matrix and factor matrix. If the reported sparsity is far below the expected sparsity (ie. sparsity in factor matrix = 20%), it means that the penalty parameters are too small. Based on the initial round of searching, we should have the range to search for. 
+
 
 An example to perform this step is as below:
 ```
@@ -143,7 +144,7 @@ To collect the results from multiple runs, users can run the following command. 
 Rscript sn_spMF/tune_parameters.R -f choose_para.txt
 ```
 
-Because the three parameters can collaboratively affect the decomposition results, we perform model selection in two sub-steps, for which we provide an example in ```choose_paras_sn_spMF.ipynb```. 
+Because the three parameters can collaboratively affect the decomposition results, we perform model selection in two sub-steps, for which we provide an example in ```choose_paras_sn_spMF.ipynb```. We recommend using ```Number of iterations``` for ```100``` or less. If the model does not converge within ```100``` iterations, it is because the penalty parameters are too small, which leads to slow optimization steps. Larger penalty parameters are suggested in the case where the model does not converge within 100 iterations. 
 
 
 ##### 2.1 Choose the range of number of factors. 
