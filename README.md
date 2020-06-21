@@ -185,9 +185,16 @@ Rscript mapping/lm.R -f ${FM_fn}
 
 ## Brief description of folders in this repository
 `sn_spMF/`: main folder with code for running sn-spMF to learn latent patterns.
+
 `mapping/`: map eQTLs to factors after learning the latent patterns. 
+
 `data/`: demo data
+
 `output/`: output from running experiment on demo data, including inter-mediate results for paramter selection.
+
 `simulation`: run different matrix factorization methods on simulated data.
+
 `Extended_Methods/`: code used in the paper, including heuristic methods, and downtream analysis
+
 `Other_MF_methods`: code used to run other matrix factorization methods. 
+
