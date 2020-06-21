@@ -183,7 +183,7 @@ FM_fn=sn_spMF_K${K}_a1${alpha1}_l1${lambda1}
 Rscript mapping/lm.R -f ${FM_fn}
 ```
 
-## Folder structure in this repository
+## Brief description of folders in this repository
 `sn_spMF/`: main folder with code for running sn-spMF to learn latent patterns.
 `mapping/`: map eQTLs to factors after learning the latent patterns. 
 `data/`: demo data
