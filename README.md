@@ -139,7 +139,7 @@ To collect the results from multiple runs, users can run the following command. 
 Rscript sn_spMF/tune_parameters.R -f choose_para.txt
 ```
 
-Because the three parameters can collaboratively affect the decomposition results, we perform model selection in two sub-steps, for which we provide an example in ```choose_paras_sn_spMF.ipynb```. We recommend using ```Number of iterations``` for ```100``` or less. If the model does not converge within ```100``` iterations, it is because the penalty parameters are too small, which leads to slow optimization steps. Larger penalty parameters are suggested in the case where the model does not converge within 100 iterations. 
+Because the three parameters can collaboratively affect the decomposition results, we perform model selection in two sub-steps, for which we provide an example in ```sn_spMF/choose_paras_sn_spMF.ipynb```. We recommend using ```Number of iterations``` for ```100``` or less. If the model does not converge within ```100``` iterations, it is because the penalty parameters are too small, which leads to slow optimization steps. Larger penalty parameters are suggested in the case where the model does not converge within 100 iterations. 
 
 
 ##### 2.1 Choose the range of number of factors. 
@@ -163,7 +163,7 @@ Because factors are expected to be independent of each other, to alleviate multi
 
 ## Examine the optimal solution.
 
-By examining the tuning results in ```choose_paras_sn_spMF.ipynb```, we find that ```sn_spMF_FactorMatrix_K17_a1100_l150``` is the optimal setting of hyper-parameters. Among the 30 runs using this implementation, ```run25``` gives the optimal solution with the minimum objective. Users can find the learned factor matrix in ``` output/sn_spMF_K17_a1100_l150/sn_spMF_K17_a1100_l150_Run25.*```, including the plotted factors. 
+By examining the tuning results in ```sn_spMF/choose_paras_sn_spMF.ipynb```, we find that ```sn_spMF_FactorMatrix_K17_a1100_l150``` is the optimal setting of hyper-parameters. Among the 30 runs using this implementation, ```run25``` gives the optimal solution with the minimum objective. Users can find the learned factor matrix in ``` output/sn_spMF_K17_a1100_l150/sn_spMF_K17_a1100_l150_Run25.*```, including the plotted factors. 
 
 The resulting optimal solution for factor matrix looks like:
 
