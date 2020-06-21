@@ -5,20 +5,15 @@ We develop a constrained matrix factorization model to learn patterns of tissue-
 ## Prerequisites
 R code is run in ```R/3.5.1```. 
 
-R packages needed are:
+Install required R packages:
 ```
-install.packages('penalized')
-install.packages('readr')
-install.packages('plyr')
-install.packages('reshape2')
-install.packages('optparse')
-install.packages('dplyr')
-install.packages('colorspace')
-install.packages('colortools')
-install.packages('cowplot')
-install.packages('ggplot2')
-install.packages('gridExtra')
-install.packages('lemon')
+pkgs.list <- c("penalized", "readr", "plyr", "reshape2", "optparse", 
+                "dplyr", "colorspace", "colortools", "cowplot", "ggplot2",
+                "gridExtra", "lemon")
+new.pkgs <- pkgs.list[!(pkgs.list %in% installed.packages()[,"Package"])]
+if(length(new.pkgs) > 0 ) { 
+	install.packages(new.pkgs)
+}
 ```
 
 ## Run the sn_spMF model
@@ -188,3 +183,11 @@ FM_fn=sn_spMF_K${K}_a1${alpha1}_l1${lambda1}
 Rscript mapping/lm.R -f ${FM_fn}
 ```
 
+## Folder structure in this repository
+`sn_spMF/`: main folder with code for running sn-spMF to learn latent patterns.
+`mapping/`: map eQTLs to factors after learning the latent patterns. 
+`data/`: demo data
+`output/`: output from running experiment on demo data, including inter-mediate results for paramter selection.
+`simulation`: run different matrix factorization methods on simulated data.
+`Extended_Methods/`: code used in the paper, including heuristic methods, and downtream analysis
+`Other_MF_methods`: code used to run other matrix factorization methods. 
