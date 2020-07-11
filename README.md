@@ -196,5 +196,4 @@ Rscript mapping/lm.R -f ${FM_fn}
 
 `Extended_Methods/`: code used in the paper, including heuristic methods, and downtream analysis
 
-`Other_MF_methods`: code used to run other matrix factorization methods. 
-
+`plots_in_the_paper/`: code used to generate figures in the paper
