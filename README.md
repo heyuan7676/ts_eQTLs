@@ -47,7 +47,7 @@ Gene6	SNP6	0.133723	0.0933188	0.103415	-0.15649
 ```
 
 
-```data/test_data_W.txt```: each row contains the weight (reciprocal of standard error of the effect size) of an eQTL across tissues. Columns should be aligned with the columns in ```data/test_data_X.txt```.
+```data/test_data_SE.txt```: each row contains the standard error of the effect size of an eQTL across tissues. Columns should be aligned with the columns in ```data/test_data_X.txt```.
 
 ```
 Gene	SNP	Adipose_Subcutaneous	Adipose_Visceral_Omentum	Adrenal_Gland	Artery_Aorta
