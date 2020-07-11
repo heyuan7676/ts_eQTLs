@@ -192,7 +192,7 @@ Rscript mapping/lm.R -f ${FM_fn}
 
 `output/`: output from running experiment on demo data, including inter-mediate results for paramter selection.
 
-`simulation`: run different matrix factorization methods on simulated data.
+`simulation/`: run different matrix factorization methods on simulated data.
 
 `Extended_Methods/`: code used in the paper, including heuristic methods, and downtream analysis
 
