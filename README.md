@@ -144,8 +144,6 @@ c). Last, among these apparently stable settings, we selected the final hyper-pa
 
 In the demo data, We chose settings of K corresponding to a K' higher than 9, such that the corresponding median cophenetic correlation is above 0.9, and followed steps b) and c) to select the optimal model solution. The script is available in sn_spMF/choose_paras_sn_spMF.ipynb. A separate example of learning the hyper-parameters is provided in simulation/choose_paras_sn_spMF_simulation.ipynb on simulated data. Details can be found in simulation/.
 
-
-![alt text](https://github.com/heyuan7676/ts_eQTLs/blob/master/output/choose_para_K.png)
 ![alt text](https://github.com/heyuan7676/ts_eQTLs/blob/master/output/choose_para_nFactors.png)
 
 
