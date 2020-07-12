@@ -81,85 +81,73 @@ The resulting optimal solution for factor matrix in this implementation looks li
 ![alt text](https://github.com/heyuan7676/ts_eQTLs/blob/master/output/sn_spMF_K17_a1100_l150/sn_spMF_FactorMatrix_K17_a1100_l150_Run25_with_legends.png)
 ## Model selection
 
+In the sn-spMF model, we need to set hyper-parameters including the rank of the decomposition (K) and the sparsity penalties (alpha, lambda). We recommend searching for the hyper-parameters (K, alpha, lambda) in two steps:
 
-Model selection is one of challenging steps in constructing matrix factorization models. In sn-spMF, we recommend searching for the hyper-parameters (K, alpha1, lambda1) in two steps:
+#### 1. Narrow the sparsity penalty hyper-parameter search space
 
-#### 1. Narrow down the range of hyper-parameters 
+Exploring three hyper-parameters jointly can be computationally expensive, and many values would produce clearly implausible models. In order to choose a tractable, appropriate range of hyper-parameter settings to evaluate, we recommend running the method for a broad range of well-separated settings of sparsity penalty hyper-parameters, such as  [1, 10, 100, 500], and a wide range of K chosen by considering the number of tissues or experiments in the data. This coarse-grained search step can be evaluated using the following guidelines:
 
-When first running the algorithm, it may be completely unclear how to choose the appropriate range to search for hyper-parameters. We recommend first searching for the appropriate range, by 1). running the scripts in well-separated numerical ranges, like choose from [1, 10, 100, 500]; and 2).  setting the number of iterations to a moderate number since there is no need to reach accurate results, for example iterations = ```20```.
+a). the sparsity of the solutions being in accordance with user expectations for their domain - if the reported sparsity is far below the expected sparsity, the chosen penalty parameters may be too small.
 
-If the number of factors become much smaller than the initial number of factors to start with (ie. a lot of factors become empty), it means that the penalty parameters are too stringent. Usually we have an estimated level of sparsity, for example, around 80%, for the loading matrix and factor matrix. If the reported sparsity is far below the expected sparsity (ie. sparsity in factor matrix = 20%), it means that the penalty parameters are too small. Based on the initial round of searching, we should have the range to search for. 
-
-
+b). behavior of the factor matrix: if the number of utilized factors become much smaller than the initial number of factors to start with (ie. a lot of factors become empty, having no non-zero entries), it means that the penalty parameters are likely too stringent. 
 An example to perform this step is as below:
 ```
 iterations=20
 for K in 10 15 20
 do
-        for alpha1 in 1 10 100 500
+        for alpha in 1 10 100 500
         do
-                for lambda1 in 1 10 100 500
+                for lambda in 1 10 100 500
                 do
-                        sbatch sn_spMF/1_run_parameter_scope_search.sh ${K} ${alpha1} ${lambda1} ${iterations}
+                        bash sn_spMF/1_run_parameter_scope_search.sh ${K} ${alpha} ${lambda} ${iterations}
                 done
         done
 done
 ```
 
-To collect the results from multiple runs, user can run the following command. The output will be saved in ```output/choose_para_preliminary.txt```
-```
-Rscript sn_spMF/tune_parameters_preliminary.R -f choose_para_preliminary.txt
-```
+To collect the results from multiple runs, users can run the following command. The output will be saved in output/choose_para_preliminary.txt
+```Rscript sn_spMF/tune_parameters_preliminary.R -f choose_para_preliminary.txt```
 
-When examine the output file ```output/choose_para_preliminary.txt```, we observe that ```alpha1``` and ```lambda1``` of either ```1``` or ```10``` result in factor matrix denser than we expect (in this situation, the sparsity of the factor matrix is around 10% - 50%). On the other hand, ```alpha1``` and ```lambda1``` of ```500``` cause much less non-zero factors than assigned (for example, ```K=10, alpha1=500, lambda1=1``` result in ```6``` non-zero factors).  ```alpha1``` and ```lambda1``` of ```10``` or ```100``` appear to read a balance between sparsity in the factor matrix and number of non-zero factors. ```K=10``` results in most solutions with ```10``` factors, while ```K=20``` results in most solutions with less than ```20``` factors. This shows that searching between ```10``` and ```20``` for ```K``` is reasonable in this situation. Thus we proceed to perform grid search for ```alpha1``` and ```lambda1``` in the range of ```10``` to ```100```, and ```K``` in the range of ```10``` to ```20``` .
+We ran the code above for demo data. When examining the output file output/choose_para_preliminary.txt, we observe that  and  of either 1 or 10 result in a factor matrix with sparsity of 10% - 50%, which is lower than our expectation for this example (or a multi-tissue domain such as GTEx). On the other hand, alpha and lambda of 500 result in too few utilized, non-zero factors (for example, K=10, alpha=500, lambda=1 result in only around 6 non-zero factors).   and  of 10 or 100 appear to give a balance between sparsity in the factor matrix and number of non-zero factors. K=10 results in the majority of solutions having 10 used factors, while K=20 results in the majority of solutions having nearly 20 used factors, after eliminating the models with sparsity penalties that are too stringent. This shows that searching between 10 and 20 for K is reasonable in this situation. Thus we proceed to perform grid search for alpha and lambda in the range of 10 to 100, and K in the range of 10 to 20.
 
 
+#### 2. Refine the sparsity penalty hyper-parameter selection
 
-#### 2. Refine the hyper-parameter selection
-
-With the learned range of hyper-parameters, we continue to look in finer grids. For example, run the scripts for alpha1 and lambda1 in [10, 20, 30, … 100]. An example to perform this step is as below. Detailed descriptions of arguments in the model are described in sn_spMF/.
+Within a manageable search space for the hyper-parameters as selected above, we then suggest searching settings using finer granularity and evaluating the learned models for stability along with independence between factors. For example, run for alpha and lambda in [10, 20, 30, ... 100] or finer, and run the model multiple times from random initializations (ie. 30 times). We recommend using a maximum number of iterations for 100 or less for each run. If the model does not converge within 100 iterations, it is probably because the penalty parameters are too small, which leads to very slow optimization steps. Larger penalty parameters are suggested in the case where the model does not converge within 100 iterations. An example to perform this step is as below. 
 ```
 iterations=100
 for K in {10..20}
 do
-        for alpha1 in {1..10}
+        for alpha in {1..10}
         do
-                for lambda1 in {1..10}
+                for lambda in {1..10}
                 do
-                        a=$(( 10*alpha1 ))
-                        l=$(( 10*lambda1 ))
-                        sbatch sn_spMF/2_choose_hyperparameters.sh ${K} ${a} ${l} ${iterations}
+                        a=$(( 10*alpha ))
+                        l=$(( 10*lambda ))
+                        run sn_spMF/2_choose_hyperparameters.sh ${K} ${a} ${l} ${iterations}
                 done
         done
 done
 ```
 
-To collect the results from multiple runs, users can run the following command. The output will be saved in ```output/choose_para.txt```.
-```
-Rscript sn_spMF/tune_parameters.R -f choose_para.txt
-```
+Within these chosen search spaces, we evaluated sn-spMF models for all combinations of K, alpha and lambda using 1) a previously defined criterion of matrix factorization stability by Brunet et al. [1], and 2) independence of the learned factors, which represents adequate sparsity. Considering the stochastic nature of matrix factorization, Brunet et al. proposed a method looking for the most stable factorization result, and this method has been applied in various studies [1,2]. We obtained the consensus matrix C after 30 runs with random initialization for each model. The values in C are between 0 to 1, representing the proportion of runs in which a pair of tissues are assigned to the same factor. Using the C matrix, we computed the cophenetic correlation which is used to measure the degree of dispersion for the C matrix. Higher cophenetic correlation indicates a more stable factor matrix. To collect the evaluation metrics, users can run the following command. The output will be saved in output/choose_para.txt.
 
-Because the three parameters can collaboratively affect the decomposition results, we perform model selection in two sub-steps, for which we provide an example in ```sn_spMF/choose_paras_sn_spMF.ipynb```. We recommend using ```Number of iterations``` for ```100``` or less. If the model does not converge within ```100``` iterations, it is because the penalty parameters are too small, which leads to slow optimization steps. Larger penalty parameters are suggested in the case where the model does not converge within 100 iterations. 
+```Rscript sn_spMF/tune_parameters.R -f choose_para.txt```
 
+Based on the evaluation metrics, we performed the following selection steps: 
 
-##### 2.1 Choose the range of number of factors. 
+a). We first eliminated some settings of K.  Here, for each observed mean number of learned, non-empty factors K' (which may be less than the input K), we aggregated across the different settings of alpha and lambda and computed the median cophenetic correlation [1].  
 
-We notice that the cophenetic coefficient can be affected by sparsity in the decomposed matrices given different settings of alpha1 and lambda1 with fixed K. To gain more stable matrix decomposition results, we compare the average cophenetic coefficient with multiple settings for alpha1 and lambda1. 
+b). We eliminated from consideration any settings of K corresponding to a K' with a median cophenetic correlation <0.9. Next, among the remaining individual settings, we eliminated any cophenetic correlation <0.9.  
 
-In the demo data, different implementations of K doesn't result in an obvious difference in the cophenetic coefficient, and thus we do not filter on K. However, We observe that some implementations push factors to be zero and thus the real number of factors reached is different from the assigned number of factors. We choose the number of learned factors to be those with median cophenetic coefficient > 0.9. 
+c). Last, among these apparently stable settings, we selected the final hyper-parameters based on the minimum Pearson correlation between pairs of factors, to encourage independent factors and a level of sparsity that matches independent signals in the data. Here, we computed Pearson correlation for each pair of factors, took the Frobenius norm of the pairwise correlation matrix, and averaged this across the 30 randomly initialized runs for the same setting.   
+
+In the demo data, We chose settings of K corresponding to a K' higher than 9, such that the corresponding median cophenetic correlation is above 0.9, and followed steps b) and c) to select the optimal model solution. The script is available in sn_spMF/choose_paras_sn_spMF.ipynb. A separate example of learning the hyper-parameters is provided in simulation/choose_paras_sn_spMF_simulation.ipynb on simulated data. Details can be found in simulation/.
+
 
 ![alt text](https://github.com/heyuan7676/ts_eQTLs/blob/master/output/choose_para_K.png)
 ![alt text](https://github.com/heyuan7676/ts_eQTLs/blob/master/output/choose_para_nFactors.png)
 
-##### 2.2 Filter out implementations with low cophenetic coefficient
-
-We then filter out implementations with cophenetic coefficient < 0.9, and keep implementations with consistent decomposition solutions given random initializations indicating the stability of the solution. In this situation, we try different values of the thresholds including 0.85 and 0.8, and observe that the same optimal solution is learned. 
-
-##### 2.3 Choose the implementation with the most independent factors
-
-Because factors are expected to be independent of each other, to alleviate multicollinearity, we then search for the alpha1 and lambda1 that result in factors with smallest correlation. 
-
-##### Note: a seperate example of learning the hyper-parameters is provided in ```simulation/choose_paras_sn_spMF_simulation.ipynb``` on simulated data. Details can be found in ```simulation/```. 
 
 ## Examine the optimal solution.
 
@@ -197,3 +185,16 @@ Rscript mapping/lm.R -f ${FM_fn}
 `Extended_Methods/`: code used in the paper, including heuristic methods, and downtream analysis
 
 `plots_in_the_paper/`: code used to generate figures in the paper
+
+
+## Reference
+[1]. Brunet, J.-P., Tamayo, P., R Golub, T., P Mesirov, J.: Metagenes and
+molecular pattern discovery using matrix factorization. Proceedings of
+the National Academy of Sciences. 101, 4164–9 (2004). doi:10.1073/pnas.0308531101
+
+[2]. Wu, S., Joseph, A., S. Hammonds, A., E. Celniker, S., Yu, B., Frise,
+E.: Stability-driven nonnegative matrix factorization to interpret spatial
+gene expression and build local gene networks. Proceedings of the
+National Academy of Sciences 113, 201521171 (2016). doi:10.1073/pnas.1521171113
+
+
