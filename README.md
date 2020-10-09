@@ -30,7 +30,7 @@ Rscript sn_spMF/run_MF.R -k 17 -a 100 -l 50 -t 100
 
 `-t`: maximum number of iterations 
 
-More detailed explanation could be found [here](https://github.com/heyuan7676/ts_eQTLs/tree/master/sn_spMF) and [here](https://github.com/heyuan7676/ts_eQTLs/blob/master/sn_spMF/sn_spMF.R)
+More detailed explanation could be found [here](https://github.com/heyuan7676/ts_eQTLs/blob/master/sn_spMF/run_MF.R)
 
 ### Input
 There are two important features of input files for sn_spMF:
