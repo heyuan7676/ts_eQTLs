@@ -22,6 +22,16 @@ To get the result for one run, please run the following command. Details can be 
 Rscript sn_spMF/run_MF.R -k 17 -a 100 -l 50 -t 100
 ```
 
+`-k`: number of factors 
+
+`-a`: l1 penalty for loading matrix (L)
+
+`-l`: l1 penalty for factor matrix (F)
+
+`-t`: maximum number of iterations 
+
+More detailed explanation could be found [here](https://github.com/heyuan7676/ts_eQTLs/blob/master/sn_spMF/sn_spMF.R)
+
 ### Input
 There are two important features of input files for sn_spMF:
 
